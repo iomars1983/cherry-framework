@@ -1,0 +1,41 @@
+name: MOG Focus UI QA - zero cost
+on:
+  push:
+    branches: [mog-qa-public-20261029]
+    paths:
+      - tools/mog-qa-focus.mjs
+      - .github/workflows/mog-focus.yml
+permissions:
+  contents: write
+concurrency:
+  group: mog-focus-qa
+  cancel-in-progress: true
+jobs:
+  focus:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install free Playwright toolchain
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Run focus test - no checkout submission
+        run: node tools/mog-qa-focus.mjs
+      - name: Commit sanitized results on the isolated branch
+        if: always()
+        run: |
+          if [ -f mog-qa-focus/results.json ]; then
+            git config user.name "MOG QA Bot"
+            git config user.email "mog-qa-bot@users.noreply.github.com"
+            git add -f mog-qa-focus/results.json
+            if ! git diff --cached --quiet; then
+              git commit -m "Save MOG focused UI audit results"
+              git fetch origin mog-qa-public-20261029
+              git rebase origin/mog-qa-public-20261029
+              git push origin HEAD:mog-qa-public-20261029
+            fi
+          fi
