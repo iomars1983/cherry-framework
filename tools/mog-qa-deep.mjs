@@ -18,6 +18,32 @@ for(const [slug,path,width] of cases){
  try{
  const resp=await page.goto('https://www.mogcomputer.it'+path,{waitUntil:'domcontentloaded',timeout:19000});
  await page.waitForTimeout(1500);
+ let whatIf=null;
+ if(['finance','fidelity'].includes(slug)){
+   const before=await page.evaluate(()=>({width:innerWidth,sw:document.documentElement.scrollWidth,
+      container:(()=>{let e=document.querySelector('#content-wrap');return e?{x:Math.round(e.getBoundingClientRect().x),right:Math.round(e.getBoundingClientRect().right)}:null})()}));
+   await page.addStyleTag({content:`
+   @media(min-width:1024px){
+      body.page-id-147772 #main #content-wrap.container,
+      body.page-id-286768 #main #content-wrap.container {
+        box-sizing:border-box!important;width:100%!important;max-width:100%!important;
+        min-width:0!important;margin-left:0!important;margin-right:0!important;
+        left:auto!important;right:auto!important;transform:none!important;
+      }
+      body.page-id-147772 #main #primary.content-area,
+      body.page-id-286768 #main #primary.content-area {
+        box-sizing:border-box!important;float:none!important;width:100%!important;
+        max-width:100%!important;left:0!important;right:auto!important;
+        margin-left:0!important;margin-right:0!important;
+        padding-left:0!important;padding-right:0!important;
+      }
+   }
+   `});
+   await page.waitForTimeout(100);
+   const after=await page.evaluate(()=>({width:innerWidth,sw:document.documentElement.scrollWidth,
+      container:(()=>{let e=document.querySelector('#content-wrap');return e?{x:Math.round(e.getBoundingClientRect().x),right:Math.round(e.getBoundingClientRect().right)}:null})()}));
+   whatIf={before,after};
+ }
  const data=await page.evaluate(()=>{
     const geom=(e)=>{
       if(!e)return null;
@@ -49,7 +75,7 @@ for(const [slug,path,width] of cases){
       images:imgs,scripts:ss,elementorConfigDefined:typeof window.elementorFrontendConfig!=='undefined',
       bodyClass:document.body.className.slice(0,600)};
  });
- const row={slug,path,width,http:resp?.status(),errors,data};
+ const row={slug,path,width,http:resp?.status(),errors,data,whatIf};
  rows.push(row);
  console.log('__MOGDEEP__'+JSON.stringify(row).slice(0,25000));
  if(['finance','fidelity'].includes(slug))await page.screenshot({path:'mog-qa-deep/'+slug+'.jpg',type:'jpeg',quality:55});
