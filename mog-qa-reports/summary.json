@@ -1,10 +1,16 @@
 {
-  "count": 87,
-  "success": 87,
+  "count": 90,
+  "success": 90,
   "failed": 0,
   "overflow": 2,
   "majorOverflow": 2,
-  "brokenImages": 75,
+  "brokenImages": 0,
+  "jsErrors": 3,
+  "jsErrorSlugs": [
+    "pc-gaming-viewstrike-5060-mobile",
+    "pc-gaming-viewstrike-5060-tablet",
+    "pc-gaming-viewstrike-5060-desktop"
+  ],
   "failedSlugs": [],
   "overflowSlugs": [
     "compilazione-finanziamento-desktop:169",
