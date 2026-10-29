@@ -1,0 +1,4487 @@
+{
+  "at": "2026-10-29T18:27:20.188Z",
+  "entries": [
+    {
+      "slug": "finance",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "scrollHeight": 3550,
+        "pathname": "/compilazione-finanziamento/",
+        "h1": [
+          {
+            "text": "Compilazione finanziamento",
+            "tag": "H1",
+            "cls": "page-header-title clr",
+            "x": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0,
+            "font": "100px",
+            "visible": false
+          }
+        ],
+        "headings": [
+          {
+            "text": "COMPILAZIONE FINANZIAMENTO",
+            "tag": "H2",
+            "cls": "elementor-heading-title elementor-size-default mog-metal-heading-global mog-meta",
+            "x": 10,
+            "right": 380,
+            "top": 139,
+            "bottom": 201,
+            "w": 370,
+            "h": 62,
+            "font": "27.3px"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Menu",
+            "tag": "BUTTON",
+            "cls": "mog-future-mobile-toggle",
+            "x": 0,
+            "right": 113,
+            "top": 3062,
+            "bottom": 3113,
+            "w": 113,
+            "h": 51,
+            "font": "14px"
+          },
+          {
+            "text": "Categoria prodotti",
+            "tag": "BUTTON",
+            "cls": "mog-header-cat-toggle",
+            "x": 0,
+            "right": 194,
+            "top": 3138,
+            "bottom": 3189,
+            "w": 194,
+            "h": 51,
+            "font": "14px"
+          },
+          {
+            "text": "Invia richiesta di finanziamento",
+            "tag": "INPUT",
+            "cls": "wpcf7-form-control wpcf7-submit has-spinner",
+            "x": 39,
+            "right": 339,
+            "top": 2482,
+            "bottom": 2518,
+            "w": 300,
+            "h": 36,
+            "font": "12px"
+          },
+          {
+            "text": "Link rapidi",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 16,
+            "right": 158,
+            "top": 2997,
+            "bottom": 3048,
+            "w": 142,
+            "h": 51,
+            "font": "14px"
+          },
+          {
+            "text": "Categorie",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 16,
+            "right": 154,
+            "top": 3099,
+            "bottom": 3150,
+            "w": 138,
+            "h": 51,
+            "font": "14px"
+          },
+          {
+            "text": "Assistenza",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 16,
+            "right": 161,
+            "top": 3175,
+            "bottom": 3226,
+            "w": 145,
+            "h": 51,
+            "font": "14px"
+          }
+        ],
+        "tooWide": [
+          {
+            "name": "mog-website",
+            "tag": "INPUT",
+            "cls": "wpcf7-form-control wpcf7-text",
+            "x": -9990,
+            "right": -9964,
+            "top": 2862,
+            "bottom": 2909,
+            "w": 26,
+            "h": 47,
+            "font": "14px"
+          }
+        ],
+        "forms": 4,
+        "finance": {
+          "tag": "DIV",
+          "cls": "wpcf7 js",
+          "x": 20,
+          "right": 370,
+          "top": 265,
+          "bottom": 2588,
+          "w": 350,
+          "h": 2324,
+          "font": "14px"
+        },
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 390,
+          "top": 2704,
+          "bottom": 3508,
+          "w": 390,
+          "h": 803,
+          "font": "14px"
+        }
+      }
+    },
+    {
+      "slug": "finance",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "scrollHeight": 6013,
+        "pathname": "/compilazione-finanziamento/",
+        "h1": [
+          {
+            "text": "Compilazione finanziamento",
+            "tag": "H1",
+            "cls": "page-header-title clr",
+            "x": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0,
+            "font": "100px",
+            "visible": false
+          }
+        ],
+        "headings": [
+          {
+            "text": "COMPILAZIONE FINANZIAMENTO",
+            "tag": "H2",
+            "cls": "elementor-heading-title elementor-size-default mog-metal-heading-global mog-meta",
+            "x": 10,
+            "right": 758,
+            "top": 157,
+            "bottom": 194,
+            "w": 748,
+            "h": 37,
+            "font": "33.024px"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Menu",
+            "tag": "BUTTON",
+            "cls": "mog-future-mobile-toggle",
+            "x": 0,
+            "right": 113,
+            "top": 5810,
+            "bottom": 5861,
+            "w": 113,
+            "h": 51,
+            "font": "14px"
+          },
+          {
+            "text": "Categoria prodotti",
+            "tag": "BUTTON",
+            "cls": "mog-header-cat-toggle",
+            "x": 0,
+            "right": 194,
+            "top": 5886,
+            "bottom": 5937,
+            "w": 194,
+            "h": 51,
+            "font": "14px"
+          },
+          {
+            "text": "Invia richiesta di finanziamento",
+            "tag": "INPUT",
+            "cls": "wpcf7-form-control wpcf7-submit has-spinner",
+            "x": 42,
+            "right": 342,
+            "top": 2314,
+            "bottom": 2350,
+            "w": 300,
+            "h": 36,
+            "font": "12px"
+          },
+          {
+            "text": "Link rapidi",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 20,
+            "right": 162,
+            "top": 2885,
+            "bottom": 2936,
+            "w": 142,
+            "h": 51,
+            "font": "14px"
+          },
+          {
+            "text": "Categorie",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 20,
+            "right": 158,
+            "top": 2962,
+            "bottom": 3013,
+            "w": 138,
+            "h": 51,
+            "font": "14px"
+          },
+          {
+            "text": "Assistenza",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 20,
+            "right": 165,
+            "top": 3038,
+            "bottom": 3089,
+            "w": 145,
+            "h": 51,
+            "font": "14px"
+          }
+        ],
+        "tooWide": [
+          {
+            "name": "mog-website",
+            "tag": "INPUT",
+            "cls": "wpcf7-form-control wpcf7-text",
+            "x": -9990,
+            "right": -9964,
+            "top": 2768,
+            "bottom": 2815,
+            "w": 26,
+            "h": 47,
+            "font": "14px"
+          }
+        ],
+        "forms": 4,
+        "finance": {
+          "tag": "DIV",
+          "cls": "wpcf7 js",
+          "x": 10,
+          "right": 758,
+          "top": 258,
+          "bottom": 2402,
+          "w": 748,
+          "h": 2144,
+          "font": "14px"
+        },
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 768,
+          "top": 2518,
+          "bottom": 3371,
+          "w": 768,
+          "h": 853,
+          "font": "14px"
+        }
+      }
+    },
+    {
+      "slug": "finance",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 10875,
+        "pathname": "/compilazione-finanziamento/",
+        "h1": [
+          {
+            "text": "Compilazione finanziamento",
+            "tag": "H1",
+            "cls": "page-header-title clr",
+            "x": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0,
+            "font": "100px",
+            "visible": false
+          }
+        ],
+        "headings": [
+          {
+            "text": "COMPILAZIONE FINANZIAMENTO",
+            "tag": "H2",
+            "cls": "elementor-heading-title elementor-size-default mog-metal-heading-global",
+            "x": 183,
+            "right": 1083,
+            "top": 358,
+            "bottom": 410,
+            "w": 900,
+            "h": 52,
+            "font": "46px"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Menu",
+            "tag": "BUTTON",
+            "cls": "mog-future-mobile-toggle",
+            "x": 0,
+            "right": 113,
+            "top": 10687,
+            "bottom": 10738,
+            "w": 113,
+            "h": 51,
+            "font": "14px"
+          },
+          {
+            "text": "Categoria prodotti",
+            "tag": "BUTTON",
+            "cls": "mog-header-cat-toggle",
+            "x": 0,
+            "right": 194,
+            "top": 10763,
+            "bottom": 10814,
+            "w": 194,
+            "h": 51,
+            "font": "14px"
+          },
+          {
+            "text": "Invia richiesta di finanziamento",
+            "tag": "INPUT",
+            "cls": "wpcf7-form-control wpcf7-submit has-spinner",
+            "x": 288,
+            "right": 588,
+            "top": 2533,
+            "bottom": 2569,
+            "w": 300,
+            "h": 36,
+            "font": "12px"
+          },
+          {
+            "text": "Link rapidi",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 120,
+            "right": 262,
+            "top": 3315,
+            "bottom": 3366,
+            "w": 142,
+            "h": 51,
+            "font": "14px"
+          },
+          {
+            "text": "Categorie",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 120,
+            "right": 258,
+            "top": 3391,
+            "bottom": 3442,
+            "w": 138,
+            "h": 51,
+            "font": "14px"
+          },
+          {
+            "text": "Assistenza",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 120,
+            "right": 265,
+            "top": 3468,
+            "bottom": 3519,
+            "w": 145,
+            "h": 51,
+            "font": "14px"
+          }
+        ],
+        "tooWide": [
+          {
+            "name": "mog-website",
+            "tag": "INPUT",
+            "cls": "wpcf7-form-control wpcf7-text",
+            "x": -9974,
+            "right": -9948,
+            "top": 2987,
+            "bottom": 3034,
+            "w": 26,
+            "h": 47,
+            "font": "14px"
+          }
+        ],
+        "forms": 4,
+        "finance": {
+          "tag": "DIV",
+          "cls": "wpcf7 js",
+          "x": 253,
+          "right": 1013,
+          "top": 474,
+          "bottom": 2624,
+          "w": 760,
+          "h": 2150,
+          "font": "14px"
+        },
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 1440,
+          "top": 2820,
+          "bottom": 3800,
+          "w": 1440,
+          "h": 980,
+          "font": "14px"
+        }
+      }
+    },
+    {
+      "slug": "checkout",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "pathname": "/checkout/",
+        "h1": [],
+        "headings": [],
+        "buttons": [
+          {
+            "text": "MENU",
+            "tag": "BUTTON",
+            "cls": "mog-future-mobile-toggle",
+            "x": 308,
+            "right": 380,
+            "top": 62,
+            "bottom": 98,
+            "w": 72,
+            "h": 36,
+            "font": "16px"
+          },
+          {
+            "text": "LINK RAPIDI",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 11,
+            "right": 379,
+            "top": 376,
+            "bottom": 422,
+            "w": 368,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "CATEGORIE",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 11,
+            "right": 379,
+            "top": 431,
+            "bottom": 477,
+            "w": 368,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "ASSISTENZA",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 11,
+            "right": 379,
+            "top": 486,
+            "bottom": 532,
+            "w": 368,
+            "h": 46,
+            "font": "13px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 0,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 390,
+          "top": 188,
+          "bottom": 613,
+          "w": 390,
+          "h": 425,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "checkout",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "scrollHeight": 980,
+        "pathname": "/checkout/",
+        "h1": [],
+        "headings": [],
+        "buttons": [
+          {
+            "text": "MENU",
+            "tag": "BUTTON",
+            "cls": "mog-future-mobile-toggle",
+            "x": 677,
+            "right": 752,
+            "top": 74,
+            "bottom": 110,
+            "w": 75,
+            "h": 36,
+            "font": "16px"
+          },
+          {
+            "text": "LINK RAPIDI",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 17,
+            "right": 751,
+            "top": 394,
+            "bottom": 440,
+            "w": 734,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "CATEGORIE",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 17,
+            "right": 751,
+            "top": 449,
+            "bottom": 495,
+            "w": 734,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "ASSISTENZA",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 17,
+            "right": 751,
+            "top": 504,
+            "bottom": 550,
+            "w": 734,
+            "h": 46,
+            "font": "13px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 0,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 768,
+          "top": 206,
+          "bottom": 631,
+          "w": 768,
+          "h": 425,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "checkout",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 960,
+        "pathname": "/checkout/",
+        "h1": [],
+        "headings": [],
+        "buttons": [
+          {
+            "text": "CATEGORIA PRODOTTI",
+            "tag": "BUTTON",
+            "cls": "mog-header-cat-toggle",
+            "x": 362,
+            "right": 595,
+            "top": 158,
+            "bottom": 212,
+            "w": 234,
+            "h": 54,
+            "font": "14px"
+          },
+          {
+            "text": "LINK RAPIDI",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 379,
+            "right": 567,
+            "top": 386,
+            "bottom": 415,
+            "w": 188,
+            "h": 29,
+            "font": "14px"
+          },
+          {
+            "text": "CATEGORIE",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 599,
+            "right": 797,
+            "top": 386,
+            "bottom": 415,
+            "w": 199,
+            "h": 29,
+            "font": "14px"
+          },
+          {
+            "text": "ASSISTENZA",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 829,
+            "right": 1061,
+            "top": 386,
+            "bottom": 415,
+            "w": 232,
+            "h": 29,
+            "font": "14px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 0,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 1440,
+          "top": 341,
+          "bottom": 760,
+          "w": 1440,
+          "h": 419,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "pagamenti",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "scrollHeight": 5128,
+        "pathname": "/pagamenti/",
+        "h1": [
+          {
+            "text": "Pagamenti",
+            "tag": "H1",
+            "cls": "page-header-title clr",
+            "x": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0,
+            "font": "100px",
+            "visible": false
+          },
+          {
+            "text": "Metodi di pagamento",
+            "tag": "H1",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 16,
+            "right": 374,
+            "top": 135,
+            "bottom": 170,
+            "w": 358,
+            "h": 35,
+            "font": "31.2px",
+            "visible": true
+          }
+        ],
+        "headings": [
+          {
+            "text": "Carta di credito o debito",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 16,
+            "right": 374,
+            "top": 397,
+            "bottom": 424,
+            "w": 358,
+            "h": 27,
+            "font": "21.45px"
+          },
+          {
+            "text": "PayPal",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 16,
+            "right": 374,
+            "top": 573,
+            "bottom": 599,
+            "w": 358,
+            "h": 27,
+            "font": "21.45px"
+          },
+          {
+            "text": "Klarna",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 16,
+            "right": 374,
+            "top": 775,
+            "bottom": 801,
+            "w": 358,
+            "h": 27,
+            "font": "21.45px"
+          },
+          {
+            "text": "Bonifico bancario",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 16,
+            "right": 374,
+            "top": 950,
+            "bottom": 977,
+            "w": 358,
+            "h": 27,
+            "font": "21.45px"
+          },
+          {
+            "text": "Pagamento rateale / finanziamento",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 16,
+            "right": 374,
+            "top": 1126,
+            "bottom": 1180,
+            "w": 358,
+            "h": 54,
+            "font": "21.45px"
+          },
+          {
+            "text": "Importo finale",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 16,
+            "right": 374,
+            "top": 1381,
+            "bottom": 1408,
+            "w": 358,
+            "h": 27,
+            "font": "21.45px"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "MENU",
+            "tag": "BUTTON",
+            "cls": "mog-future-mobile-toggle",
+            "x": 308,
+            "right": 380,
+            "top": 62,
+            "bottom": 98,
+            "w": 72,
+            "h": 36,
+            "font": "16px"
+          },
+          {
+            "text": "LINK RAPIDI",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 11,
+            "right": 379,
+            "top": 4848,
+            "bottom": 4894,
+            "w": 368,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "CATEGORIE",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 11,
+            "right": 379,
+            "top": 4903,
+            "bottom": 4949,
+            "w": 368,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "ASSISTENZA",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 11,
+            "right": 379,
+            "top": 4958,
+            "bottom": 5004,
+            "w": 368,
+            "h": 46,
+            "font": "13px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 3,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 390,
+          "top": 4660,
+          "bottom": 5085,
+          "w": 390,
+          "h": 425,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "pagamenti",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "scrollHeight": 3992,
+        "pathname": "/pagamenti/",
+        "h1": [
+          {
+            "text": "Pagamenti",
+            "tag": "H1",
+            "cls": "page-header-title clr",
+            "x": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0,
+            "font": "100px",
+            "visible": false
+          },
+          {
+            "text": "Metodi di pagamento",
+            "tag": "H1",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 20,
+            "right": 748,
+            "top": 165,
+            "bottom": 203,
+            "w": 728,
+            "h": 38,
+            "font": "34px",
+            "visible": true
+          }
+        ],
+        "headings": [
+          {
+            "text": "Carta di credito o debito",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 20,
+            "right": 748,
+            "top": 377,
+            "bottom": 404,
+            "w": 728,
+            "h": 26,
+            "font": "21px"
+          },
+          {
+            "text": "PayPal",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 20,
+            "right": 748,
+            "top": 500,
+            "bottom": 526,
+            "w": 728,
+            "h": 26,
+            "font": "21px"
+          },
+          {
+            "text": "Klarna",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 20,
+            "right": 748,
+            "top": 623,
+            "bottom": 649,
+            "w": 728,
+            "h": 26,
+            "font": "21px"
+          },
+          {
+            "text": "Bonifico bancario",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 20,
+            "right": 748,
+            "top": 746,
+            "bottom": 772,
+            "w": 728,
+            "h": 26,
+            "font": "21px"
+          },
+          {
+            "text": "Pagamento rateale / finanziamento",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 20,
+            "right": 748,
+            "top": 868,
+            "bottom": 895,
+            "w": 728,
+            "h": 26,
+            "font": "21px"
+          },
+          {
+            "text": "Importo finale",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 20,
+            "right": 748,
+            "top": 1017,
+            "bottom": 1044,
+            "w": 728,
+            "h": 26,
+            "font": "21px"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "MENU",
+            "tag": "BUTTON",
+            "cls": "mog-future-mobile-toggle",
+            "x": 677,
+            "right": 752,
+            "top": 74,
+            "bottom": 110,
+            "w": 75,
+            "h": 36,
+            "font": "16px"
+          },
+          {
+            "text": "LINK RAPIDI",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 17,
+            "right": 751,
+            "top": 3712,
+            "bottom": 3758,
+            "w": 734,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "CATEGORIE",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 17,
+            "right": 751,
+            "top": 3767,
+            "bottom": 3813,
+            "w": 734,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "ASSISTENZA",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 17,
+            "right": 751,
+            "top": 3822,
+            "bottom": 3868,
+            "w": 734,
+            "h": 46,
+            "font": "13px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 3,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 768,
+          "top": 3524,
+          "bottom": 3949,
+          "w": 768,
+          "h": 425,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "pagamenti",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 3306,
+        "pathname": "/pagamenti/",
+        "h1": [
+          {
+            "text": "Pagamenti",
+            "tag": "H1",
+            "cls": "page-header-title clr",
+            "x": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0,
+            "font": "100px",
+            "visible": false
+          },
+          {
+            "text": "Metodi di pagamento",
+            "tag": "H1",
+            "cls": "mog-metal-heading-global",
+            "x": 120,
+            "right": 1220,
+            "top": 327,
+            "bottom": 381,
+            "w": 1100,
+            "h": 54,
+            "font": "48px",
+            "visible": true
+          }
+        ],
+        "headings": [
+          {
+            "text": "Carta di credito o debito",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 120,
+            "right": 1320,
+            "top": 529,
+            "bottom": 565,
+            "w": 1200,
+            "h": 36,
+            "font": "29px"
+          },
+          {
+            "text": "PayPal",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 120,
+            "right": 1320,
+            "top": 662,
+            "bottom": 698,
+            "w": 1200,
+            "h": 36,
+            "font": "29px"
+          },
+          {
+            "text": "Klarna",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 120,
+            "right": 1320,
+            "top": 794,
+            "bottom": 831,
+            "w": 1200,
+            "h": 36,
+            "font": "29px"
+          },
+          {
+            "text": "Bonifico bancario",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 120,
+            "right": 1320,
+            "top": 927,
+            "bottom": 963,
+            "w": 1200,
+            "h": 36,
+            "font": "29px"
+          },
+          {
+            "text": "Pagamento rateale / finanziamento",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 120,
+            "right": 1320,
+            "top": 1060,
+            "bottom": 1096,
+            "w": 1200,
+            "h": 36,
+            "font": "29px"
+          },
+          {
+            "text": "Importo finale",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 120,
+            "right": 1320,
+            "top": 1193,
+            "bottom": 1229,
+            "w": 1200,
+            "h": 36,
+            "font": "29px"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "CATEGORIA PRODOTTI",
+            "tag": "BUTTON",
+            "cls": "mog-header-cat-toggle",
+            "x": 362,
+            "right": 595,
+            "top": 158,
+            "bottom": 212,
+            "w": 234,
+            "h": 54,
+            "font": "14px"
+          },
+          {
+            "text": "LINK RAPIDI",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 410,
+            "right": 579,
+            "top": 2869,
+            "bottom": 2899,
+            "w": 169,
+            "h": 29,
+            "font": "14px"
+          },
+          {
+            "text": "CATEGORIE",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 611,
+            "right": 789,
+            "top": 2869,
+            "bottom": 2899,
+            "w": 179,
+            "h": 29,
+            "font": "14px"
+          },
+          {
+            "text": "ASSISTENZA",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 821,
+            "right": 1030,
+            "top": 2869,
+            "bottom": 2899,
+            "w": 208,
+            "h": 29,
+            "font": "14px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 3,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 1440,
+          "top": 2824,
+          "bottom": 3263,
+          "w": 1440,
+          "h": 439,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "spedizioni",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "scrollHeight": 2955,
+        "pathname": "/spedizioni/",
+        "h1": [
+          {
+            "text": "Spedizioni",
+            "tag": "H1",
+            "cls": "page-header-title clr",
+            "x": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0,
+            "font": "100px",
+            "visible": false
+          },
+          {
+            "text": "Spedizioni e consegne",
+            "tag": "H1",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 16,
+            "right": 374,
+            "top": 135,
+            "bottom": 170,
+            "w": 358,
+            "h": 35,
+            "font": "31.2px",
+            "visible": true
+          }
+        ],
+        "headings": [
+          {
+            "text": "1. Destinazioni e disponibilità del servizio",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 16,
+            "right": 374,
+            "top": 252,
+            "bottom": 305,
+            "w": 358,
+            "h": 54,
+            "font": "21.45px"
+          },
+          {
+            "text": "2. Tempi di preparazione e consegna",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 16,
+            "right": 374,
+            "top": 507,
+            "bottom": 560,
+            "w": 358,
+            "h": 54,
+            "font": "21.45px"
+          },
+          {
+            "text": "3. Costi di spedizione",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 16,
+            "right": 374,
+            "top": 907,
+            "bottom": 934,
+            "w": 358,
+            "h": 27,
+            "font": "21.45px"
+          },
+          {
+            "text": "4. Tracciamento",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 16,
+            "right": 374,
+            "top": 1135,
+            "bottom": 1162,
+            "w": 358,
+            "h": 27,
+            "font": "21.45px"
+          },
+          {
+            "text": "5. Consegna e rischio di trasporto",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 16,
+            "right": 374,
+            "top": 1337,
+            "bottom": 1364,
+            "w": 358,
+            "h": 27,
+            "font": "21.45px"
+          },
+          {
+            "text": "6. Tentativi di consegna e giacenza",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 16,
+            "right": 374,
+            "top": 1737,
+            "bottom": 1791,
+            "w": 358,
+            "h": 54,
+            "font": "21.45px"
+          },
+          {
+            "text": "7. Ritardi o mancata consegna",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 16,
+            "right": 374,
+            "top": 2045,
+            "bottom": 2072,
+            "w": 358,
+            "h": 27,
+            "font": "21.45px"
+          },
+          {
+            "text": "8. Assistenza",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 16,
+            "right": 374,
+            "top": 2299,
+            "bottom": 2326,
+            "w": 358,
+            "h": 27,
+            "font": "21.45px"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "MENU",
+            "tag": "BUTTON",
+            "cls": "mog-future-mobile-toggle",
+            "x": 308,
+            "right": 380,
+            "top": 62,
+            "bottom": 98,
+            "w": 72,
+            "h": 36,
+            "font": "16px"
+          },
+          {
+            "text": "LINK RAPIDI",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 11,
+            "right": 379,
+            "top": 2675,
+            "bottom": 2721,
+            "w": 368,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "CATEGORIE",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 11,
+            "right": 379,
+            "top": 2730,
+            "bottom": 2776,
+            "w": 368,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "ASSISTENZA",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 11,
+            "right": 379,
+            "top": 2785,
+            "bottom": 2831,
+            "w": 368,
+            "h": 46,
+            "font": "13px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 3,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 390,
+          "top": 2487,
+          "bottom": 2912,
+          "w": 390,
+          "h": 425,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "spedizioni",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "scrollHeight": 2190,
+        "pathname": "/spedizioni/",
+        "h1": [
+          {
+            "text": "Spedizioni",
+            "tag": "H1",
+            "cls": "page-header-title clr",
+            "x": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0,
+            "font": "100px",
+            "visible": false
+          },
+          {
+            "text": "Spedizioni e consegne",
+            "tag": "H1",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 20,
+            "right": 748,
+            "top": 165,
+            "bottom": 203,
+            "w": 728,
+            "h": 38,
+            "font": "34px",
+            "visible": true
+          }
+        ],
+        "headings": [
+          {
+            "text": "1. Destinazioni e disponibilità del servizio",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 20,
+            "right": 748,
+            "top": 285,
+            "bottom": 311,
+            "w": 728,
+            "h": 26,
+            "font": "21px"
+          },
+          {
+            "text": "2. Tempi di preparazione e consegna",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 20,
+            "right": 748,
+            "top": 434,
+            "bottom": 460,
+            "w": 728,
+            "h": 26,
+            "font": "21px"
+          },
+          {
+            "text": "3. Costi di spedizione",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 20,
+            "right": 748,
+            "top": 675,
+            "bottom": 702,
+            "w": 728,
+            "h": 26,
+            "font": "21px"
+          },
+          {
+            "text": "4. Tracciamento",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 20,
+            "right": 748,
+            "top": 824,
+            "bottom": 851,
+            "w": 728,
+            "h": 26,
+            "font": "21px"
+          },
+          {
+            "text": "5. Consegna e rischio di trasporto",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 20,
+            "right": 748,
+            "top": 947,
+            "bottom": 973,
+            "w": 728,
+            "h": 26,
+            "font": "21px"
+          },
+          {
+            "text": "6. Tentativi di consegna e giacenza",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 20,
+            "right": 748,
+            "top": 1189,
+            "bottom": 1215,
+            "w": 728,
+            "h": 26,
+            "font": "21px"
+          },
+          {
+            "text": "7. Ritardi o mancata consegna",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 20,
+            "right": 748,
+            "top": 1364,
+            "bottom": 1390,
+            "w": 728,
+            "h": 26,
+            "font": "21px"
+          },
+          {
+            "text": "8. Assistenza",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 20,
+            "right": 748,
+            "top": 1539,
+            "bottom": 1566,
+            "w": 728,
+            "h": 26,
+            "font": "21px"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "MENU",
+            "tag": "BUTTON",
+            "cls": "mog-future-mobile-toggle",
+            "x": 677,
+            "right": 752,
+            "top": 74,
+            "bottom": 110,
+            "w": 75,
+            "h": 36,
+            "font": "16px"
+          },
+          {
+            "text": "LINK RAPIDI",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 17,
+            "right": 751,
+            "top": 1910,
+            "bottom": 1956,
+            "w": 734,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "CATEGORIE",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 17,
+            "right": 751,
+            "top": 1965,
+            "bottom": 2011,
+            "w": 734,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "ASSISTENZA",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 17,
+            "right": 751,
+            "top": 2020,
+            "bottom": 2066,
+            "w": 734,
+            "h": 46,
+            "font": "13px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 3,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 768,
+          "top": 1722,
+          "bottom": 2148,
+          "w": 768,
+          "h": 425,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "spedizioni",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 2305,
+        "pathname": "/spedizioni/",
+        "h1": [
+          {
+            "text": "Spedizioni",
+            "tag": "H1",
+            "cls": "page-header-title clr",
+            "x": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0,
+            "font": "100px",
+            "visible": false
+          },
+          {
+            "text": "Spedizioni e consegne",
+            "tag": "H1",
+            "cls": "mog-metal-heading-global",
+            "x": 120,
+            "right": 1220,
+            "top": 327,
+            "bottom": 381,
+            "w": 1100,
+            "h": 54,
+            "font": "48px",
+            "visible": true
+          }
+        ],
+        "headings": [
+          {
+            "text": "1. Destinazioni e disponibilità del servizio",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 120,
+            "right": 1320,
+            "top": 462,
+            "bottom": 499,
+            "w": 1200,
+            "h": 36,
+            "font": "29px"
+          },
+          {
+            "text": "2. Tempi di preparazione e consegna",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 120,
+            "right": 1320,
+            "top": 595,
+            "bottom": 631,
+            "w": 1200,
+            "h": 36,
+            "font": "29px"
+          },
+          {
+            "text": "3. Costi di spedizione",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 120,
+            "right": 1320,
+            "top": 794,
+            "bottom": 831,
+            "w": 1200,
+            "h": 36,
+            "font": "29px"
+          },
+          {
+            "text": "4. Tracciamento",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 120,
+            "right": 1320,
+            "top": 927,
+            "bottom": 963,
+            "w": 1200,
+            "h": 36,
+            "font": "29px"
+          },
+          {
+            "text": "5. Consegna e rischio di trasporto",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 120,
+            "right": 1320,
+            "top": 1060,
+            "bottom": 1096,
+            "w": 1200,
+            "h": 36,
+            "font": "29px"
+          },
+          {
+            "text": "6. Tentativi di consegna e giacenza",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 120,
+            "right": 1320,
+            "top": 1259,
+            "bottom": 1295,
+            "w": 1200,
+            "h": 36,
+            "font": "29px"
+          },
+          {
+            "text": "7. Ritardi o mancata consegna",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 120,
+            "right": 1320,
+            "top": 1418,
+            "bottom": 1454,
+            "w": 1200,
+            "h": 36,
+            "font": "29px"
+          },
+          {
+            "text": "8. Assistenza",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 120,
+            "right": 1320,
+            "top": 1551,
+            "bottom": 1587,
+            "w": 1200,
+            "h": 36,
+            "font": "29px"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "CATEGORIA PRODOTTI",
+            "tag": "BUTTON",
+            "cls": "mog-header-cat-toggle",
+            "x": 362,
+            "right": 595,
+            "top": 158,
+            "bottom": 212,
+            "w": 234,
+            "h": 54,
+            "font": "14px"
+          },
+          {
+            "text": "LINK RAPIDI",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 410,
+            "right": 579,
+            "top": 1869,
+            "bottom": 1898,
+            "w": 169,
+            "h": 29,
+            "font": "14px"
+          },
+          {
+            "text": "CATEGORIE",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 611,
+            "right": 789,
+            "top": 1869,
+            "bottom": 1898,
+            "w": 179,
+            "h": 29,
+            "font": "14px"
+          },
+          {
+            "text": "ASSISTENZA",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 821,
+            "right": 1030,
+            "top": 1869,
+            "bottom": 1898,
+            "w": 208,
+            "h": 29,
+            "font": "14px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 3,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 1440,
+          "top": 1824,
+          "bottom": 2263,
+          "w": 1440,
+          "h": 439,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "assistenza",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "scrollHeight": 4302,
+        "pathname": "/assistenza-informatica/",
+        "h1": [],
+        "headings": [
+          {
+            "text": "ASSISTENZA INFORMATICA PREMIUM",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 31,
+            "right": 359,
+            "top": 184,
+            "bottom": 288,
+            "w": 328,
+            "h": 104,
+            "font": "33.54px"
+          },
+          {
+            "text": "I SERVIZI OFFERTI DAL NOSTRO LABORATORIO",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 22,
+            "right": 368,
+            "top": 947,
+            "bottom": 1009,
+            "w": 346,
+            "h": 62,
+            "font": "27.69px"
+          },
+          {
+            "text": "RETI, SICUREZZA, SERVER E BACKUP",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 35,
+            "right": 355,
+            "top": 1332,
+            "bottom": 1401,
+            "w": 320,
+            "h": 69,
+            "font": "32px"
+          },
+          {
+            "text": "INTERVENTO RAPIDO E SUPPORTO CONTINUO",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 35,
+            "right": 355,
+            "top": 2123,
+            "bottom": 2262,
+            "w": 320,
+            "h": 138,
+            "font": "32px"
+          },
+          {
+            "text": "CONTRATTI DI ASSISTENZA TECNICA",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 22,
+            "right": 368,
+            "top": 3058,
+            "bottom": 3120,
+            "w": 346,
+            "h": 62,
+            "font": "27.69px"
+          },
+          {
+            "text": "HAI BISOGNO DI UN TECNICO O VUOI UN PIANO DEDICATO?",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 33,
+            "right": 357,
+            "top": 3413,
+            "bottom": 3551,
+            "w": 324,
+            "h": 138,
+            "font": "32px"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "MENU",
+            "tag": "BUTTON",
+            "cls": "mog-future-mobile-toggle",
+            "x": 308,
+            "right": 380,
+            "top": 62,
+            "bottom": 98,
+            "w": 72,
+            "h": 36,
+            "font": "16px"
+          },
+          {
+            "text": "LINK RAPIDI",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 11,
+            "right": 379,
+            "top": 4022,
+            "bottom": 4068,
+            "w": 368,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "CATEGORIE",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 11,
+            "right": 379,
+            "top": 4077,
+            "bottom": 4123,
+            "w": 368,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "ASSISTENZA",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 11,
+            "right": 379,
+            "top": 4132,
+            "bottom": 4178,
+            "w": 368,
+            "h": 46,
+            "font": "13px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 3,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 390,
+          "top": 3834,
+          "bottom": 4260,
+          "w": 390,
+          "h": 425,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "assistenza",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "scrollHeight": 4878,
+        "pathname": "/assistenza-informatica/",
+        "h1": [],
+        "headings": [
+          {
+            "text": "ASSISTENZA INFORMATICA PREMIUM",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global",
+            "x": 42,
+            "right": 726,
+            "top": 239,
+            "bottom": 322,
+            "w": 684,
+            "h": 83,
+            "font": "42px"
+          },
+          {
+            "text": "I SERVIZI OFFERTI DAL NOSTRO LABORATORIO",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 20,
+            "right": 748,
+            "top": 1065,
+            "bottom": 1096,
+            "w": 728,
+            "h": 31,
+            "font": "28px"
+          },
+          {
+            "text": "RETI, SICUREZZA, SERVER E BACKUP",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 49,
+            "right": 719,
+            "top": 2187,
+            "bottom": 2217,
+            "w": 670,
+            "h": 29,
+            "font": "28px"
+          },
+          {
+            "text": "INTERVENTO RAPIDO E SUPPORTO CONTINUO",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 49,
+            "right": 719,
+            "top": 2772,
+            "bottom": 2830,
+            "w": 670,
+            "h": 59,
+            "font": "28px"
+          },
+          {
+            "text": "CONTRATTI DI ASSISTENZA TECNICA",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 20,
+            "right": 748,
+            "top": 3506,
+            "bottom": 3538,
+            "w": 728,
+            "h": 31,
+            "font": "28px"
+          },
+          {
+            "text": "HAI BISOGNO DI UN TECNICO O VUOI UN PIANO DEDICATO?",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 51,
+            "right": 717,
+            "top": 4135,
+            "bottom": 4193,
+            "w": 666,
+            "h": 59,
+            "font": "28px"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "MENU",
+            "tag": "BUTTON",
+            "cls": "mog-future-mobile-toggle",
+            "x": 677,
+            "right": 752,
+            "top": 74,
+            "bottom": 110,
+            "w": 75,
+            "h": 36,
+            "font": "16px"
+          },
+          {
+            "text": "LINK RAPIDI",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 17,
+            "right": 751,
+            "top": 4598,
+            "bottom": 4644,
+            "w": 734,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "CATEGORIE",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 17,
+            "right": 751,
+            "top": 4653,
+            "bottom": 4699,
+            "w": 734,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "ASSISTENZA",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 17,
+            "right": 751,
+            "top": 4708,
+            "bottom": 4754,
+            "w": 734,
+            "h": 46,
+            "font": "13px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 3,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 768,
+          "top": 4410,
+          "bottom": 4835,
+          "w": 768,
+          "h": 425,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "assistenza",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 3473,
+        "pathname": "/assistenza-informatica/",
+        "h1": [],
+        "headings": [
+          {
+            "text": "ASSISTENZA INFORMATICA PREMIUM",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global",
+            "x": 151,
+            "right": 735,
+            "top": 381,
+            "bottom": 577,
+            "w": 584,
+            "h": 196,
+            "font": "66px"
+          },
+          {
+            "text": "I SERVIZI OFFERTI DAL NOSTRO LABORATORIO",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global",
+            "x": 120,
+            "right": 1320,
+            "top": 885,
+            "bottom": 927,
+            "w": 1200,
+            "h": 43,
+            "font": "38px"
+          },
+          {
+            "text": "RETI, SICUREZZA, SERVER E BACKUP",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global",
+            "x": 149,
+            "right": 827,
+            "top": 1543,
+            "bottom": 1632,
+            "w": 678,
+            "h": 88,
+            "font": "42px"
+          },
+          {
+            "text": "INTERVENTO RAPIDO E SUPPORTO CONTINUO",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global",
+            "x": 907,
+            "right": 1291,
+            "top": 1593,
+            "bottom": 1770,
+            "w": 384,
+            "h": 176,
+            "font": "42px"
+          },
+          {
+            "text": "CONTRATTI DI ASSISTENZA TECNICA",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global",
+            "x": 120,
+            "right": 1320,
+            "top": 2391,
+            "bottom": 2434,
+            "w": 1200,
+            "h": 43,
+            "font": "38px"
+          },
+          {
+            "text": "HAI BISOGNO DI UN TECNICO O VUOI UN PIANO DEDICATO?",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global",
+            "x": 151,
+            "right": 1057,
+            "top": 2765,
+            "bottom": 2853,
+            "w": 906,
+            "h": 88,
+            "font": "42px"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "CATEGORIA PRODOTTI",
+            "tag": "BUTTON",
+            "cls": "mog-header-cat-toggle",
+            "x": 362,
+            "right": 595,
+            "top": 158,
+            "bottom": 212,
+            "w": 234,
+            "h": 54,
+            "font": "14px"
+          },
+          {
+            "text": "LINK RAPIDI",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 410,
+            "right": 579,
+            "top": 3037,
+            "bottom": 3066,
+            "w": 169,
+            "h": 29,
+            "font": "14px"
+          },
+          {
+            "text": "CATEGORIE",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 611,
+            "right": 789,
+            "top": 3037,
+            "bottom": 3066,
+            "w": 179,
+            "h": 29,
+            "font": "14px"
+          },
+          {
+            "text": "ASSISTENZA",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 821,
+            "right": 1030,
+            "top": 3037,
+            "bottom": 3066,
+            "w": 208,
+            "h": 29,
+            "font": "14px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 3,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 1440,
+          "top": 2992,
+          "bottom": 3431,
+          "w": 1440,
+          "h": 439,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "configuratore",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "scrollHeight": 1878,
+        "pathname": "/pc-configurator/",
+        "h1": [],
+        "headings": [
+          {
+            "text": "Configura il tuo PC",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 33,
+            "right": 357,
+            "top": 193,
+            "bottom": 229,
+            "w": 324,
+            "h": 36,
+            "font": "36px"
+          },
+          {
+            "text": "LA TUA CONFIGURAZIONE",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global",
+            "x": 29,
+            "right": 261,
+            "top": 1081,
+            "bottom": 1121,
+            "w": 232,
+            "h": 40,
+            "font": "18px"
+          },
+          {
+            "text": "CPU",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 28,
+            "right": 362,
+            "top": 605,
+            "bottom": 632,
+            "w": 334,
+            "h": 26,
+            "font": "25px"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "MENU",
+            "tag": "BUTTON",
+            "cls": "mog-future-mobile-toggle",
+            "x": 308,
+            "right": 380,
+            "top": 62,
+            "bottom": 98,
+            "w": 72,
+            "h": 36,
+            "font": "16px"
+          },
+          {
+            "text": "✦ Componi con MOG AI COMPOSIZIONE GUIDATA",
+            "tag": "BUTTON",
+            "cls": "mog-pcc-ai-open",
+            "x": 33,
+            "right": 357,
+            "top": 336,
+            "bottom": 398,
+            "w": 324,
+            "h": 62,
+            "font": "15px"
+          },
+          {
+            "text": "1 CPU Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 26,
+            "right": 158,
+            "top": 501,
+            "bottom": 548,
+            "w": 132,
+            "h": 47,
+            "font": "14px"
+          },
+          {
+            "text": "2 Scheda madre Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 164,
+            "right": 296,
+            "top": 501,
+            "bottom": 548,
+            "w": 132,
+            "h": 47,
+            "font": "14px"
+          },
+          {
+            "text": "3 RAM Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 302,
+            "right": 434,
+            "top": 501,
+            "bottom": 548,
+            "w": 132,
+            "h": 47,
+            "font": "14px"
+          },
+          {
+            "text": "4 Dissipatore Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 440,
+            "right": 572,
+            "top": 501,
+            "bottom": 548,
+            "w": 132,
+            "h": 47,
+            "font": "14px"
+          },
+          {
+            "text": "5 Disco NVMe Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 578,
+            "right": 710,
+            "top": 501,
+            "bottom": 548,
+            "w": 132,
+            "h": 47,
+            "font": "14px"
+          },
+          {
+            "text": "6 Scheda video Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 716,
+            "right": 848,
+            "top": 501,
+            "bottom": 548,
+            "w": 132,
+            "h": 47,
+            "font": "14px"
+          },
+          {
+            "text": "7 Case Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 854,
+            "right": 986,
+            "top": 501,
+            "bottom": 548,
+            "w": 132,
+            "h": 47,
+            "font": "14px"
+          },
+          {
+            "text": "8 Alimentatore Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 992,
+            "right": 1124,
+            "top": 501,
+            "bottom": 548,
+            "w": 132,
+            "h": 47,
+            "font": "14px"
+          },
+          {
+            "text": "9 Licenza Opzionale",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 1130,
+            "right": 1262,
+            "top": 501,
+            "bottom": 548,
+            "w": 132,
+            "h": 47,
+            "font": "14px"
+          },
+          {
+            "text": "AGGIUNGI LA CONFIGURAZIONE AL CARRELLO",
+            "tag": "BUTTON",
+            "cls": "mog-pcc-add-cart",
+            "x": 29,
+            "right": 361,
+            "top": 1156,
+            "bottom": 1206,
+            "w": 332,
+            "h": 50,
+            "font": "12px"
+          },
+          {
+            "text": "CREA ORDINE DALLA CONFIGURAZIONE",
+            "tag": "BUTTON",
+            "cls": "mog-pcc-create-order",
+            "x": 29,
+            "right": 361,
+            "top": 1216,
+            "bottom": 1266,
+            "w": 332,
+            "h": 50,
+            "font": "12px"
+          },
+          {
+            "text": "Indietro",
+            "tag": "BUTTON",
+            "cls": "mog-pcc-prev",
+            "x": 36,
+            "right": 192,
+            "top": 991,
+            "bottom": 1033,
+            "w": 156,
+            "h": 42,
+            "font": "11px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 3,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 390,
+          "top": 1410,
+          "bottom": 1835,
+          "w": 390,
+          "h": 425,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "configuratore",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "scrollHeight": 1979,
+        "pathname": "/pc-configurator/",
+        "h1": [],
+        "headings": [
+          {
+            "text": "Configura il tuo PC",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global",
+            "x": 47,
+            "right": 721,
+            "top": 226,
+            "bottom": 289,
+            "w": 674,
+            "h": 63,
+            "font": "64px"
+          },
+          {
+            "text": "LA TUA CONFIGURAZIONE",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global",
+            "x": 39,
+            "right": 264,
+            "top": 1196,
+            "bottom": 1214,
+            "w": 225,
+            "h": 18,
+            "font": "15px"
+          },
+          {
+            "text": "CPU",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 39,
+            "right": 414,
+            "top": 690,
+            "bottom": 719,
+            "w": 375,
+            "h": 29,
+            "font": "28px"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "MENU",
+            "tag": "BUTTON",
+            "cls": "mog-future-mobile-toggle",
+            "x": 677,
+            "right": 752,
+            "top": 74,
+            "bottom": 110,
+            "w": 75,
+            "h": 36,
+            "font": "16px"
+          },
+          {
+            "text": "✦ Componi con MOG AI COMPOSIZIONE GUIDATA",
+            "tag": "BUTTON",
+            "cls": "mog-pcc-ai-open",
+            "x": 47,
+            "right": 380,
+            "top": 401,
+            "bottom": 493,
+            "w": 333,
+            "h": 92,
+            "font": "15px"
+          },
+          {
+            "text": "1 CPU Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 33,
+            "right": 165,
+            "top": 551,
+            "bottom": 609,
+            "w": 132,
+            "h": 58,
+            "font": "14px"
+          },
+          {
+            "text": "2 Scheda madre Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 173,
+            "right": 305,
+            "top": 551,
+            "bottom": 623,
+            "w": 132,
+            "h": 71,
+            "font": "14px"
+          },
+          {
+            "text": "3 RAM Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 313,
+            "right": 445,
+            "top": 551,
+            "bottom": 609,
+            "w": 132,
+            "h": 58,
+            "font": "14px"
+          },
+          {
+            "text": "4 Dissipatore Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 453,
+            "right": 585,
+            "top": 551,
+            "bottom": 623,
+            "w": 132,
+            "h": 71,
+            "font": "14px"
+          },
+          {
+            "text": "5 Disco NVMe Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 593,
+            "right": 725,
+            "top": 551,
+            "bottom": 623,
+            "w": 132,
+            "h": 71,
+            "font": "14px"
+          },
+          {
+            "text": "6 Scheda video Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 733,
+            "right": 865,
+            "top": 551,
+            "bottom": 623,
+            "w": 132,
+            "h": 71,
+            "font": "14px"
+          },
+          {
+            "text": "7 Case Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 873,
+            "right": 1005,
+            "top": 551,
+            "bottom": 609,
+            "w": 132,
+            "h": 58,
+            "font": "14px"
+          },
+          {
+            "text": "8 Alimentatore Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 1013,
+            "right": 1145,
+            "top": 551,
+            "bottom": 623,
+            "w": 132,
+            "h": 71,
+            "font": "14px"
+          },
+          {
+            "text": "9 Licenza Opzionale",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 1153,
+            "right": 1285,
+            "top": 551,
+            "bottom": 609,
+            "w": 132,
+            "h": 58,
+            "font": "14px"
+          },
+          {
+            "text": "AGGIUNGI LA CONFIGURAZIONE AL CARRELLO",
+            "tag": "BUTTON",
+            "cls": "mog-pcc-add-cart",
+            "x": 39,
+            "right": 729,
+            "top": 1248,
+            "bottom": 1296,
+            "w": 690,
+            "h": 48,
+            "font": "14px"
+          },
+          {
+            "text": "CREA ORDINE DALLA CONFIGURAZIONE",
+            "tag": "BUTTON",
+            "cls": "mog-pcc-create-order",
+            "x": 39,
+            "right": 729,
+            "top": 1304,
+            "bottom": 1354,
+            "w": 690,
+            "h": 49,
+            "font": "14px"
+          },
+          {
+            "text": "Indietro",
+            "tag": "BUTTON",
+            "cls": "mog-pcc-prev",
+            "x": 546,
+            "right": 638,
+            "top": 1066,
+            "bottom": 1110,
+            "w": 92,
+            "h": 44,
+            "font": "14px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 3,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 768,
+          "top": 1511,
+          "bottom": 1936,
+          "w": 768,
+          "h": 425,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "configuratore",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 2234,
+        "pathname": "/pc-configurator/",
+        "h1": [],
+        "headings": [
+          {
+            "text": "Configura il tuo PC",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global",
+            "x": 201,
+            "right": 782,
+            "top": 384,
+            "bottom": 525,
+            "w": 581,
+            "h": 141,
+            "font": "72px"
+          },
+          {
+            "text": "LA TUA CONFIGURAZIONE",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global",
+            "x": 196,
+            "right": 316,
+            "top": 1332,
+            "bottom": 1386,
+            "w": 120,
+            "h": 54,
+            "font": "15px"
+          },
+          {
+            "text": "CPU",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global",
+            "x": 513,
+            "right": 888,
+            "top": 754,
+            "bottom": 799,
+            "w": 375,
+            "h": 45,
+            "font": "44px"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "CATEGORIA PRODOTTI",
+            "tag": "BUTTON",
+            "cls": "mog-header-cat-toggle",
+            "x": 362,
+            "right": 595,
+            "top": 158,
+            "bottom": 212,
+            "w": 234,
+            "h": 54,
+            "font": "14px"
+          },
+          {
+            "text": "✦ Componi con MOG AI COMPOSIZIONE GUIDATA",
+            "tag": "BUTTON",
+            "cls": "mog-pcc-ai-open",
+            "x": 806,
+            "right": 1037,
+            "top": 354,
+            "bottom": 645,
+            "w": 231,
+            "h": 291,
+            "font": "15px"
+          },
+          {
+            "text": "1 CPU Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 181,
+            "right": 451,
+            "top": 717,
+            "bottom": 775,
+            "w": 270,
+            "h": 58,
+            "font": "14px"
+          },
+          {
+            "text": "2 Scheda madre Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 181,
+            "right": 451,
+            "top": 783,
+            "bottom": 841,
+            "w": 270,
+            "h": 58,
+            "font": "14px"
+          },
+          {
+            "text": "3 RAM Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 181,
+            "right": 451,
+            "top": 849,
+            "bottom": 907,
+            "w": 270,
+            "h": 58,
+            "font": "14px"
+          },
+          {
+            "text": "4 Dissipatore Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 181,
+            "right": 451,
+            "top": 915,
+            "bottom": 973,
+            "w": 270,
+            "h": 58,
+            "font": "14px"
+          },
+          {
+            "text": "5 Disco NVMe Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 181,
+            "right": 451,
+            "top": 981,
+            "bottom": 1039,
+            "w": 270,
+            "h": 58,
+            "font": "14px"
+          },
+          {
+            "text": "6 Scheda video Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 181,
+            "right": 451,
+            "top": 1047,
+            "bottom": 1105,
+            "w": 270,
+            "h": 58,
+            "font": "14px"
+          },
+          {
+            "text": "7 Case Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 181,
+            "right": 451,
+            "top": 1113,
+            "bottom": 1171,
+            "w": 270,
+            "h": 58,
+            "font": "14px"
+          },
+          {
+            "text": "8 Alimentatore Da scegliere",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 181,
+            "right": 451,
+            "top": 1179,
+            "bottom": 1237,
+            "w": 270,
+            "h": 58,
+            "font": "14px"
+          },
+          {
+            "text": "9 Licenza Opzionale",
+            "tag": "BUTTON",
+            "cls": "",
+            "x": 181,
+            "right": 451,
+            "top": 1245,
+            "bottom": 1303,
+            "w": 270,
+            "h": 58,
+            "font": "14px"
+          },
+          {
+            "text": "AGGIUNGI LA CONFIGURAZIONE AL CARRELLO",
+            "tag": "BUTTON",
+            "cls": "mog-pcc-add-cart",
+            "x": 196,
+            "right": 436,
+            "top": 1418,
+            "bottom": 1516,
+            "w": 240,
+            "h": 98,
+            "font": "14px"
+          },
+          {
+            "text": "CREA ORDINE DALLA CONFIGURAZIONE",
+            "tag": "BUTTON",
+            "cls": "mog-pcc-create-order",
+            "x": 196,
+            "right": 436,
+            "top": 1524,
+            "bottom": 1598,
+            "w": 240,
+            "h": 74,
+            "font": "14px"
+          },
+          {
+            "text": "Indietro",
+            "tag": "BUTTON",
+            "cls": "mog-pcc-prev",
+            "x": 1102,
+            "right": 1194,
+            "top": 1147,
+            "bottom": 1191,
+            "w": 92,
+            "h": 44,
+            "font": "14px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 3,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 1440,
+          "top": 1752,
+          "bottom": 2191,
+          "w": 1440,
+          "h": 439,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "prodotto",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "scrollHeight": 6961,
+        "pathname": "/prodotto/pc-gaming-viewstrike-5060/",
+        "h1": [],
+        "headings": [
+          {
+            "text": "PC Gaming Endorfy Signum 300 – Intel Core Ultra 7 265F, GeForce RTX 50",
+            "tag": "H2",
+            "cls": "single-post-title product_title entry-title mog-metal-heading-global mog-ux-titl",
+            "x": 59,
+            "right": 331,
+            "top": 374,
+            "bottom": 447,
+            "w": 272,
+            "h": 73,
+            "font": "19px"
+          },
+          {
+            "text": "Potenza ed equilibrio per il tuo gaming di nuova generazione",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 59,
+            "right": 331,
+            "top": 2362,
+            "bottom": 2446,
+            "w": 272,
+            "h": 84,
+            "font": "20px"
+          },
+          {
+            "text": "Eccellenza tecnica e gestione termica superiore",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global",
+            "x": 59,
+            "right": 331,
+            "top": 3248,
+            "bottom": 3299,
+            "w": 272,
+            "h": 50,
+            "font": "18px"
+          },
+          {
+            "text": "Perché scegliere questo PC",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global",
+            "x": 59,
+            "right": 331,
+            "top": 3779,
+            "bottom": 3804,
+            "w": 272,
+            "h": 25,
+            "font": "18px"
+          },
+          {
+            "text": "PRODOTTI CORRELATI",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global",
+            "x": 47,
+            "right": 204,
+            "top": 4821,
+            "bottom": 4844,
+            "w": 157,
+            "h": 23,
+            "font": "14px"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "MENU",
+            "tag": "BUTTON",
+            "cls": "mog-future-mobile-toggle",
+            "x": 308,
+            "right": 380,
+            "top": 62,
+            "bottom": 98,
+            "w": 72,
+            "h": 36,
+            "font": "16px"
+          },
+          {
+            "text": "⋯ Espandi",
+            "tag": "BUTTON",
+            "cls": "mog-ux-title-toggle",
+            "x": 59,
+            "right": 145,
+            "top": 457,
+            "bottom": 488,
+            "w": 86,
+            "h": 31,
+            "font": "12px"
+          },
+          {
+            "text": "Sicurezza e informazioni sul prodotto ↗",
+            "tag": "BUTTON",
+            "cls": "mog-gpsr-trigger",
+            "x": 59,
+            "right": 331,
+            "top": 2155,
+            "bottom": 2216,
+            "w": 272,
+            "h": 61,
+            "font": "12px"
+          },
+          {
+            "text": "⋯ Espandi",
+            "tag": "BUTTON",
+            "cls": "mog-ux-title-toggle",
+            "x": 62,
+            "right": 148,
+            "top": 5194,
+            "bottom": 5225,
+            "w": 86,
+            "h": 31,
+            "font": "12px"
+          },
+          {
+            "text": "VAI ALLA SCHEDA",
+            "tag": "A",
+            "cls": "button product_type_simple",
+            "x": 63,
+            "right": 327,
+            "top": 5341,
+            "bottom": 5387,
+            "w": 264,
+            "h": 46,
+            "font": "12px"
+          },
+          {
+            "text": "⋯ Espandi",
+            "tag": "BUTTON",
+            "cls": "mog-ux-title-toggle",
+            "x": 62,
+            "right": 148,
+            "top": 5724,
+            "bottom": 5755,
+            "w": 86,
+            "h": 31,
+            "font": "12px"
+          },
+          {
+            "text": "AGGIUNGI AL CARRELLO",
+            "tag": "A",
+            "cls": "button product_type_simple add_to_cart_button ajax_add_to_cart",
+            "x": 63,
+            "right": 327,
+            "top": 5871,
+            "bottom": 5917,
+            "w": 264,
+            "h": 46,
+            "font": "12px"
+          },
+          {
+            "text": "⋯ Espandi",
+            "tag": "BUTTON",
+            "cls": "mog-ux-title-toggle",
+            "x": 62,
+            "right": 148,
+            "top": 6255,
+            "bottom": 6286,
+            "w": 86,
+            "h": 31,
+            "font": "12px"
+          },
+          {
+            "text": "AGGIUNGI AL CARRELLO",
+            "tag": "A",
+            "cls": "button product_type_simple add_to_cart_button ajax_add_to_cart",
+            "x": 63,
+            "right": 327,
+            "top": 6402,
+            "bottom": 6448,
+            "w": 264,
+            "h": 46,
+            "font": "12px"
+          },
+          {
+            "text": "LINK RAPIDI",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 11,
+            "right": 379,
+            "top": 6724,
+            "bottom": 6770,
+            "w": 368,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "CATEGORIE",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 11,
+            "right": 379,
+            "top": 6779,
+            "bottom": 6825,
+            "w": 368,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "ASSISTENZA",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 11,
+            "right": 379,
+            "top": 6834,
+            "bottom": 6880,
+            "w": 368,
+            "h": 46,
+            "font": "13px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 0,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 390,
+          "top": 6536,
+          "bottom": 6961,
+          "w": 390,
+          "h": 425,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "prodotto",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "scrollHeight": 5000,
+        "pathname": "/prodotto/pc-gaming-viewstrike-5060/",
+        "h1": [],
+        "headings": [
+          {
+            "text": "PC Gaming Endorfy Signum 300 – Intel Core Ultra 7 265F, GeForce RTX 50",
+            "tag": "H2",
+            "cls": "single-post-title product_title entry-title mog-metal-heading-global mog-metal-m",
+            "x": 65,
+            "right": 703,
+            "top": 605,
+            "bottom": 721,
+            "w": 638,
+            "h": 116,
+            "font": "30px"
+          },
+          {
+            "text": "Potenza ed equilibrio per il tuo gaming di nuova generazione",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 65,
+            "right": 703,
+            "top": 2197,
+            "bottom": 2225,
+            "w": 638,
+            "h": 28,
+            "font": "20px"
+          },
+          {
+            "text": "Eccellenza tecnica e gestione termica superiore",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global",
+            "x": 65,
+            "right": 703,
+            "top": 2610,
+            "bottom": 2635,
+            "w": 638,
+            "h": 25,
+            "font": "18px"
+          },
+          {
+            "text": "Perché scegliere questo PC",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global",
+            "x": 65,
+            "right": 703,
+            "top": 2861,
+            "bottom": 2886,
+            "w": 638,
+            "h": 25,
+            "font": "18px"
+          },
+          {
+            "text": "PRODOTTI CORRELATI",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 51,
+            "right": 297,
+            "top": 3385,
+            "bottom": 3419,
+            "w": 246,
+            "h": 34,
+            "font": "22px"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "MENU",
+            "tag": "BUTTON",
+            "cls": "mog-future-mobile-toggle",
+            "x": 677,
+            "right": 752,
+            "top": 74,
+            "bottom": 110,
+            "w": 75,
+            "h": 36,
+            "font": "16px"
+          },
+          {
+            "text": "⋯ Espandi",
+            "tag": "BUTTON",
+            "cls": "mog-ux-title-toggle",
+            "x": 65,
+            "right": 151,
+            "top": 731,
+            "bottom": 762,
+            "w": 86,
+            "h": 31,
+            "font": "12px"
+          },
+          {
+            "text": "Sicurezza e informazioni sul prodotto ↗",
+            "tag": "BUTTON",
+            "cls": "mog-gpsr-trigger",
+            "x": 65,
+            "right": 703,
+            "top": 1991,
+            "bottom": 2042,
+            "w": 638,
+            "h": 51,
+            "font": "16px"
+          },
+          {
+            "text": "⋯ Espandi",
+            "tag": "BUTTON",
+            "cls": "mog-ux-title-toggle",
+            "x": 70,
+            "right": 156,
+            "top": 3773,
+            "bottom": 3804,
+            "w": 86,
+            "h": 31,
+            "font": "12px"
+          },
+          {
+            "text": "AGGIUNGI AL CARRELLO",
+            "tag": "A",
+            "cls": "button product_type_simple add_to_cart_button ajax_add_to_cart",
+            "x": 99,
+            "right": 326,
+            "top": 3918,
+            "bottom": 3964,
+            "w": 227,
+            "h": 46,
+            "font": "12px"
+          },
+          {
+            "text": "⋯ Espandi",
+            "tag": "BUTTON",
+            "cls": "mog-ux-title-toggle",
+            "x": 414,
+            "right": 500,
+            "top": 3773,
+            "bottom": 3804,
+            "w": 86,
+            "h": 31,
+            "font": "12px"
+          },
+          {
+            "text": "VAI ALLA SCHEDA",
+            "tag": "A",
+            "cls": "button product_type_simple",
+            "x": 443,
+            "right": 670,
+            "top": 3918,
+            "bottom": 3964,
+            "w": 227,
+            "h": 46,
+            "font": "12px"
+          },
+          {
+            "text": "⋯ Espandi",
+            "tag": "BUTTON",
+            "cls": "mog-ux-title-toggle",
+            "x": 70,
+            "right": 156,
+            "top": 4312,
+            "bottom": 4343,
+            "w": 86,
+            "h": 31,
+            "font": "12px"
+          },
+          {
+            "text": "AGGIUNGI AL CARRELLO",
+            "tag": "A",
+            "cls": "button product_type_simple add_to_cart_button ajax_add_to_cart",
+            "x": 99,
+            "right": 326,
+            "top": 4456,
+            "bottom": 4502,
+            "w": 227,
+            "h": 46,
+            "font": "12px"
+          },
+          {
+            "text": "LINK RAPIDI",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 17,
+            "right": 751,
+            "top": 4763,
+            "bottom": 4809,
+            "w": 734,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "CATEGORIE",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 17,
+            "right": 751,
+            "top": 4818,
+            "bottom": 4864,
+            "w": 734,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "ASSISTENZA",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 17,
+            "right": 751,
+            "top": 4873,
+            "bottom": 4919,
+            "w": 734,
+            "h": 46,
+            "font": "13px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 0,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 768,
+          "top": 4574,
+          "bottom": 5000,
+          "w": 768,
+          "h": 425,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "prodotto",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 4122,
+        "pathname": "/prodotto/pc-gaming-viewstrike-5060/",
+        "h1": [],
+        "headings": [
+          {
+            "text": "PC Gaming Endorfy Signum 300 – Intel Core Ultra 7 265F, GeForce RTX 50",
+            "tag": "H2",
+            "cls": "single-post-title product_title entry-title mog-metal-heading-global mog-metal-m",
+            "x": 739,
+            "right": 1241,
+            "top": 331,
+            "bottom": 412,
+            "w": 502,
+            "h": 81,
+            "font": "21px"
+          },
+          {
+            "text": "Potenza ed equilibrio per il tuo gaming di nuova generazione",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 199,
+            "right": 1241,
+            "top": 2024,
+            "bottom": 2052,
+            "w": 1042,
+            "h": 28,
+            "font": "20px"
+          },
+          {
+            "text": "Eccellenza tecnica e gestione termica superiore",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global",
+            "x": 199,
+            "right": 1241,
+            "top": 2321,
+            "bottom": 2346,
+            "w": 1042,
+            "h": 25,
+            "font": "18px"
+          },
+          {
+            "text": "Perché scegliere questo PC",
+            "tag": "H3",
+            "cls": "mog-metal-heading-global",
+            "x": 199,
+            "right": 1241,
+            "top": 2502,
+            "bottom": 2527,
+            "w": 1042,
+            "h": 25,
+            "font": "18px"
+          },
+          {
+            "text": "PRODOTTI CORRELATI",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 181,
+            "right": 427,
+            "top": 2984,
+            "bottom": 3018,
+            "w": 246,
+            "h": 34,
+            "font": "22px"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "CATEGORIA PRODOTTI",
+            "tag": "BUTTON",
+            "cls": "mog-header-cat-toggle",
+            "x": 362,
+            "right": 595,
+            "top": 158,
+            "bottom": 212,
+            "w": 234,
+            "h": 54,
+            "font": "14px"
+          },
+          {
+            "text": "⋯ Espandi",
+            "tag": "BUTTON",
+            "cls": "mog-ux-title-toggle",
+            "x": 739,
+            "right": 825,
+            "top": 422,
+            "bottom": 453,
+            "w": 86,
+            "h": 31,
+            "font": "12px"
+          },
+          {
+            "text": "Sicurezza e informazioni sul prodotto ↗",
+            "tag": "BUTTON",
+            "cls": "mog-gpsr-trigger",
+            "x": 739,
+            "right": 1241,
+            "top": 1792,
+            "bottom": 1843,
+            "w": 502,
+            "h": 51,
+            "font": "16px"
+          },
+          {
+            "text": "⋯ Espandi",
+            "tag": "BUTTON",
+            "cls": "mog-ux-title-toggle",
+            "x": 200,
+            "right": 286,
+            "top": 3376,
+            "bottom": 3407,
+            "w": 86,
+            "h": 31,
+            "font": "12px"
+          },
+          {
+            "text": "VAI ALLA SCHEDA",
+            "tag": "A",
+            "cls": "button product_type_simple",
+            "x": 188,
+            "right": 519,
+            "top": 3521,
+            "bottom": 3567,
+            "w": 331,
+            "h": 46,
+            "font": "12px"
+          },
+          {
+            "text": "⋯ Espandi",
+            "tag": "BUTTON",
+            "cls": "mog-ux-title-toggle",
+            "x": 567,
+            "right": 653,
+            "top": 3376,
+            "bottom": 3407,
+            "w": 86,
+            "h": 31,
+            "font": "12px"
+          },
+          {
+            "text": "AGGIUNGI AL CARRELLO",
+            "tag": "A",
+            "cls": "button product_type_simple add_to_cart_button ajax_add_to_cart",
+            "x": 554,
+            "right": 885,
+            "top": 3521,
+            "bottom": 3567,
+            "w": 331,
+            "h": 46,
+            "font": "12px"
+          },
+          {
+            "text": "⋯ Espandi",
+            "tag": "BUTTON",
+            "cls": "mog-ux-title-toggle",
+            "x": 933,
+            "right": 1019,
+            "top": 3376,
+            "bottom": 3407,
+            "w": 86,
+            "h": 31,
+            "font": "12px"
+          },
+          {
+            "text": "AGGIUNGI AL CARRELLO",
+            "tag": "A",
+            "cls": "button product_type_simple add_to_cart_button ajax_add_to_cart",
+            "x": 921,
+            "right": 1252,
+            "top": 3521,
+            "bottom": 3567,
+            "w": 331,
+            "h": 46,
+            "font": "12px"
+          },
+          {
+            "text": "LINK RAPIDI",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 379,
+            "right": 567,
+            "top": 3748,
+            "bottom": 3777,
+            "w": 188,
+            "h": 29,
+            "font": "14px"
+          },
+          {
+            "text": "CATEGORIE",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 599,
+            "right": 797,
+            "top": 3748,
+            "bottom": 3777,
+            "w": 199,
+            "h": 29,
+            "font": "14px"
+          },
+          {
+            "text": "ASSISTENZA",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 829,
+            "right": 1061,
+            "top": 3748,
+            "bottom": 3777,
+            "w": 232,
+            "h": 29,
+            "font": "14px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 0,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 1440,
+          "top": 3703,
+          "bottom": 4122,
+          "w": 1440,
+          "h": 419,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "staff",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "pathname": "/staff-assistenza/",
+        "h1": [],
+        "headings": [],
+        "buttons": [
+          {
+            "text": "MENU",
+            "tag": "BUTTON",
+            "cls": "mog-future-mobile-toggle",
+            "x": 308,
+            "right": 380,
+            "top": 62,
+            "bottom": 98,
+            "w": 72,
+            "h": 36,
+            "font": "16px"
+          },
+          {
+            "text": "LINK RAPIDI",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 11,
+            "right": 379,
+            "top": 459,
+            "bottom": 505,
+            "w": 368,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "CATEGORIE",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 11,
+            "right": 379,
+            "top": 514,
+            "bottom": 560,
+            "w": 368,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "ASSISTENZA",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 11,
+            "right": 379,
+            "top": 569,
+            "bottom": 615,
+            "w": 368,
+            "h": 46,
+            "font": "13px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 3,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 390,
+          "top": 271,
+          "bottom": 696,
+          "w": 390,
+          "h": 425,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "staff",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "scrollHeight": 980,
+        "pathname": "/staff-assistenza/",
+        "h1": [],
+        "headings": [],
+        "buttons": [
+          {
+            "text": "MENU",
+            "tag": "BUTTON",
+            "cls": "mog-future-mobile-toggle",
+            "x": 677,
+            "right": 752,
+            "top": 74,
+            "bottom": 110,
+            "w": 75,
+            "h": 36,
+            "font": "16px"
+          },
+          {
+            "text": "LINK RAPIDI",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 17,
+            "right": 751,
+            "top": 462,
+            "bottom": 508,
+            "w": 734,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "CATEGORIE",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 17,
+            "right": 751,
+            "top": 517,
+            "bottom": 563,
+            "w": 734,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "ASSISTENZA",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 17,
+            "right": 751,
+            "top": 572,
+            "bottom": 618,
+            "w": 734,
+            "h": 46,
+            "font": "13px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 3,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 768,
+          "top": 274,
+          "bottom": 699,
+          "w": 768,
+          "h": 425,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "staff",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 960,
+        "pathname": "/staff-assistenza/",
+        "h1": [],
+        "headings": [],
+        "buttons": [
+          {
+            "text": "CATEGORIA PRODOTTI",
+            "tag": "BUTTON",
+            "cls": "mog-header-cat-toggle",
+            "x": 362,
+            "right": 595,
+            "top": 158,
+            "bottom": 212,
+            "w": 234,
+            "h": 54,
+            "font": "14px"
+          },
+          {
+            "text": "LINK RAPIDI",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 410,
+            "right": 579,
+            "top": 431,
+            "bottom": 460,
+            "w": 169,
+            "h": 29,
+            "font": "14px"
+          },
+          {
+            "text": "CATEGORIE",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 611,
+            "right": 789,
+            "top": 431,
+            "bottom": 460,
+            "w": 179,
+            "h": 29,
+            "font": "14px"
+          },
+          {
+            "text": "ASSISTENZA",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 821,
+            "right": 1030,
+            "top": 431,
+            "bottom": 460,
+            "w": 208,
+            "h": 29,
+            "font": "14px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 3,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 1440,
+          "top": 386,
+          "bottom": 825,
+          "w": 1440,
+          "h": 439,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "fidelity",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "pathname": "/fydelity-manager/",
+        "h1": [
+          {
+            "text": "Fydelity Manager",
+            "tag": "H1",
+            "cls": "page-header-title clr",
+            "x": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0,
+            "font": "24px",
+            "visible": false
+          }
+        ],
+        "headings": [],
+        "buttons": [
+          {
+            "text": "ISCRIVITI ORA",
+            "tag": "BUTTON",
+            "cls": "fm-reg-btn",
+            "x": 25,
+            "right": 365,
+            "top": 366,
+            "bottom": 400,
+            "w": 340,
+            "h": 34,
+            "font": "12px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 4,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": null
+      }
+    },
+    {
+      "slug": "fidelity",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "scrollHeight": 980,
+        "pathname": "/fydelity-manager/",
+        "h1": [
+          {
+            "text": "Fydelity Manager",
+            "tag": "H1",
+            "cls": "page-header-title clr",
+            "x": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0,
+            "font": "24px",
+            "visible": false
+          }
+        ],
+        "headings": [],
+        "buttons": [
+          {
+            "text": "ISCRIVITI ORA",
+            "tag": "BUTTON",
+            "cls": "fm-reg-btn",
+            "x": 189,
+            "right": 579,
+            "top": 366,
+            "bottom": 400,
+            "w": 390,
+            "h": 34,
+            "font": "12px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 4,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": null
+      }
+    },
+    {
+      "slug": "fidelity",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 960,
+        "pathname": "/fydelity-manager/",
+        "h1": [
+          {
+            "text": "Fydelity Manager",
+            "tag": "H1",
+            "cls": "page-header-title clr",
+            "x": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0,
+            "w": 0,
+            "h": 0,
+            "font": "24px",
+            "visible": false
+          }
+        ],
+        "headings": [],
+        "buttons": [
+          {
+            "text": "ISCRIVITI ORA",
+            "tag": "BUTTON",
+            "cls": "fm-reg-btn",
+            "x": 259,
+            "right": 649,
+            "top": 455,
+            "bottom": 489,
+            "w": 390,
+            "h": 34,
+            "font": "12px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 4,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": null
+      }
+    },
+    {
+      "slug": "prenota",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 390,
+        "scrollWidth": 390,
+        "scrollHeight": 1325,
+        "pathname": "/prenota-ritiro/",
+        "h1": [
+          {
+            "text": "Prenota assistenza",
+            "tag": "H1",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 30,
+            "right": 360,
+            "top": 153,
+            "bottom": 185,
+            "w": 330,
+            "h": 32,
+            "font": "31px",
+            "visible": true
+          }
+        ],
+        "headings": [
+          {
+            "text": "Partiamo Dal Ritiro",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 29,
+            "right": 361,
+            "top": 638,
+            "bottom": 664,
+            "w": 332,
+            "h": 26,
+            "font": "22px"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "MENU",
+            "tag": "BUTTON",
+            "cls": "mog-future-mobile-toggle",
+            "x": 308,
+            "right": 380,
+            "top": 62,
+            "bottom": 98,
+            "w": 72,
+            "h": 36,
+            "font": "16px"
+          },
+          {
+            "text": "LINK RAPIDI",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 11,
+            "right": 379,
+            "top": 1045,
+            "bottom": 1091,
+            "w": 368,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "CATEGORIE",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 11,
+            "right": 379,
+            "top": 1100,
+            "bottom": 1146,
+            "w": 368,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "ASSISTENZA",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 11,
+            "right": 379,
+            "top": 1155,
+            "bottom": 1201,
+            "w": 368,
+            "h": 46,
+            "font": "13px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 4,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 390,
+          "top": 857,
+          "bottom": 1282,
+          "w": 390,
+          "h": 425,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "prenota",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 768,
+        "scrollWidth": 768,
+        "scrollHeight": 1275,
+        "pathname": "/prenota-ritiro/",
+        "h1": [
+          {
+            "text": "Prenota assistenza",
+            "tag": "H1",
+            "cls": "mog-metal-heading-global",
+            "x": 30,
+            "right": 738,
+            "top": 171,
+            "bottom": 210,
+            "w": 708,
+            "h": 39,
+            "font": "38px",
+            "visible": true
+          }
+        ],
+        "headings": [
+          {
+            "text": "Partiamo Dal Ritiro",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 29,
+            "right": 739,
+            "top": 609,
+            "bottom": 635,
+            "w": 710,
+            "h": 26,
+            "font": "22px"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "MENU",
+            "tag": "BUTTON",
+            "cls": "mog-future-mobile-toggle",
+            "x": 677,
+            "right": 752,
+            "top": 74,
+            "bottom": 110,
+            "w": 75,
+            "h": 36,
+            "font": "16px"
+          },
+          {
+            "text": "LINK RAPIDI",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 17,
+            "right": 751,
+            "top": 995,
+            "bottom": 1041,
+            "w": 734,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "CATEGORIE",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 17,
+            "right": 751,
+            "top": 1050,
+            "bottom": 1096,
+            "w": 734,
+            "h": 46,
+            "font": "13px"
+          },
+          {
+            "text": "ASSISTENZA",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 17,
+            "right": 751,
+            "top": 1105,
+            "bottom": 1151,
+            "w": 734,
+            "h": 46,
+            "font": "13px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 4,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 768,
+          "top": 807,
+          "bottom": 1233,
+          "w": 768,
+          "h": 425,
+          "font": "16px"
+        }
+      }
+    },
+    {
+      "slug": "prenota",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "js": [],
+      "data": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 1287,
+        "pathname": "/prenota-ritiro/",
+        "h1": [
+          {
+            "text": "Prenota assistenza",
+            "tag": "H1",
+            "cls": "mog-metal-heading-global",
+            "x": 204,
+            "right": 1236,
+            "top": 305,
+            "bottom": 344,
+            "w": 1032,
+            "h": 39,
+            "font": "38px",
+            "visible": true
+          }
+        ],
+        "headings": [
+          {
+            "text": "Partiamo Dal Ritiro",
+            "tag": "H2",
+            "cls": "mog-metal-heading-global mog-metal-medium-boost",
+            "x": 360,
+            "right": 1080,
+            "top": 576,
+            "bottom": 612,
+            "w": 720,
+            "h": 35,
+            "font": "30px"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "CATEGORIA PRODOTTI",
+            "tag": "BUTTON",
+            "cls": "mog-header-cat-toggle",
+            "x": 362,
+            "right": 595,
+            "top": 158,
+            "bottom": 212,
+            "w": 234,
+            "h": 54,
+            "font": "14px"
+          },
+          {
+            "text": "LINK RAPIDI",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 410,
+            "right": 579,
+            "top": 851,
+            "bottom": 880,
+            "w": 169,
+            "h": 29,
+            "font": "14px"
+          },
+          {
+            "text": "CATEGORIE",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 611,
+            "right": 789,
+            "top": 851,
+            "bottom": 880,
+            "w": 179,
+            "h": 29,
+            "font": "14px"
+          },
+          {
+            "text": "ASSISTENZA",
+            "tag": "BUTTON",
+            "cls": "mog-footer-acc-toggle",
+            "x": 821,
+            "right": 1030,
+            "top": 851,
+            "bottom": 880,
+            "w": 208,
+            "h": 29,
+            "font": "14px"
+          }
+        ],
+        "tooWide": [],
+        "forms": 4,
+        "finance": null,
+        "checkoutPresent": false,
+        "footer": {
+          "tag": "FOOTER",
+          "cls": "mog-footer-shortcode mog-footer-ultra mog-footer-no-logo-glow mog-footer-glow-of",
+          "x": 0,
+          "right": 1440,
+          "top": 806,
+          "bottom": 1245,
+          "w": 1440,
+          "h": 439,
+          "font": "16px"
+        }
+      }
+    }
+  ],
+  "access": [
+    {
+      "path": "/wp-admin/admin.php?page=fidelity-manager",
+      "http": 200,
+      "location": "/wp-login.php",
+      "loginDisplayed": true
+    },
+    {
+      "path": "/wp-admin/admin.php?page=mog-pcc-admin",
+      "http": 200,
+      "location": "/wp-login.php",
+      "loginDisplayed": true
+    },
+    {
+      "path": "/wp-admin/admin.php?page=mog-social",
+      "http": 200,
+      "location": "/wp-login.php",
+      "loginDisplayed": true
+    },
+    {
+      "path": "/wp-admin/admin.php?page=mog-layout-interno",
+      "http": 200,
+      "location": "/wp-login.php",
+      "loginDisplayed": true
+    }
+  ],
+  "cartTest": {
+    "productsHttp": 200,
+    "candidate": true,
+    "productId": 513713,
+    "addHttp": 200,
+    "cartHttp": 200,
+    "cart": {
+      "items": 1,
+      "empty": false
+    },
+    "checkoutHttp": 200,
+    "checkout": {
+      "form": true,
+      "payment": true
+    }
+  }
+}
