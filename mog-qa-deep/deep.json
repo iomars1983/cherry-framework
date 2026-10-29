@@ -315,10 +315,10 @@
     "whatIf": {
       "before": {
         "width": 1440,
-        "sw": 1609,
+        "sw": 1440,
         "container": {
-          "x": 169,
-          "right": 1609
+          "x": 0,
+          "right": 1440
         }
       },
       "after": {
@@ -566,10 +566,10 @@
     "whatIf": {
       "before": {
         "width": 1440,
-        "sw": 1609,
+        "sw": 1440,
         "container": {
-          "x": 169,
-          "right": 1609
+          "x": 0,
+          "right": 1440
         }
       },
       "after": {
@@ -587,12 +587,7 @@
     "path": "/shop/",
     "width": 390,
     "http": 200,
-    "errors": [
-      {
-        "message": "elementorFrontendConfig is not defined",
-        "stack": "ReferenceError: elementorFrontendConfig is not defined\n    at https://www.mogcomputer.it/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.3.5:1:35864\n    at https://www.mogcomputer.it/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.3.5:1:151\n    at https://www.mogcomputer.it/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.3.5:1:55160\n    at https://www.mogcomputer.it/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.3.5:1:151\n    at https://www.mogcomputer.it/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.3.5:1:60015\n    at https://www.mogcomputer.it/wp-content/plugins/elementor/a"
-      }
-    ],
+    "errors": [],
     "data": {
       "viewport": 390,
       "sw": 390,
@@ -647,15 +642,63 @@
           "contentStart": null
         },
         {
+          "src": null,
+          "id": "elementor-frontend-js-before",
+          "async": false,
+          "defer": false,
+          "containsConfig": true,
+          "contentStart": "\nvar elementorFrontendConfig = {\"environmentMode\":{\"edit\":false,\"wpPreview\":false,\"isScriptDebug\":false},\"i18n\":{\"shareOnFacebook\":\"Condividi su Facebook\",\"shar"
+        },
+        {
           "src": "/wp-content/plugins/elementor/assets/js/frontend.min.js",
           "id": "elementor-frontend-js",
           "async": false,
           "defer": false,
           "containsConfig": false,
           "contentStart": null
+        },
+        {
+          "src": "/wp-content/plugins/woovina-elementor-widgets/assets/js/jquery.sticky.min.js",
+          "id": "elementor-sticky-js",
+          "async": false,
+          "defer": false,
+          "containsConfig": false,
+          "contentStart": null
+        },
+        {
+          "src": "/wp-content/plugins/woovina-elementor-widgets/assets/js/wew-frontend.min.js",
+          "id": "wew-frontend-js",
+          "async": false,
+          "defer": false,
+          "containsConfig": false,
+          "contentStart": null
+        },
+        {
+          "src": "/wp-content/plugins/elementor/assets/js/chunks/section-stretched-section.min.js",
+          "id": "",
+          "async": true,
+          "defer": false,
+          "containsConfig": false,
+          "contentStart": null
+        },
+        {
+          "src": "/wp-content/plugins/elementor/assets/js/chunks/background-slideshow.min.js",
+          "id": "",
+          "async": true,
+          "defer": false,
+          "containsConfig": false,
+          "contentStart": null
+        },
+        {
+          "src": "/wp-content/plugins/elementor/assets/js/chunks/background-video.min.js",
+          "id": "",
+          "async": true,
+          "defer": false,
+          "containsConfig": false,
+          "contentStart": null
         }
       ],
-      "elementorConfigDefined": false,
+      "elementorConfigDefined": true,
       "bodyClass": "archive post-type-archive post-type-archive-product wp-embed-responsive wp-theme-woovina mogstyle-template-active mogstyle-shortcode-active mogstyle-shop-standalone mogstyle-shop-force-fullbody mogstyle-woo-force-everywhere mogstyle-woo-context-archive woocommerce woocommerce-page theme-woovina mog-pe-layout-compact non-logged-in woocommerce-shop woocommerce-js tinvwl-theme-style woovina-theme sidebar-mobile has-sidebar content-left-sidebar has-topbar no-header-border has-blog-grid pagination-center has-grid-list woo-dropdown-cat mog-mobile-two-cols mog-mobile-premium-filter"
     },
     "whatIf": null
@@ -665,12 +708,7 @@
     "path": "/checkout/",
     "width": 390,
     "http": 200,
-    "errors": [
-      {
-        "message": "elementorFrontendConfig is not defined",
-        "stack": "ReferenceError: elementorFrontendConfig is not defined\n    at https://www.mogcomputer.it/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.3.5:1:35864\n    at https://www.mogcomputer.it/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.3.5:1:151\n    at https://www.mogcomputer.it/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.3.5:1:55160\n    at https://www.mogcomputer.it/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.3.5:1:151\n    at https://www.mogcomputer.it/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.3.5:1:60015\n    at https://www.mogcomputer.it/wp-content/plugins/elementor/a"
-      }
-    ],
+    "errors": [],
     "data": {
       "viewport": 390,
       "sw": 390,
@@ -725,16 +763,209 @@
           "contentStart": null
         },
         {
+          "src": null,
+          "id": "elementor-frontend-js-before",
+          "async": false,
+          "defer": false,
+          "containsConfig": true,
+          "contentStart": "\nvar elementorFrontendConfig = {\"environmentMode\":{\"edit\":false,\"wpPreview\":false,\"isScriptDebug\":false},\"i18n\":{\"shareOnFacebook\":\"Condividi su Facebook\",\"shar"
+        },
+        {
           "src": "/wp-content/plugins/elementor/assets/js/frontend.min.js",
           "id": "elementor-frontend-js",
           "async": false,
           "defer": false,
           "containsConfig": false,
           "contentStart": null
+        },
+        {
+          "src": "/wp-content/plugins/woovina-elementor-widgets/assets/js/jquery.sticky.min.js",
+          "id": "elementor-sticky-js",
+          "async": false,
+          "defer": false,
+          "containsConfig": false,
+          "contentStart": null
+        },
+        {
+          "src": "/wp-content/plugins/woovina-elementor-widgets/assets/js/wew-frontend.min.js",
+          "id": "wew-frontend-js",
+          "async": false,
+          "defer": false,
+          "containsConfig": false,
+          "contentStart": null
+        },
+        {
+          "src": "/wp-content/plugins/elementor/assets/js/chunks/section-stretched-section.min.js",
+          "id": "",
+          "async": true,
+          "defer": false,
+          "containsConfig": false,
+          "contentStart": null
+        },
+        {
+          "src": "/wp-content/plugins/elementor/assets/js/chunks/background-slideshow.min.js",
+          "id": "",
+          "async": true,
+          "defer": false,
+          "containsConfig": false,
+          "contentStart": null
+        },
+        {
+          "src": "/wp-content/plugins/elementor/assets/js/chunks/background-video.min.js",
+          "id": "",
+          "async": true,
+          "defer": false,
+          "containsConfig": false,
+          "contentStart": null
         }
       ],
-      "elementorConfigDefined": false,
+      "elementorConfigDefined": true,
       "bodyClass": "wp-singular page-template-default page page-id-1166 wp-embed-responsive wp-theme-woovina mogstyle-template-active mogstyle-shortcode-active mogstyle-shop-standalone mogstyle-shop-force-fullbody mogstyle-woo-force-everywhere mogstyle-woo-context-page woocommerce woocommerce-page theme-woovina mog-pe-layout-compact non-logged-in woocommerce-checkout woocommerce-js tinvwl-theme-style woovina-theme sidebar-mobile content-full-width content-max-width has-topbar no-header-border has-blog-grid pagination-center has-grid-list woo-dropdown-cat mogstyle-checkout-skin mog-mobile-two-cols mog-mobile-premi"
+    },
+    "whatIf": null
+  },
+  {
+    "slug": "product",
+    "path": "/prodotto/pc-gaming-viewstrike-5060/",
+    "width": 390,
+    "http": 200,
+    "errors": [],
+    "data": {
+      "viewport": 390,
+      "sw": 390,
+      "ancestors": [],
+      "container": null,
+      "content": null,
+      "images": [
+        {
+          "src": "https://www.mogcomputer.it/prodotto/pc-gaming-viewstrike-5060/",
+          "cls": "",
+          "dom": {
+            "tag": "IMG",
+            "cls": "",
+            "id": "",
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "100%",
+              "maxWidth": "100%",
+              "minWidth": "0px",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "block",
+              "position": "static",
+              "overflowX": "clip",
+              "transform": "none"
+            }
+          }
+        }
+      ],
+      "scripts": [
+        {
+          "src": "/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js",
+          "id": "elementor-webpack-runtime-js",
+          "async": false,
+          "defer": false,
+          "containsConfig": false,
+          "contentStart": null
+        },
+        {
+          "src": "/wp-content/plugins/elementor/assets/js/frontend-modules.min.js",
+          "id": "elementor-frontend-modules-js",
+          "async": false,
+          "defer": false,
+          "containsConfig": false,
+          "contentStart": null
+        },
+        {
+          "src": null,
+          "id": "elementor-frontend-js-before",
+          "async": false,
+          "defer": false,
+          "containsConfig": true,
+          "contentStart": "\nvar elementorFrontendConfig = {\"environmentMode\":{\"edit\":false,\"wpPreview\":false,\"isScriptDebug\":false},\"i18n\":{\"shareOnFacebook\":\"Condividi su Facebook\",\"shar"
+        },
+        {
+          "src": "/wp-content/plugins/elementor/assets/js/frontend.min.js",
+          "id": "elementor-frontend-js",
+          "async": false,
+          "defer": false,
+          "containsConfig": false,
+          "contentStart": null
+        },
+        {
+          "src": "/wp-content/plugins/woovina-elementor-widgets/assets/js/jquery.sticky.min.js",
+          "id": "elementor-sticky-js",
+          "async": false,
+          "defer": false,
+          "containsConfig": false,
+          "contentStart": null
+        },
+        {
+          "src": "/wp-content/plugins/woovina-elementor-widgets/assets/js/wew-frontend.min.js",
+          "id": "wew-frontend-js",
+          "async": false,
+          "defer": false,
+          "containsConfig": false,
+          "contentStart": null
+        },
+        {
+          "src": "/wp-content/plugins/elementor/assets/js/chunks/lightbox-lightbox.min.js",
+          "id": "",
+          "async": true,
+          "defer": false,
+          "containsConfig": false,
+          "contentStart": null
+        },
+        {
+          "src": "/wp-content/plugins/elementor/assets/js/chunks/section-stretched-section.min.js",
+          "id": "",
+          "async": true,
+          "defer": false,
+          "containsConfig": false,
+          "contentStart": null
+        },
+        {
+          "src": "/wp-content/plugins/elementor/assets/js/chunks/background-slideshow.min.js",
+          "id": "",
+          "async": true,
+          "defer": false,
+          "containsConfig": false,
+          "contentStart": null
+        },
+        {
+          "src": "/wp-content/plugins/elementor/assets/js/chunks/background-video.min.js",
+          "id": "",
+          "async": true,
+          "defer": false,
+          "containsConfig": false,
+          "contentStart": null
+        },
+        {
+          "src": "/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js",
+          "id": "",
+          "async": true,
+          "defer": false,
+          "containsConfig": false,
+          "contentStart": null
+        },
+        {
+          "src": "/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js",
+          "id": "",
+          "async": true,
+          "defer": false,
+          "containsConfig": false,
+          "contentStart": null
+        }
+      ],
+      "elementorConfigDefined": true,
+      "bodyClass": "wp-singular product-template-default single single-product postid-299627 wp-embed-responsive wp-theme-woovina mogstyle-template-active mogstyle-shortcode-active mogstyle-shop-standalone mogstyle-shop-force-fullbody mogstyle-woo-force-everywhere mogstyle-woo-context-product woocommerce woocommerce-page theme-woovina mog-pe-layout-compact non-logged-in woocommerce-js tinvwl-theme-style woovina-theme sidebar-mobile content-full-width content-max-width has-topbar no-header-border has-blog-grid pagination-center has-grid-list woo-dropdown-cat mogstyle-product-skin mog-mobile-two-cols mog-mobile-pre"
     },
     "whatIf": null
   },
