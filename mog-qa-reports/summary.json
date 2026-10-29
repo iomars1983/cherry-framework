@@ -2,18 +2,11 @@
   "count": 90,
   "success": 90,
   "failed": 0,
-  "overflow": 2,
-  "majorOverflow": 2,
+  "overflow": 0,
+  "majorOverflow": 0,
   "brokenImages": 0,
-  "jsErrors": 3,
-  "jsErrorSlugs": [
-    "pc-gaming-viewstrike-5060-mobile",
-    "pc-gaming-viewstrike-5060-tablet",
-    "pc-gaming-viewstrike-5060-desktop"
-  ],
+  "jsErrors": 0,
+  "jsErrorSlugs": [],
   "failedSlugs": [],
-  "overflowSlugs": [
-    "compilazione-finanziamento-desktop:169",
-    "fydelity-manager-desktop:169"
-  ]
+  "overflowSlugs": []
 }

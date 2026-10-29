@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T17:39:04.529Z",
+  "generatedAt": "2026-10-29T18:01:04.476Z",
   "base": "https://www.mogcomputer.it",
   "results": [
     {
@@ -185,9 +185,9 @@
         {
           "tag": "a",
           "cls": "",
-          "left": 809,
-          "right": 1228,
-          "width": 419
+          "left": 801,
+          "right": 1235,
+          "width": 434
         },
         {
           "tag": "div",
@@ -299,9 +299,9 @@
         {
           "tag": "a",
           "cls": "mog-mini-btn mog-mini-btn-red button add_to_cart_button ajax_add_to_cart mog-cart-compact",
-          "left": 1296,
-          "right": 1486,
-          "width": 190
+          "left": 1289,
+          "right": 1494,
+          "width": 205
         },
         {
           "tag": "span",
@@ -2407,8 +2407,8 @@
       "http": 200,
       "success": true,
       "viewport": 1440,
-      "scrollWidth": 1609,
-      "overflow": 169,
+      "scrollWidth": 1440,
+      "overflow": 0,
       "height": 10875,
       "title": "Compilazione finanziamento - Mogcomputer.it",
       "h1": 1,
@@ -2424,38 +2424,17 @@
           "width": 217
         },
         {
-          "tag": "div",
-          "cls": "container clr",
-          "left": 169,
-          "right": 1609,
-          "width": 1440
-        },
-        {
-          "tag": "div",
-          "cls": "content-area clr",
-          "left": 136,
-          "right": 1576,
-          "width": 1440
-        },
-        {
-          "tag": "div",
-          "cls": "site-content clr",
-          "left": 136,
-          "right": 1576,
-          "width": 1440
-        },
-        {
           "tag": "span",
           "cls": "wpcf7-form-control-wrap",
-          "left": -9838,
-          "right": -9812,
+          "left": -9974,
+          "right": -9948,
           "width": 26
         },
         {
           "tag": "input",
           "cls": "wpcf7-form-control wpcf7-text",
-          "left": -9838,
-          "right": -9812,
+          "left": -9974,
+          "right": -9948,
           "width": 26
         },
         {
@@ -2880,8 +2859,8 @@
       "http": 200,
       "success": true,
       "viewport": 1440,
-      "scrollWidth": 1609,
-      "overflow": 169,
+      "scrollWidth": 1440,
+      "overflow": 0,
       "height": 1000,
       "title": "Fydelity Manager - Mogcomputer.it",
       "h1": 1,
@@ -2895,20 +2874,6 @@
           "left": -9999,
           "right": -9782,
           "width": 217
-        },
-        {
-          "tag": "div",
-          "cls": "container clr",
-          "left": 169,
-          "right": 1609,
-          "width": 1440
-        },
-        {
-          "tag": "div",
-          "cls": "content-area clr",
-          "left": 136,
-          "right": 1576,
-          "width": 1440
         },
         {
           "tag": "div",
@@ -4425,9 +4390,7 @@
       "location": "/prodotto/pc-gaming-viewstrike-5060/",
       "forms": 0,
       "financeCss": false,
-      "jsErrors": [
-        "ReferenceError: elementorFrontendConfig is not defined"
-      ]
+      "jsErrors": []
     },
     {
       "slug": "pc-gaming-viewstrike-5060",
@@ -4457,9 +4420,7 @@
       "location": "/prodotto/pc-gaming-viewstrike-5060/",
       "forms": 0,
       "financeCss": false,
-      "jsErrors": [
-        "ReferenceError: elementorFrontendConfig is not defined"
-      ]
+      "jsErrors": []
     },
     {
       "slug": "pc-gaming-viewstrike-5060",
@@ -4471,7 +4432,7 @@
       "viewport": 1440,
       "scrollWidth": 1440,
       "overflow": 0,
-      "height": 4128,
+      "height": 4122,
       "title": "PC Gaming Endorfy Signum 300 – Intel Core Ultra 7 265F, GeForce RTX 5060 8GB, 32GB DDR5 6000MHz, 2TB NVMe, B860M, Noctua",
       "h1": 0,
       "header": true,
@@ -4489,9 +4450,7 @@
       "location": "/prodotto/pc-gaming-viewstrike-5060/",
       "forms": 0,
       "financeCss": false,
-      "jsErrors": [
-        "ReferenceError: elementorFrontendConfig is not defined"
-      ]
+      "jsErrors": []
     }
   ]
 }
