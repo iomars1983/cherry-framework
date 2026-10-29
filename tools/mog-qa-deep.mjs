@@ -8,6 +8,7 @@ const cases=[
  ['checkout','/checkout/',390],
  ['product','/prodotto/pc-gaming-viewstrike-5060/',390],
  ['home','/',390],
+ ['home-desktop','/',1440],
 ];
 const browser=await chromium.launch({headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
 const rows=[];
@@ -78,7 +79,7 @@ for(const [slug,path,width] of cases){
       containsConfig:/elementorFrontendConfig/.test(e.textContent||''),
       contentStart:e.src?null:(e.textContent||'').slice(0,160)
     })).slice(0,25);
-    return {viewport:innerWidth,sw:document.documentElement.scrollWidth,ancestors,headerInfo,
+    return {viewport:innerWidth,sw:document.documentElement.scrollWidth,styleLinks:[...document.querySelectorAll('link[rel=stylesheet]')].map(e=>({id:e.id,path:e.href?.replace(location.origin,'').slice(0,190)})).filter(e=>/mogstyle|frontend|elementor/i.test(e.id+' '+e.path)).slice(0,30),hasMogstyleFrontend:!!document.querySelector('#mogstyle-v6-frontend-css'),ancestorIsMog:!!document.querySelector('.mogstyle-v6'),ancestors,headerInfo,
       container:geom(container),content:geom(content),
       images:imgs,scripts:ss,elementorConfigDefined:typeof window.elementorFrontendConfig!=='undefined',
       bodyClass:document.body.className.slice(0,600)};
