@@ -1,0 +1,4431 @@
+{
+  "generatedAt": "2026-10-29T17:21:55.315Z",
+  "base": "https://www.mogcomputer.it",
+  "results": [
+    {
+      "slug": "home",
+      "path": "/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 5813,
+      "title": "Mogcomputer.it - IL TUO NEGOZIO DI INFORMATICA DI FIDUCIA.",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "mog-products-track",
+          "left": 20,
+          "right": 1335,
+          "width": 1315
+        },
+        {
+          "tag": "div",
+          "cls": "mog-products-page",
+          "left": 20,
+          "right": 1335,
+          "width": 1315
+        },
+        {
+          "tag": "article",
+          "cls": "mog-product-card",
+          "left": 352,
+          "right": 672,
+          "width": 320
+        },
+        {
+          "tag": "a",
+          "cls": "mog-product-media no-lightbox",
+          "left": 365,
+          "right": 659,
+          "width": 294
+        },
+        {
+          "tag": "div",
+          "cls": "mog-product-body",
+          "left": 353,
+          "right": 671,
+          "width": 318
+        },
+        {
+          "tag": "h3",
+          "cls": "",
+          "left": 365,
+          "right": 659,
+          "width": 294
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "left": 365,
+          "right": 659,
+          "width": 294
+        },
+        {
+          "tag": "div",
+          "cls": "mog-product-price",
+          "left": 365,
+          "right": 659,
+          "width": 294
+        },
+        {
+          "tag": "span",
+          "cls": "price",
+          "left": 449,
+          "right": 574,
+          "width": 125
+        },
+        {
+          "tag": "span",
+          "cls": "woocommerce-Price-amount amount",
+          "left": 449,
+          "right": 528,
+          "width": 79
+        },
+        {
+          "tag": "small",
+          "cls": "woocommerce-price-suffix",
+          "left": 532,
+          "right": 574,
+          "width": 42
+        }
+      ],
+      "location": "/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "home",
+      "path": "/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 6331,
+      "title": "Mogcomputer.it - IL TUO NEGOZIO DI INFORMATICA DI FIDUCIA.",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "button",
+          "cls": "mog-products-arrow mog-products-prev",
+          "left": -60,
+          "right": -16,
+          "width": 44
+        },
+        {
+          "tag": "button",
+          "cls": "mog-products-arrow mog-products-next",
+          "left": 784,
+          "right": 828,
+          "width": 44
+        },
+        {
+          "tag": "button",
+          "cls": "mog-products-arrow mog-products-prev",
+          "left": -60,
+          "right": -16,
+          "width": 44
+        },
+        {
+          "tag": "article",
+          "cls": "mog-product-card",
+          "left": 708,
+          "right": 1328,
+          "width": 620
+        },
+        {
+          "tag": "a",
+          "cls": "mog-product-media no-lightbox",
+          "left": 725,
+          "right": 1311,
+          "width": 586
+        },
+        {
+          "tag": "div",
+          "cls": "mog-product-body",
+          "left": 709,
+          "right": 1327,
+          "width": 618
+        },
+        {
+          "tag": "h3",
+          "cls": "",
+          "left": 721,
+          "right": 1315,
+          "width": 594
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "left": 809,
+          "right": 1228,
+          "width": 419
+        },
+        {
+          "tag": "div",
+          "cls": "mog-product-price",
+          "left": 721,
+          "right": 1315,
+          "width": 594
+        },
+        {
+          "tag": "span",
+          "cls": "woocommerce-Price-amount amount",
+          "left": 956,
+          "right": 1014,
+          "width": 59
+        },
+        {
+          "tag": "small",
+          "cls": "woocommerce-price-suffix",
+          "left": 1019,
+          "right": 1080,
+          "width": 61
+        }
+      ],
+      "location": "/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "home",
+      "path": "/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 6309,
+      "title": "Mogcomputer.it - IL TUO NEGOZIO DI INFORMATICA DI FIDUCIA.",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "article",
+          "cls": "mog-product-card",
+          "left": 1266,
+          "right": 1517,
+          "width": 251
+        },
+        {
+          "tag": "a",
+          "cls": "mog-product-media no-lightbox",
+          "left": 1283,
+          "right": 1500,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "mog-product-body",
+          "left": 1267,
+          "right": 1516,
+          "width": 249
+        },
+        {
+          "tag": "h3",
+          "cls": "",
+          "left": 1283,
+          "right": 1500,
+          "width": 217
+        },
+        {
+          "tag": "a",
+          "cls": "",
+          "left": 1283,
+          "right": 1500,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "mog-product-price",
+          "left": 1283,
+          "right": 1500,
+          "width": 217
+        },
+        {
+          "tag": "small",
+          "cls": "woocommerce-price-suffix",
+          "left": 1392,
+          "right": 1462,
+          "width": 70
+        },
+        {
+          "tag": "div",
+          "cls": "mog-product-actions is-cart-only",
+          "left": 1283,
+          "right": 1500,
+          "width": 217
+        },
+        {
+          "tag": "a",
+          "cls": "mog-mini-btn mog-mini-btn-red button add_to_cart_button ajax_add_to_cart mog-cart-compact",
+          "left": 1296,
+          "right": 1486,
+          "width": 190
+        },
+        {
+          "tag": "span",
+          "cls": "mog-cart-label-full",
+          "left": 1317,
+          "right": 1465,
+          "width": 148
+        },
+        {
+          "tag": "article",
+          "cls": "mog-product-card",
+          "left": 1535,
+          "right": 1785,
+          "width": 251
+        }
+      ],
+      "location": "/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "shop",
+      "path": "/shop/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 11671,
+      "title": "Shop – Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "mog-mobile-filter-head",
+          "left": -369,
+          "right": -3,
+          "width": 366
+        },
+        {
+          "tag": "div",
+          "cls": "mog-mobile-filter-titlewrap",
+          "left": -353,
+          "right": -172,
+          "width": 180
+        },
+        {
+          "tag": "strong",
+          "cls": "",
+          "left": -353,
+          "right": -172,
+          "width": 180
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "left": -353,
+          "right": -172,
+          "width": 180
+        },
+        {
+          "tag": "button",
+          "cls": "mog-mobile-filter-close",
+          "left": -61,
+          "right": -19,
+          "width": 42
+        },
+        {
+          "tag": "div",
+          "cls": "widget_text sidebar-box widget_custom_html clr",
+          "left": -357,
+          "right": -15,
+          "width": 342
+        },
+        {
+          "tag": "h4",
+          "cls": "widget-title mog-metal-heading-global",
+          "left": -357,
+          "right": -15,
+          "width": 342
+        },
+        {
+          "tag": "div",
+          "cls": "textwidget custom-html-widget",
+          "left": -357,
+          "right": -15,
+          "width": 342
+        },
+        {
+          "tag": "form",
+          "cls": "wpmntz-product-search",
+          "left": -340,
+          "right": -32,
+          "width": 308
+        },
+        {
+          "tag": "div",
+          "cls": "wpmntz-search-box",
+          "left": -340,
+          "right": -32,
+          "width": 308
+        },
+        {
+          "tag": "input",
+          "cls": "wpmntz-search-input",
+          "left": -340,
+          "right": -96,
+          "width": 244
+        }
+      ],
+      "location": "/shop/",
+      "forms": 2,
+      "financeCss": false,
+      "jsErrors": [
+        "ReferenceError: elementorFrontendConfig is not defined"
+      ]
+    },
+    {
+      "slug": "shop",
+      "path": "/shop/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 6793,
+      "title": "Shop – Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "mog-mobile-filter-head",
+          "left": -431,
+          "right": -2,
+          "width": 429
+        },
+        {
+          "tag": "div",
+          "cls": "mog-mobile-filter-titlewrap",
+          "left": -415,
+          "right": -235,
+          "width": 180
+        },
+        {
+          "tag": "strong",
+          "cls": "",
+          "left": -415,
+          "right": -235,
+          "width": 180
+        },
+        {
+          "tag": "span",
+          "cls": "",
+          "left": -415,
+          "right": -235,
+          "width": 180
+        },
+        {
+          "tag": "button",
+          "cls": "mog-mobile-filter-close",
+          "left": -60,
+          "right": -18,
+          "width": 42
+        },
+        {
+          "tag": "div",
+          "cls": "widget_text sidebar-box widget_custom_html clr",
+          "left": -415,
+          "right": -18,
+          "width": 397
+        },
+        {
+          "tag": "h4",
+          "cls": "widget-title mog-metal-heading-global",
+          "left": -415,
+          "right": -18,
+          "width": 397
+        },
+        {
+          "tag": "div",
+          "cls": "textwidget custom-html-widget",
+          "left": -415,
+          "right": -18,
+          "width": 397
+        },
+        {
+          "tag": "form",
+          "cls": "wpmntz-product-search",
+          "left": -398,
+          "right": -35,
+          "width": 363
+        },
+        {
+          "tag": "div",
+          "cls": "wpmntz-search-box",
+          "left": -398,
+          "right": -35,
+          "width": 363
+        },
+        {
+          "tag": "input",
+          "cls": "wpmntz-search-input",
+          "left": -398,
+          "right": -99,
+          "width": 299
+        }
+      ],
+      "location": "/shop/",
+      "forms": 2,
+      "financeCss": false,
+      "jsErrors": [
+        "ReferenceError: elementorFrontendConfig is not defined"
+      ]
+    },
+    {
+      "slug": "shop",
+      "path": "/shop/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 6092,
+      "title": "Shop – Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        }
+      ],
+      "location": "/shop/",
+      "forms": 2,
+      "financeCss": false,
+      "jsErrors": [
+        "ReferenceError: elementorFrontendConfig is not defined"
+      ]
+    },
+    {
+      "slug": "cart",
+      "path": "/cart/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 1542,
+      "title": "Cart – Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9763,
+          "width": 236
+        }
+      ],
+      "location": "/cart/",
+      "forms": 0,
+      "financeCss": false,
+      "jsErrors": [
+        "ReferenceError: elementorFrontendConfig is not defined"
+      ]
+    },
+    {
+      "slug": "cart",
+      "path": "/cart/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 1552,
+      "title": "Cart – Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9763,
+          "width": 236
+        }
+      ],
+      "location": "/cart/",
+      "forms": 0,
+      "financeCss": false,
+      "jsErrors": [
+        "ReferenceError: elementorFrontendConfig is not defined"
+      ]
+    },
+    {
+      "slug": "cart",
+      "path": "/cart/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 1658,
+      "title": "Cart – Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9763,
+          "width": 236
+        }
+      ],
+      "location": "/cart/",
+      "forms": 0,
+      "financeCss": false,
+      "jsErrors": [
+        "ReferenceError: elementorFrontendConfig is not defined"
+      ]
+    },
+    {
+      "slug": "checkout",
+      "path": "/checkout/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 844,
+      "title": "Checkout – Mogcomputer.it",
+      "h1": 0,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9763,
+          "width": 236
+        }
+      ],
+      "location": "/checkout/",
+      "forms": 0,
+      "financeCss": false,
+      "jsErrors": [
+        "ReferenceError: elementorFrontendConfig is not defined"
+      ]
+    },
+    {
+      "slug": "checkout",
+      "path": "/checkout/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 1000,
+      "title": "Checkout – Mogcomputer.it",
+      "h1": 0,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9763,
+          "width": 236
+        }
+      ],
+      "location": "/checkout/",
+      "forms": 0,
+      "financeCss": false,
+      "jsErrors": [
+        "ReferenceError: elementorFrontendConfig is not defined"
+      ]
+    },
+    {
+      "slug": "checkout",
+      "path": "/checkout/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 1000,
+      "title": "Checkout – Mogcomputer.it",
+      "h1": 0,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9763,
+          "width": 236
+        }
+      ],
+      "location": "/checkout/",
+      "forms": 0,
+      "financeCss": false,
+      "jsErrors": [
+        "ReferenceError: elementorFrontendConfig is not defined"
+      ]
+    },
+    {
+      "slug": "my-account",
+      "path": "/my-account/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 1678,
+      "title": "PC Gaming Assemblati e Workstation Professionali | Spedizione in tutta Italia | Mog Computer",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9763,
+          "width": 236
+        },
+        {
+          "tag": "button",
+          "cls": "button btn xoo-el-action-btn xoo-el-login-btn xla-original-submit-hidden",
+          "left": -9949,
+          "right": -9623,
+          "width": 326
+        }
+      ],
+      "location": "/my-account/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": [
+        "ReferenceError: elementorFrontendConfig is not defined"
+      ]
+    },
+    {
+      "slug": "my-account",
+      "path": "/my-account/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 1432,
+      "title": "PC Gaming Assemblati e Workstation Professionali | Spedizione in tutta Italia | Mog Computer",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9763,
+          "width": 236
+        },
+        {
+          "tag": "button",
+          "cls": "button btn xoo-el-action-btn xoo-el-login-btn xla-original-submit-hidden",
+          "left": -9928,
+          "right": -9890,
+          "width": 38
+        }
+      ],
+      "location": "/my-account/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": [
+        "ReferenceError: elementorFrontendConfig is not defined"
+      ]
+    },
+    {
+      "slug": "my-account",
+      "path": "/my-account/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 1538,
+      "title": "PC Gaming Assemblati e Workstation Professionali | Spedizione in tutta Italia | Mog Computer",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9763,
+          "width": 236
+        },
+        {
+          "tag": "button",
+          "cls": "button btn xoo-el-action-btn xoo-el-login-btn xla-original-submit-hidden",
+          "left": -9432,
+          "right": -9394,
+          "width": 38
+        }
+      ],
+      "location": "/my-account/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": [
+        "ReferenceError: elementorFrontendConfig is not defined"
+      ]
+    },
+    {
+      "slug": "assistenza-informatica",
+      "path": "/assistenza-informatica/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 4302,
+      "title": "Assistenza-informatica - Mogcomputer.it",
+      "h1": 0,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "article",
+          "cls": "mogUltraLabV7__serviceCard",
+          "left": 374,
+          "right": 720,
+          "width": 346
+        },
+        {
+          "tag": "i",
+          "cls": "mog-metal-heading-global mog-metal-medium-boost",
+          "left": 391,
+          "right": 441,
+          "width": 50
+        },
+        {
+          "tag": "h4",
+          "cls": "mog-metal-heading-global",
+          "left": 391,
+          "right": 703,
+          "width": 312
+        },
+        {
+          "tag": "p",
+          "cls": "",
+          "left": 391,
+          "right": 703,
+          "width": 312
+        },
+        {
+          "tag": "article",
+          "cls": "mogUltraLabV7__serviceCard",
+          "left": 732,
+          "right": 1078,
+          "width": 346
+        },
+        {
+          "tag": "i",
+          "cls": "mog-metal-heading-global mog-metal-medium-boost",
+          "left": 749,
+          "right": 799,
+          "width": 50
+        },
+        {
+          "tag": "h4",
+          "cls": "mog-metal-heading-global",
+          "left": 749,
+          "right": 1061,
+          "width": 312
+        },
+        {
+          "tag": "p",
+          "cls": "",
+          "left": 749,
+          "right": 1061,
+          "width": 312
+        },
+        {
+          "tag": "article",
+          "cls": "mogUltraLabV7__serviceCard",
+          "left": 1090,
+          "right": 1436,
+          "width": 346
+        },
+        {
+          "tag": "i",
+          "cls": "mog-metal-heading-global mog-metal-medium-boost",
+          "left": 1107,
+          "right": 1157,
+          "width": 50
+        },
+        {
+          "tag": "h4",
+          "cls": "mog-metal-heading-global",
+          "left": 1107,
+          "right": 1419,
+          "width": 312
+        }
+      ],
+      "location": "/assistenza-informatica/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "assistenza-informatica",
+      "path": "/assistenza-informatica/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 4878,
+      "title": "Assistenza-informatica - Mogcomputer.it",
+      "h1": 0,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "mogUltraLabV7__radar",
+          "left": 545,
+          "right": 805,
+          "width": 260
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/assistenza-informatica/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "assistenza-informatica",
+      "path": "/assistenza-informatica/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 3473,
+      "title": "Assistenza-informatica - Mogcomputer.it",
+      "h1": 0,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/assistenza-informatica/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "contatti",
+      "path": "/contatti/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 5264,
+      "title": "Contattaci - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "mog-contact-hero__panel-glow",
+          "left": 98,
+          "right": 458,
+          "width": 360
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/contatti/",
+      "forms": 4,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "contatti",
+      "path": "/contatti/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 4645,
+      "title": "Contattaci - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "mog-contact-hero__panel-glow",
+          "left": 561,
+          "right": 921,
+          "width": 360
+        },
+        {
+          "tag": "h2",
+          "cls": "mog-metal-heading-global mog-metal-medium-boost",
+          "left": 20,
+          "right": 936,
+          "width": 916
+        },
+        {
+          "tag": "div",
+          "cls": "mog-contact-cta__content",
+          "left": 51,
+          "right": 779,
+          "width": 728
+        },
+        {
+          "tag": "h2",
+          "cls": "mog-metal-heading-global mog-metal-medium-boost",
+          "left": 51,
+          "right": 779,
+          "width": 728
+        },
+        {
+          "tag": "div",
+          "cls": "mog-contact-cta__copy",
+          "left": 51,
+          "right": 779,
+          "width": 728
+        },
+        {
+          "tag": "p",
+          "cls": "",
+          "left": 51,
+          "right": 779,
+          "width": 728
+        },
+        {
+          "tag": "div",
+          "cls": "mog-contact-actions mog-contact-actions--stack",
+          "left": 51,
+          "right": 779,
+          "width": 728
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/contatti/",
+      "forms": 4,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "contatti",
+      "path": "/contatti/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 3156,
+      "title": "Contattaci - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/contatti/",
+      "forms": 4,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "spedizioni",
+      "path": "/spedizioni/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 2955,
+      "title": "Spedizioni - Mogcomputer.it",
+      "h1": 2,
+      "header": true,
+      "footer": true,
+      "brokenImages": 0,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/spedizioni/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "spedizioni",
+      "path": "/spedizioni/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 2190,
+      "title": "Spedizioni - Mogcomputer.it",
+      "h1": 2,
+      "header": true,
+      "footer": true,
+      "brokenImages": 0,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/spedizioni/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "spedizioni",
+      "path": "/spedizioni/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 2305,
+      "title": "Spedizioni - Mogcomputer.it",
+      "h1": 2,
+      "header": true,
+      "footer": true,
+      "brokenImages": 0,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/spedizioni/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "pagamenti",
+      "path": "/pagamenti/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 5128,
+      "title": "Pagamenti - Mogcomputer.it",
+      "h1": 2,
+      "header": true,
+      "footer": true,
+      "brokenImages": 0,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/pagamenti/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "pagamenti",
+      "path": "/pagamenti/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 3992,
+      "title": "Pagamenti - Mogcomputer.it",
+      "h1": 2,
+      "header": true,
+      "footer": true,
+      "brokenImages": 0,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/pagamenti/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "pagamenti",
+      "path": "/pagamenti/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 3306,
+      "title": "Pagamenti - Mogcomputer.it",
+      "h1": 2,
+      "header": true,
+      "footer": true,
+      "brokenImages": 0,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/pagamenti/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "rma",
+      "path": "/rma/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 3710,
+      "title": "Rma - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/rma/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "rma",
+      "path": "/rma/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 2804,
+      "title": "Rma - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/rma/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "rma",
+      "path": "/rma/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 2741,
+      "title": "Rma - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/rma/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "privacy-policy",
+      "path": "/privacy-policy/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 6313,
+      "title": "Privacy policy - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/privacy-policy/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "privacy-policy",
+      "path": "/privacy-policy/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 4102,
+      "title": "Privacy policy - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/privacy-policy/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "privacy-policy",
+      "path": "/privacy-policy/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 3550,
+      "title": "Privacy policy - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/privacy-policy/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "cookie-policy",
+      "path": "/cookie-policy/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 2937,
+      "title": "Cookie policy - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/cookie-policy/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "cookie-policy",
+      "path": "/cookie-policy/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 2279,
+      "title": "Cookie policy - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/cookie-policy/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "cookie-policy",
+      "path": "/cookie-policy/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 2274,
+      "title": "Cookie policy - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/cookie-policy/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "termini-e-condizioni-duso",
+      "path": "/termini-e-condizioni-duso/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 9241,
+      "title": "Termini e condizioni d’uso - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/termini-e-condizioni-duso/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "termini-e-condizioni-duso",
+      "path": "/termini-e-condizioni-duso/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 6043,
+      "title": "Termini e condizioni d’uso - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/termini-e-condizioni-duso/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "termini-e-condizioni-duso",
+      "path": "/termini-e-condizioni-duso/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 5338,
+      "title": "Termini e condizioni d’uso - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/termini-e-condizioni-duso/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "garanzie",
+      "path": "/garanzie/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 4272,
+      "title": "Garanzie - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/garanzie/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "garanzie",
+      "path": "/garanzie/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 3013,
+      "title": "Garanzie - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/garanzie/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "garanzie",
+      "path": "/garanzie/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 2854,
+      "title": "Garanzie - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/garanzie/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "wishlist",
+      "path": "/wishlist/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 1698,
+      "title": "PC Gaming Assemblati e Workstation Professionali | Spedizione in tutta Italia | Mog Computer",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9763,
+          "width": 236
+        },
+        {
+          "tag": "button",
+          "cls": "button btn xoo-el-action-btn xoo-el-login-btn xla-original-submit-hidden",
+          "left": -9949,
+          "right": -9623,
+          "width": 326
+        }
+      ],
+      "location": "/my-account/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": [
+        "ReferenceError: elementorFrontendConfig is not defined"
+      ]
+    },
+    {
+      "slug": "wishlist",
+      "path": "/wishlist/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 1389,
+      "title": "PC Gaming Assemblati e Workstation Professionali | Spedizione in tutta Italia | Mog Computer",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9763,
+          "width": 236
+        },
+        {
+          "tag": "button",
+          "cls": "button btn xoo-el-action-btn xoo-el-login-btn xla-original-submit-hidden",
+          "left": -9928,
+          "right": -9890,
+          "width": 38
+        }
+      ],
+      "location": "/my-account/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": [
+        "ReferenceError: elementorFrontendConfig is not defined"
+      ]
+    },
+    {
+      "slug": "wishlist",
+      "path": "/wishlist/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 1482,
+      "title": "PC Gaming Assemblati e Workstation Professionali | Spedizione in tutta Italia | Mog Computer",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9763,
+          "width": 236
+        },
+        {
+          "tag": "button",
+          "cls": "button btn xoo-el-action-btn xoo-el-login-btn xla-original-submit-hidden",
+          "left": -9432,
+          "right": -9394,
+          "width": 38
+        }
+      ],
+      "location": "/my-account/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": [
+        "ReferenceError: elementorFrontendConfig is not defined"
+      ]
+    },
+    {
+      "slug": "compilazione-finanziamento",
+      "path": "/compilazione-finanziamento/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 3550,
+      "title": "Compilazione finanziamento - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 0,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "span",
+          "cls": "wpcf7-form-control-wrap",
+          "left": -9990,
+          "right": -9964,
+          "width": 26
+        },
+        {
+          "tag": "input",
+          "cls": "wpcf7-form-control wpcf7-text",
+          "left": -9990,
+          "right": -9964,
+          "width": 26
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/compilazione-finanziamento/",
+      "forms": 4,
+      "financeCss": true,
+      "jsErrors": []
+    },
+    {
+      "slug": "compilazione-finanziamento",
+      "path": "/compilazione-finanziamento/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 6013,
+      "title": "Compilazione finanziamento - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 0,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "span",
+          "cls": "wpcf7-form-control-wrap",
+          "left": -9990,
+          "right": -9964,
+          "width": 26
+        },
+        {
+          "tag": "input",
+          "cls": "wpcf7-form-control wpcf7-text",
+          "left": -9990,
+          "right": -9964,
+          "width": 26
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/compilazione-finanziamento/",
+      "forms": 4,
+      "financeCss": true,
+      "jsErrors": []
+    },
+    {
+      "slug": "compilazione-finanziamento",
+      "path": "/compilazione-finanziamento/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1609,
+      "overflow": 169,
+      "height": 10875,
+      "title": "Compilazione finanziamento - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 0,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "container clr",
+          "left": 169,
+          "right": 1609,
+          "width": 1440
+        },
+        {
+          "tag": "div",
+          "cls": "content-area clr",
+          "left": 136,
+          "right": 1576,
+          "width": 1440
+        },
+        {
+          "tag": "div",
+          "cls": "site-content clr",
+          "left": 136,
+          "right": 1576,
+          "width": 1440
+        },
+        {
+          "tag": "span",
+          "cls": "wpcf7-form-control-wrap",
+          "left": -9838,
+          "right": -9812,
+          "width": 26
+        },
+        {
+          "tag": "input",
+          "cls": "wpcf7-form-control wpcf7-text",
+          "left": -9838,
+          "right": -9812,
+          "width": 26
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/compilazione-finanziamento/",
+      "forms": 4,
+      "financeCss": true,
+      "jsErrors": []
+    },
+    {
+      "slug": "newsletter",
+      "path": "/newsletter/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 1225,
+      "title": "Newsletter - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "span",
+          "cls": "wpcf7-form-control-wrap",
+          "left": -10000,
+          "right": -9968,
+          "width": 32
+        },
+        {
+          "tag": "input",
+          "cls": "wpcf7-form-control wpcf7-text",
+          "left": -10000,
+          "right": -9968,
+          "width": 32
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/newsletter/",
+      "forms": 4,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "newsletter",
+      "path": "/newsletter/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 1176,
+      "title": "Newsletter - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "span",
+          "cls": "wpcf7-form-control-wrap",
+          "left": -10000,
+          "right": -9968,
+          "width": 32
+        },
+        {
+          "tag": "input",
+          "cls": "wpcf7-form-control wpcf7-text",
+          "left": -10000,
+          "right": -9968,
+          "width": 32
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/newsletter/",
+      "forms": 4,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "newsletter",
+      "path": "/newsletter/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 1321,
+      "title": "Newsletter - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "span",
+          "cls": "wpcf7-form-control-wrap",
+          "left": -10000,
+          "right": -9968,
+          "width": 32
+        },
+        {
+          "tag": "input",
+          "cls": "wpcf7-form-control wpcf7-text",
+          "left": -10000,
+          "right": -9968,
+          "width": 32
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/newsletter/",
+      "forms": 4,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "richiesta-assistenza",
+      "path": "/richiesta-assistenza/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 1346,
+      "title": "Richiesta assistenza - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/richiesta-assistenza/",
+      "forms": 4,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "richiesta-assistenza",
+      "path": "/richiesta-assistenza/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 1324,
+      "title": "Richiesta assistenza - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/richiesta-assistenza/",
+      "forms": 4,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "richiesta-assistenza",
+      "path": "/richiesta-assistenza/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 1327,
+      "title": "Richiesta assistenza - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/richiesta-assistenza/",
+      "forms": 4,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "fydelity-manager",
+      "path": "/fydelity-manager/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 844,
+      "title": "Fydelity Manager - Mogcomputer.it",
+      "h1": 1,
+      "header": false,
+      "footer": false,
+      "brokenImages": 0,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/fydelity-manager/",
+      "forms": 4,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "fydelity-manager",
+      "path": "/fydelity-manager/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 1000,
+      "title": "Fydelity Manager - Mogcomputer.it",
+      "h1": 1,
+      "header": false,
+      "footer": false,
+      "brokenImages": 0,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/fydelity-manager/",
+      "forms": 4,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "fydelity-manager",
+      "path": "/fydelity-manager/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1609,
+      "overflow": 169,
+      "height": 1000,
+      "title": "Fydelity Manager - Mogcomputer.it",
+      "h1": 1,
+      "header": false,
+      "footer": false,
+      "brokenImages": 0,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "container clr",
+          "left": 169,
+          "right": 1609,
+          "width": 1440
+        },
+        {
+          "tag": "div",
+          "cls": "content-area clr",
+          "left": 136,
+          "right": 1576,
+          "width": 1440
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/fydelity-manager/",
+      "forms": 4,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "prenota-ritiro",
+      "path": "/prenota-ritiro/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 1325,
+      "title": "Prenota ritiro - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/prenota-ritiro/",
+      "forms": 4,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "prenota-ritiro",
+      "path": "/prenota-ritiro/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 1275,
+      "title": "Prenota ritiro - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/prenota-ritiro/",
+      "forms": 4,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "prenota-ritiro",
+      "path": "/prenota-ritiro/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 1287,
+      "title": "Prenota ritiro - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/prenota-ritiro/",
+      "forms": 4,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "head",
+      "path": "/head/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 844,
+      "title": "header - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": false,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/head/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "head",
+      "path": "/head/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 1000,
+      "title": "header - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": false,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/head/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "head",
+      "path": "/head/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 1000,
+      "title": "header - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": false,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/head/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "footer",
+      "path": "/footer/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 844,
+      "title": "FOOTER - Mogcomputer.it",
+      "h1": 0,
+      "header": false,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/footer/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "footer",
+      "path": "/footer/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 1000,
+      "title": "FOOTER - Mogcomputer.it",
+      "h1": 0,
+      "header": false,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/footer/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "footer",
+      "path": "/footer/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 1000,
+      "title": "FOOTER - Mogcomputer.it",
+      "h1": 0,
+      "header": false,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/footer/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "staff-assistenza",
+      "path": "/staff-assistenza/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 844,
+      "title": "Staff - Assistenza - Mogcomputer.it",
+      "h1": 0,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/staff-assistenza/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "staff-assistenza",
+      "path": "/staff-assistenza/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 1000,
+      "title": "Staff - Assistenza - Mogcomputer.it",
+      "h1": 0,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/staff-assistenza/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "staff-assistenza",
+      "path": "/staff-assistenza/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 1000,
+      "title": "Staff - Assistenza - Mogcomputer.it",
+      "h1": 0,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/staff-assistenza/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "pc-configurator",
+      "path": "/pc-configurator/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 1878,
+      "title": "pc configurator - Mogcomputer.it",
+      "h1": 0,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "li",
+          "cls": "is-locked",
+          "left": 302,
+          "right": 434,
+          "width": 132
+        },
+        {
+          "tag": "button",
+          "cls": "",
+          "left": 302,
+          "right": 434,
+          "width": 132
+        },
+        {
+          "tag": "span",
+          "cls": "mog-pcc-step-copy",
+          "left": 344,
+          "right": 426,
+          "width": 82
+        },
+        {
+          "tag": "strong",
+          "cls": "",
+          "left": 344,
+          "right": 426,
+          "width": 82
+        },
+        {
+          "tag": "small",
+          "cls": "",
+          "left": 344,
+          "right": 426,
+          "width": 82
+        },
+        {
+          "tag": "li",
+          "cls": "is-locked",
+          "left": 440,
+          "right": 572,
+          "width": 132
+        },
+        {
+          "tag": "button",
+          "cls": "",
+          "left": 440,
+          "right": 572,
+          "width": 132
+        },
+        {
+          "tag": "span",
+          "cls": "mog-pcc-step-num",
+          "left": 448,
+          "right": 475,
+          "width": 27
+        },
+        {
+          "tag": "span",
+          "cls": "mog-pcc-step-copy",
+          "left": 482,
+          "right": 564,
+          "width": 82
+        },
+        {
+          "tag": "strong",
+          "cls": "",
+          "left": 482,
+          "right": 564,
+          "width": 82
+        },
+        {
+          "tag": "small",
+          "cls": "",
+          "left": 482,
+          "right": 564,
+          "width": 82
+        }
+      ],
+      "location": "/pc-configurator/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "pc-configurator",
+      "path": "/pc-configurator/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 1979,
+      "title": "pc configurator - Mogcomputer.it",
+      "h1": 0,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "li",
+          "cls": "is-locked",
+          "left": 733,
+          "right": 865,
+          "width": 132
+        },
+        {
+          "tag": "button",
+          "cls": "",
+          "left": 733,
+          "right": 865,
+          "width": 132
+        },
+        {
+          "tag": "span",
+          "cls": "mog-pcc-step-num",
+          "left": 744,
+          "right": 778,
+          "width": 34
+        },
+        {
+          "tag": "span",
+          "cls": "mog-pcc-step-copy",
+          "left": 788,
+          "right": 854,
+          "width": 66
+        },
+        {
+          "tag": "strong",
+          "cls": "",
+          "left": 788,
+          "right": 854,
+          "width": 66
+        },
+        {
+          "tag": "small",
+          "cls": "",
+          "left": 788,
+          "right": 854,
+          "width": 66
+        },
+        {
+          "tag": "li",
+          "cls": "is-locked",
+          "left": 873,
+          "right": 1005,
+          "width": 132
+        },
+        {
+          "tag": "button",
+          "cls": "",
+          "left": 873,
+          "right": 1005,
+          "width": 132
+        },
+        {
+          "tag": "span",
+          "cls": "mog-pcc-step-num",
+          "left": 884,
+          "right": 918,
+          "width": 34
+        },
+        {
+          "tag": "span",
+          "cls": "mog-pcc-step-copy",
+          "left": 928,
+          "right": 994,
+          "width": 66
+        },
+        {
+          "tag": "strong",
+          "cls": "",
+          "left": 928,
+          "right": 994,
+          "width": 66
+        }
+      ],
+      "location": "/pc-configurator/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "pc-configurator",
+      "path": "/pc-configurator/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 2234,
+      "title": "pc configurator - Mogcomputer.it",
+      "h1": 0,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/pc-configurator/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "metodi-di-pagamento",
+      "path": "/metodi-di-pagamento/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 3294,
+      "title": "Metodi di pagamento - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/metodi-di-pagamento/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "metodi-di-pagamento",
+      "path": "/metodi-di-pagamento/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 3925,
+      "title": "Metodi di pagamento - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/metodi-di-pagamento/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "metodi-di-pagamento",
+      "path": "/metodi-di-pagamento/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 3092,
+      "title": "Metodi di pagamento - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/metodi-di-pagamento/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "compilazione",
+      "path": "/compilazione/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 844,
+      "title": "compilazione - Mogcomputer.it",
+      "h1": 0,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/compilazione/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "compilazione",
+      "path": "/compilazione/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 1000,
+      "title": "compilazione - Mogcomputer.it",
+      "h1": 0,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/compilazione/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "compilazione",
+      "path": "/compilazione/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 1000,
+      "title": "compilazione - Mogcomputer.it",
+      "h1": 0,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/compilazione/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "chi-siamo",
+      "path": "/chi-siamo/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 3900,
+      "title": "Chi siamo - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/chi-siamo/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "chi-siamo",
+      "path": "/chi-siamo/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 2658,
+      "title": "Chi siamo - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/chi-siamo/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "chi-siamo",
+      "path": "/chi-siamo/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 2446,
+      "title": "Chi siamo - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/chi-siamo/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "categoria-prodotto",
+      "path": "/categoria-prodotto/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 3235,
+      "title": "Categorie prodotti - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/categoria-prodotto/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "categoria-prodotto",
+      "path": "/categoria-prodotto/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 2753,
+      "title": "Categorie prodotti - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/categoria-prodotto/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "categoria-prodotto",
+      "path": "/categoria-prodotto/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 2512,
+      "title": "Categorie prodotti - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/categoria-prodotto/",
+      "forms": 3,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "recesso-online",
+      "path": "/recesso-online/",
+      "mode": "mobile",
+      "width": 390,
+      "http": 200,
+      "success": true,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "height": 1344,
+      "title": "Recedere dal contratto qui - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "input",
+          "cls": "",
+          "left": -10000,
+          "right": -9956,
+          "width": 44
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/recesso-online/",
+      "forms": 4,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "recesso-online",
+      "path": "/recesso-online/",
+      "mode": "tablet",
+      "width": 768,
+      "http": 200,
+      "success": true,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "height": 1293,
+      "title": "Recedere dal contratto qui - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "input",
+          "cls": "",
+          "left": -10000,
+          "right": -9956,
+          "width": 44
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/recesso-online/",
+      "forms": 4,
+      "financeCss": false,
+      "jsErrors": []
+    },
+    {
+      "slug": "recesso-online",
+      "path": "/recesso-online/",
+      "mode": "desktop",
+      "width": 1440,
+      "http": 200,
+      "success": true,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "height": 1431,
+      "title": "Recedere dal contratto qui - Mogcomputer.it",
+      "h1": 1,
+      "header": true,
+      "footer": true,
+      "brokenImages": 1,
+      "errors": [
+        {
+          "tag": "a",
+          "cls": "mog-skip-link",
+          "left": -9999,
+          "right": -9782,
+          "width": 217
+        },
+        {
+          "tag": "input",
+          "cls": "",
+          "left": -10000,
+          "right": -9956,
+          "width": 44
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        },
+        {
+          "tag": "div",
+          "cls": "sidr-inner",
+          "left": -300,
+          "right": 0,
+          "width": 300
+        }
+      ],
+      "location": "/recesso-online/",
+      "forms": 4,
+      "financeCss": false,
+      "jsErrors": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "count": 87,
+  "success": 87,
+  "failed": 0,
+  "overflow": 2,
+  "majorOverflow": 2,
+  "brokenImages": 75,
+  "failedSlugs": [],
+  "overflowSlugs": [
+    "compilazione-finanziamento-desktop:169",
+    "fydelity-manager-desktop:169"
+  ]
+}
