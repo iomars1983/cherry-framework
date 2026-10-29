@@ -1,0 +1,36 @@
+name: MOG focused visual diagnostics (free public runner)
+on:
+  push:
+    branches: [mog-qa-public-20261029]
+    paths:
+      - tools/mog-qa-deep.mjs
+      - .github/workflows/mog-deep-qa.yml
+permissions:
+  contents: write
+concurrency:
+  group: mog-deep-qa
+  cancel-in-progress: true
+jobs:
+  focused:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser tooling
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Diagnose five public pages
+        run: node tools/mog-qa-deep.mjs
+      - name: Save diagnostics to isolated branch
+        if: always()
+        run: |
+          if [ -f mog-qa-deep/deep.json ]; then
+            git config user.name "MOG QA Bot"
+            git config user.email "mog-qa-bot@users.noreply.github.com"
+            git add -f mog-qa-deep/
+            git diff --cached --quiet || (git commit -m "Store detailed public layout diagnostics" && git push origin HEAD:mog-qa-public-20261029)
+          fi
