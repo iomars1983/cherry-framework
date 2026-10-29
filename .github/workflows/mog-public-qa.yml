@@ -27,7 +27,7 @@ jobs:
         run: npm install --no-save playwright
       - name: Install browser
         run: npx playwright install --with-deps chromium
-      - name: Run all 29 public pages at 3 sizes
+      - name: Run all 30 public destinations at 3 sizes
         run: node tools/mog-qa.mjs
       - name: Save results on the isolated QA branch
         if: always()
@@ -39,6 +39,8 @@ jobs:
             git add -f mog-qa-reports/
             if ! git diff --cached --quiet; then
               git commit -m "Store public MOG QA report"
+              git fetch origin mog-qa-public-20261029
+              git rebase origin/mog-qa-public-20261029
               git push origin HEAD:mog-qa-public-20261029
             fi
           fi
