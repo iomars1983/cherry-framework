@@ -61,6 +61,13 @@ for(const [slug,path,width] of cases){
     let content=document.querySelector('.content-area.clr');
     let ancestors=[];
     for(let cur=content||container;cur&&ancestors.length<9;cur=cur.parentElement)ancestors.push(geom(cur));
+    const headerEl=document.querySelector('.mog-header-futuristic,#site-header,.mog-header-futuristic-wrapper');
+    const headerInfo={
+       outer:geom(headerEl),
+       children:headerEl?[...headerEl.children].slice(0,9).map(geom):[],
+       logos:[...document.querySelectorAll('img')].filter(e=>/logo|mog computer/i.test(e.alt+' '+e.className)).slice(0,7).map(geom),
+       nav:[...document.querySelectorAll('nav')].slice(0,6).map(geom)
+    };
     const imgs=[...document.images].filter(x=>x.complete&&x.naturalWidth===0).map(x=>({
       src:(()=>{try{return new URL(x.currentSrc||x.src).origin+new URL(x.currentSrc||x.src).pathname}catch{return 'invalid'}})(),
       cls:String(x.className||'').slice(0,80),
@@ -71,7 +78,7 @@ for(const [slug,path,width] of cases){
       containsConfig:/elementorFrontendConfig/.test(e.textContent||''),
       contentStart:e.src?null:(e.textContent||'').slice(0,160)
     })).slice(0,25);
-    return {viewport:innerWidth,sw:document.documentElement.scrollWidth,ancestors,
+    return {viewport:innerWidth,sw:document.documentElement.scrollWidth,ancestors,headerInfo,
       container:geom(container),content:geom(content),
       images:imgs,scripts:ss,elementorConfigDefined:typeof window.elementorFrontendConfig!=='undefined',
       bodyClass:document.body.className.slice(0,600)};
