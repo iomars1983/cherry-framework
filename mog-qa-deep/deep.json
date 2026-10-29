@@ -178,6 +178,182 @@
           }
         }
       ],
+      "headerInfo": {
+        "outer": {
+          "tag": "HEADER",
+          "cls": "mog-header-futuristic mog-no-logo-glow",
+          "id": "",
+          "x": 0,
+          "right": 1440,
+          "w": 1440,
+          "style": {
+            "boxSizing": "border-box",
+            "width": "1440px",
+            "maxWidth": "none",
+            "minWidth": "0px",
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "paddingLeft": "0px",
+            "paddingRight": "0px",
+            "left": "auto",
+            "right": "auto",
+            "display": "block",
+            "position": "static",
+            "overflowX": "visible",
+            "transform": "none"
+          }
+        },
+        "children": [
+          {
+            "tag": "DIV",
+            "cls": "mog-container mog-future-main",
+            "id": "",
+            "x": 0,
+            "right": 1440,
+            "w": 1440,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "maxWidth": "none",
+              "minWidth": "0px",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "block",
+              "position": "static",
+              "overflowX": "visible",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "NAV",
+            "cls": "mog-future-nav",
+            "id": "mog-future-nav-1",
+            "x": 0,
+            "right": 1440,
+            "w": 1440,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "maxWidth": "none",
+              "minWidth": "0px",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "block",
+              "position": "static",
+              "overflowX": "visible",
+              "transform": "none"
+            }
+          }
+        ],
+        "logos": [
+          {
+            "tag": "IMG",
+            "cls": "mog-future-logo",
+            "id": "",
+            "x": 0,
+            "right": 1409,
+            "w": 1409,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "1409px",
+              "maxWidth": "100%",
+              "minWidth": "0px",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "inline",
+              "position": "static",
+              "overflowX": "clip",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "IMG",
+            "cls": "mog-footer-ultra-logo",
+            "id": "",
+            "x": 120,
+            "right": 1320,
+            "w": 1200,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "1199.95px",
+              "maxWidth": "100%",
+              "minWidth": "0px",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "inline",
+              "position": "static",
+              "overflowX": "clip",
+              "transform": "none"
+            }
+          }
+        ],
+        "nav": [
+          {
+            "tag": "NAV",
+            "cls": "mog-future-nav",
+            "id": "mog-future-nav-1",
+            "x": 0,
+            "right": 1440,
+            "w": 1440,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "maxWidth": "none",
+              "minWidth": "0px",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "block",
+              "position": "static",
+              "overflowX": "visible",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "NAV",
+            "cls": "",
+            "id": "",
+            "x": 120,
+            "right": 1320,
+            "w": 1200,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "1200px",
+              "maxWidth": "none",
+              "minWidth": "0px",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "block",
+              "position": "static",
+              "overflowX": "visible",
+              "transform": "none"
+            }
+          }
+        ]
+      },
       "container": {
         "tag": "DIV",
         "cls": "container clr page-header-inner",
@@ -510,6 +686,12 @@
           }
         }
       ],
+      "headerInfo": {
+        "outer": null,
+        "children": [],
+        "logos": [],
+        "nav": []
+      },
       "container": {
         "tag": "DIV",
         "cls": "container clr page-header-inner",
@@ -592,6 +774,206 @@
       "viewport": 390,
       "sw": 390,
       "ancestors": [],
+      "headerInfo": {
+        "outer": {
+          "tag": "HEADER",
+          "cls": "mog-header-futuristic mog-no-logo-glow",
+          "id": "",
+          "x": 0,
+          "right": 390,
+          "w": 390,
+          "style": {
+            "boxSizing": "border-box",
+            "width": "390px",
+            "maxWidth": "none",
+            "minWidth": "0px",
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "paddingLeft": "0px",
+            "paddingRight": "0px",
+            "left": "0px",
+            "right": "0px",
+            "display": "block",
+            "position": "relative",
+            "overflowX": "visible",
+            "transform": "none"
+          }
+        },
+        "children": [
+          {
+            "tag": "DIV",
+            "cls": "mog-container mog-future-main",
+            "id": "",
+            "x": 10,
+            "right": 380,
+            "w": 370,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "370px",
+              "maxWidth": "1200px",
+              "minWidth": "0px",
+              "marginLeft": "10px",
+              "marginRight": "10px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "0px",
+              "right": "0px",
+              "display": "flex",
+              "position": "relative",
+              "overflowX": "visible",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "NAV",
+            "cls": "mog-future-nav",
+            "id": "mog-future-nav-2",
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "auto",
+              "maxWidth": "none",
+              "minWidth": "0px",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "none",
+              "position": "relative",
+              "overflowX": "visible",
+              "transform": "none"
+            }
+          }
+        ],
+        "logos": [
+          {
+            "tag": "IMG",
+            "cls": "mog-future-logo",
+            "id": "",
+            "x": 10,
+            "right": 190,
+            "w": 180,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "180px",
+              "maxWidth": "100%",
+              "minWidth": "auto",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "block",
+              "position": "static",
+              "overflowX": "clip",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "IMG",
+            "cls": "mog-footer-ultra-logo",
+            "id": "",
+            "x": 85,
+            "right": 305,
+            "w": 220,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "220px",
+              "maxWidth": "220px",
+              "minWidth": "auto",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "block",
+              "position": "static",
+              "overflowX": "clip",
+              "transform": "none"
+            }
+          }
+        ],
+        "nav": [
+          {
+            "tag": "NAV",
+            "cls": "mog-future-nav",
+            "id": "mog-future-nav-2",
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "auto",
+              "maxWidth": "none",
+              "minWidth": "0px",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "none",
+              "position": "relative",
+              "overflowX": "visible",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "NAV",
+            "cls": "woocommerce-pagination",
+            "id": "",
+            "x": 16,
+            "right": 374,
+            "w": 358,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "358px",
+              "maxWidth": "none",
+              "minWidth": "0px",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "block",
+              "position": "static",
+              "overflowX": "visible",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "NAV",
+            "cls": "",
+            "id": "",
+            "x": 43,
+            "right": 347,
+            "w": 304,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "304px",
+              "maxWidth": "none",
+              "minWidth": "auto",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "flex",
+              "position": "static",
+              "overflowX": "visible",
+              "transform": "none"
+            }
+          }
+        ]
+      },
       "container": null,
       "content": null,
       "images": [
@@ -713,6 +1095,182 @@
       "viewport": 390,
       "sw": 390,
       "ancestors": [],
+      "headerInfo": {
+        "outer": {
+          "tag": "HEADER",
+          "cls": "mog-header-futuristic mog-no-logo-glow",
+          "id": "",
+          "x": 0,
+          "right": 390,
+          "w": 390,
+          "style": {
+            "boxSizing": "border-box",
+            "width": "390px",
+            "maxWidth": "none",
+            "minWidth": "0px",
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "paddingLeft": "0px",
+            "paddingRight": "0px",
+            "left": "0px",
+            "right": "0px",
+            "display": "block",
+            "position": "relative",
+            "overflowX": "visible",
+            "transform": "none"
+          }
+        },
+        "children": [
+          {
+            "tag": "DIV",
+            "cls": "mog-container mog-future-main",
+            "id": "",
+            "x": 10,
+            "right": 380,
+            "w": 370,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "370px",
+              "maxWidth": "1320px",
+              "minWidth": "0px",
+              "marginLeft": "10px",
+              "marginRight": "10px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "0px",
+              "right": "0px",
+              "display": "flex",
+              "position": "relative",
+              "overflowX": "visible",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "NAV",
+            "cls": "mog-future-nav",
+            "id": "mog-future-nav-1",
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "auto",
+              "maxWidth": "none",
+              "minWidth": "0px",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "none",
+              "position": "relative",
+              "overflowX": "visible",
+              "transform": "none"
+            }
+          }
+        ],
+        "logos": [
+          {
+            "tag": "IMG",
+            "cls": "mog-future-logo",
+            "id": "",
+            "x": 10,
+            "right": 190,
+            "w": 180,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "180px",
+              "maxWidth": "100%",
+              "minWidth": "auto",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "block",
+              "position": "static",
+              "overflowX": "clip",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "IMG",
+            "cls": "mog-footer-ultra-logo",
+            "id": "",
+            "x": 85,
+            "right": 305,
+            "w": 220,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "220px",
+              "maxWidth": "220px",
+              "minWidth": "auto",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "block",
+              "position": "static",
+              "overflowX": "clip",
+              "transform": "none"
+            }
+          }
+        ],
+        "nav": [
+          {
+            "tag": "NAV",
+            "cls": "mog-future-nav",
+            "id": "mog-future-nav-1",
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "auto",
+              "maxWidth": "none",
+              "minWidth": "0px",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "none",
+              "position": "relative",
+              "overflowX": "visible",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "NAV",
+            "cls": "",
+            "id": "",
+            "x": 43,
+            "right": 347,
+            "w": 304,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "304px",
+              "maxWidth": "none",
+              "minWidth": "auto",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "flex",
+              "position": "static",
+              "overflowX": "visible",
+              "transform": "none"
+            }
+          }
+        ]
+      },
       "container": null,
       "content": null,
       "images": [
@@ -834,6 +1392,182 @@
       "viewport": 390,
       "sw": 390,
       "ancestors": [],
+      "headerInfo": {
+        "outer": {
+          "tag": "HEADER",
+          "cls": "mog-header-futuristic mog-no-logo-glow",
+          "id": "",
+          "x": 0,
+          "right": 390,
+          "w": 390,
+          "style": {
+            "boxSizing": "border-box",
+            "width": "390px",
+            "maxWidth": "none",
+            "minWidth": "0px",
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "paddingLeft": "0px",
+            "paddingRight": "0px",
+            "left": "0px",
+            "right": "0px",
+            "display": "block",
+            "position": "relative",
+            "overflowX": "visible",
+            "transform": "none"
+          }
+        },
+        "children": [
+          {
+            "tag": "DIV",
+            "cls": "mog-container mog-future-main",
+            "id": "",
+            "x": 10,
+            "right": 380,
+            "w": 370,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "370px",
+              "maxWidth": "1320px",
+              "minWidth": "0px",
+              "marginLeft": "10px",
+              "marginRight": "10px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "0px",
+              "right": "0px",
+              "display": "flex",
+              "position": "relative",
+              "overflowX": "visible",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "NAV",
+            "cls": "mog-future-nav",
+            "id": "mog-future-nav-1",
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "auto",
+              "maxWidth": "none",
+              "minWidth": "0px",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "none",
+              "position": "relative",
+              "overflowX": "visible",
+              "transform": "none"
+            }
+          }
+        ],
+        "logos": [
+          {
+            "tag": "IMG",
+            "cls": "mog-future-logo",
+            "id": "",
+            "x": 10,
+            "right": 190,
+            "w": 180,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "180px",
+              "maxWidth": "100%",
+              "minWidth": "auto",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "block",
+              "position": "static",
+              "overflowX": "clip",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "IMG",
+            "cls": "mog-footer-ultra-logo",
+            "id": "",
+            "x": 85,
+            "right": 305,
+            "w": 220,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "220px",
+              "maxWidth": "220px",
+              "minWidth": "auto",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "block",
+              "position": "static",
+              "overflowX": "clip",
+              "transform": "none"
+            }
+          }
+        ],
+        "nav": [
+          {
+            "tag": "NAV",
+            "cls": "mog-future-nav",
+            "id": "mog-future-nav-1",
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "auto",
+              "maxWidth": "none",
+              "minWidth": "0px",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "none",
+              "position": "relative",
+              "overflowX": "visible",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "NAV",
+            "cls": "",
+            "id": "",
+            "x": 43,
+            "right": 347,
+            "w": 304,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "304px",
+              "maxWidth": "none",
+              "minWidth": "auto",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "flex",
+              "position": "static",
+              "overflowX": "visible",
+              "transform": "none"
+            }
+          }
+        ]
+      },
       "container": null,
       "content": null,
       "images": [
@@ -1148,6 +1882,182 @@
           }
         }
       ],
+      "headerInfo": {
+        "outer": {
+          "tag": "HEADER",
+          "cls": "mog-header-futuristic mog-no-logo-glow",
+          "id": "",
+          "x": 0,
+          "right": 390,
+          "w": 390,
+          "style": {
+            "boxSizing": "border-box",
+            "width": "390px",
+            "maxWidth": "none",
+            "minWidth": "0px",
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "paddingLeft": "0px",
+            "paddingRight": "0px",
+            "left": "0px",
+            "right": "0px",
+            "display": "block",
+            "position": "relative",
+            "overflowX": "visible",
+            "transform": "none"
+          }
+        },
+        "children": [
+          {
+            "tag": "DIV",
+            "cls": "mog-container mog-future-main",
+            "id": "",
+            "x": 10,
+            "right": 380,
+            "w": 370,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "370px",
+              "maxWidth": "1200px",
+              "minWidth": "0px",
+              "marginLeft": "10px",
+              "marginRight": "10px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "0px",
+              "right": "0px",
+              "display": "flex",
+              "position": "relative",
+              "overflowX": "visible",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "NAV",
+            "cls": "mog-future-nav",
+            "id": "mog-future-nav-1",
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "auto",
+              "maxWidth": "none",
+              "minWidth": "0px",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "none",
+              "position": "relative",
+              "overflowX": "visible",
+              "transform": "none"
+            }
+          }
+        ],
+        "logos": [
+          {
+            "tag": "IMG",
+            "cls": "mog-future-logo mog-modern-image",
+            "id": "",
+            "x": 10,
+            "right": 190,
+            "w": 180,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "180px",
+              "maxWidth": "100%",
+              "minWidth": "auto",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "block",
+              "position": "static",
+              "overflowX": "clip",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "IMG",
+            "cls": "mog-footer-ultra-logo mog-modern-image",
+            "id": "",
+            "x": 195,
+            "right": 195,
+            "w": 0,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "0px",
+              "maxWidth": "220px",
+              "minWidth": "auto",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "block",
+              "position": "static",
+              "overflowX": "clip",
+              "transform": "none"
+            }
+          }
+        ],
+        "nav": [
+          {
+            "tag": "NAV",
+            "cls": "mog-future-nav",
+            "id": "mog-future-nav-1",
+            "x": 0,
+            "right": 0,
+            "w": 0,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "auto",
+              "maxWidth": "none",
+              "minWidth": "0px",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "none",
+              "position": "relative",
+              "overflowX": "visible",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "NAV",
+            "cls": "",
+            "id": "",
+            "x": 43,
+            "right": 347,
+            "w": 304,
+            "style": {
+              "boxSizing": "border-box",
+              "width": "304px",
+              "maxWidth": "none",
+              "minWidth": "auto",
+              "marginLeft": "0px",
+              "marginRight": "0px",
+              "paddingLeft": "0px",
+              "paddingRight": "0px",
+              "left": "auto",
+              "right": "auto",
+              "display": "flex",
+              "position": "static",
+              "overflowX": "visible",
+              "transform": "none"
+            }
+          }
+        ]
+      },
       "container": {
         "tag": "DIV",
         "cls": "container clr",
