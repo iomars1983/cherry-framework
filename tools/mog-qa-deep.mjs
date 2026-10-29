@@ -6,6 +6,7 @@ const cases=[
  ['fidelity','/fydelity-manager/',1440],
  ['shop','/shop/',390],
  ['checkout','/checkout/',390],
+ ['product','/prodotto/pc-gaming-viewstrike-5060/',390],
  ['home','/',390],
 ];
 const browser=await chromium.launch({headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
