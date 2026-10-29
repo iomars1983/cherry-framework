@@ -7,26 +7,26 @@
     "errors": [],
     "data": {
       "viewport": 1440,
-      "sw": 1609,
+      "sw": 1440,
       "ancestors": [
         {
           "tag": "DIV",
           "cls": "content-area clr",
           "id": "primary",
-          "x": 136,
-          "right": 1576,
+          "x": 0,
+          "right": 1440,
           "w": 1440,
           "style": {
             "boxSizing": "border-box",
             "width": "1440px",
-            "maxWidth": "none",
+            "maxWidth": "100%",
             "minWidth": "0px",
             "marginLeft": "0px",
             "marginRight": "0px",
             "paddingLeft": "0px",
             "paddingRight": "0px",
-            "left": "-33px",
-            "right": "33px",
+            "left": "0px",
+            "right": "0px",
             "display": "block",
             "position": "relative",
             "overflowX": "visible",
@@ -37,16 +37,16 @@
           "tag": "DIV",
           "cls": "container clr",
           "id": "content-wrap",
-          "x": 169,
-          "right": 1609,
+          "x": 0,
+          "right": 1440,
           "w": 1440,
           "style": {
             "boxSizing": "border-box",
             "width": "1440px",
             "maxWidth": "100%",
             "minWidth": "0px",
-            "marginLeft": "169px",
-            "marginRight": "-169px",
+            "marginLeft": "0px",
+            "marginRight": "0px",
             "paddingLeft": "0px",
             "paddingRight": "0px",
             "left": "auto",
@@ -54,7 +54,7 @@
             "display": "block",
             "position": "static",
             "overflowX": "visible",
-            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            "transform": "none"
           }
         },
         {
@@ -206,20 +206,20 @@
         "tag": "DIV",
         "cls": "content-area clr",
         "id": "primary",
-        "x": 136,
-        "right": 1576,
+        "x": 0,
+        "right": 1440,
         "w": 1440,
         "style": {
           "boxSizing": "border-box",
           "width": "1440px",
-          "maxWidth": "none",
+          "maxWidth": "100%",
           "minWidth": "0px",
           "marginLeft": "0px",
           "marginRight": "0px",
           "paddingLeft": "0px",
           "paddingRight": "0px",
-          "left": "-33px",
-          "right": "33px",
+          "left": "0px",
+          "right": "0px",
           "display": "block",
           "position": "relative",
           "overflowX": "visible",
@@ -311,6 +311,24 @@
       ],
       "elementorConfigDefined": true,
       "bodyClass": "wp-singular page-template-default page page-id-147772 wp-embed-responsive wp-theme-woovina theme-woovina mog-pe-layout-compact non-logged-in woocommerce-js tinvwl-theme-style woovina-theme sidebar-mobile content-full-width content-max-width has-topbar no-header-border has-blog-grid pagination-center has-grid-list woo-dropdown-cat elementor-default elementor-kit-10134 elementor-page elementor-page-147772 mog-mobile-two-cols mog-mobile-premium-filter e--ua-blink e--ua-webkit"
+    },
+    "whatIf": {
+      "before": {
+        "width": 1440,
+        "sw": 1609,
+        "container": {
+          "x": 169,
+          "right": 1609
+        }
+      },
+      "after": {
+        "width": 1440,
+        "sw": 1440,
+        "container": {
+          "x": 0,
+          "right": 1440
+        }
+      }
     }
   },
   {
@@ -321,26 +339,26 @@
     "errors": [],
     "data": {
       "viewport": 1440,
-      "sw": 1609,
+      "sw": 1440,
       "ancestors": [
         {
           "tag": "DIV",
           "cls": "content-area clr",
           "id": "primary",
-          "x": 136,
-          "right": 1576,
+          "x": 0,
+          "right": 1440,
           "w": 1440,
           "style": {
             "boxSizing": "border-box",
             "width": "1440px",
-            "maxWidth": "none",
+            "maxWidth": "100%",
             "minWidth": "0px",
             "marginLeft": "0px",
             "marginRight": "0px",
             "paddingLeft": "0px",
             "paddingRight": "0px",
-            "left": "-33px",
-            "right": "33px",
+            "left": "0px",
+            "right": "0px",
             "display": "block",
             "position": "relative",
             "overflowX": "visible",
@@ -351,16 +369,16 @@
           "tag": "DIV",
           "cls": "container clr",
           "id": "content-wrap",
-          "x": 169,
-          "right": 1609,
+          "x": 0,
+          "right": 1440,
           "w": 1440,
           "style": {
             "boxSizing": "border-box",
             "width": "1440px",
             "maxWidth": "100%",
             "minWidth": "0px",
-            "marginLeft": "169px",
-            "marginRight": "-169px",
+            "marginLeft": "0px",
+            "marginRight": "0px",
             "paddingLeft": "0px",
             "paddingRight": "0px",
             "left": "auto",
@@ -368,7 +386,7 @@
             "display": "block",
             "position": "static",
             "overflowX": "visible",
-            "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            "transform": "none"
           }
         },
         {
@@ -520,20 +538,20 @@
         "tag": "DIV",
         "cls": "content-area clr",
         "id": "primary",
-        "x": 136,
-        "right": 1576,
+        "x": 0,
+        "right": 1440,
         "w": 1440,
         "style": {
           "boxSizing": "border-box",
           "width": "1440px",
-          "maxWidth": "none",
+          "maxWidth": "100%",
           "minWidth": "0px",
           "marginLeft": "0px",
           "marginRight": "0px",
           "paddingLeft": "0px",
           "paddingRight": "0px",
-          "left": "-33px",
-          "right": "33px",
+          "left": "0px",
+          "right": "0px",
           "display": "block",
           "position": "relative",
           "overflowX": "visible",
@@ -544,6 +562,24 @@
       "scripts": [],
       "elementorConfigDefined": false,
       "bodyClass": "wp-singular page-template-default page page-id-286768 wp-embed-responsive wp-theme-woovina theme-woovina mog-pe-layout-compact non-logged-in woocommerce-js tinvwl-theme-style woovina-theme sidebar-mobile content-full-width content-max-width has-topbar no-header-border has-blog-grid pagination-center has-grid-list woo-dropdown-cat elementor-default elementor-kit-10134 mog-mobile-two-cols mog-mobile-premium-filter"
+    },
+    "whatIf": {
+      "before": {
+        "width": 1440,
+        "sw": 1609,
+        "container": {
+          "x": 169,
+          "right": 1609
+        }
+      },
+      "after": {
+        "width": 1440,
+        "sw": 1440,
+        "container": {
+          "x": 0,
+          "right": 1440
+        }
+      }
     }
   },
   {
@@ -621,7 +657,8 @@
       ],
       "elementorConfigDefined": false,
       "bodyClass": "archive post-type-archive post-type-archive-product wp-embed-responsive wp-theme-woovina mogstyle-template-active mogstyle-shortcode-active mogstyle-shop-standalone mogstyle-shop-force-fullbody mogstyle-woo-force-everywhere mogstyle-woo-context-archive woocommerce woocommerce-page theme-woovina mog-pe-layout-compact non-logged-in woocommerce-shop woocommerce-js tinvwl-theme-style woovina-theme sidebar-mobile has-sidebar content-left-sidebar has-topbar no-header-border has-blog-grid pagination-center has-grid-list woo-dropdown-cat mog-mobile-two-cols mog-mobile-premium-filter"
-    }
+    },
+    "whatIf": null
   },
   {
     "slug": "checkout",
@@ -698,7 +735,8 @@
       ],
       "elementorConfigDefined": false,
       "bodyClass": "wp-singular page-template-default page page-id-1166 wp-embed-responsive wp-theme-woovina mogstyle-template-active mogstyle-shortcode-active mogstyle-shop-standalone mogstyle-shop-force-fullbody mogstyle-woo-force-everywhere mogstyle-woo-context-page woocommerce woocommerce-page theme-woovina mog-pe-layout-compact non-logged-in woocommerce-checkout woocommerce-js tinvwl-theme-style woovina-theme sidebar-mobile content-full-width content-max-width has-topbar no-header-border has-blog-grid pagination-center has-grid-list woo-dropdown-cat mogstyle-checkout-skin mog-mobile-two-cols mog-mobile-premi"
-    }
+    },
+    "whatIf": null
   },
   {
     "slug": "home",
@@ -1033,6 +1071,7 @@
       ],
       "elementorConfigDefined": true,
       "bodyClass": "home wp-singular page-template-default page page-id-391676 wp-embed-responsive wp-theme-woovina theme-woovina mog-pe-layout-compact mogstyle-shortcode-active non-logged-in woocommerce-js tinvwl-theme-style woovina-theme sidebar-mobile content-full-width content-max-width has-topbar no-header-border page-header-disabled has-blog-grid pagination-center has-grid-list woo-dropdown-cat elementor-default elementor-kit-10134 elementor-page elementor-page-391676 mog-mobile-two-cols mog-mobile-premium-filter e--ua-isTouchDevice e--ua-blink e--ua-webkit"
-    }
+    },
+    "whatIf": null
   }
 ]
