@@ -15,6 +15,7 @@ const PUBLIC_PAGES = [
   ['pc-configurator','/pc-configurator/'],['metodi-di-pagamento','/metodi-di-pagamento/'],
   ['compilazione','/compilazione/'],['chi-siamo','/chi-siamo/'],
   ['categoria-prodotto','/categoria-prodotto/'],['recesso-online','/recesso-online/'],
+  ['pc-gaming-viewstrike-5060','/prodotto/pc-gaming-viewstrike-5060/'],
 ];
 const SIZES = [
   ['mobile',390,844],['tablet',768,1000],['desktop',1440,1000]
@@ -22,7 +23,7 @@ const SIZES = [
 await mkdir('mog-qa-reports/screenshots',{recursive:true});
 const browser=await chromium.launch({headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
 const results=[];
-const MAX_IMG=10;
+const MAX_IMG=28;
 let kept=0;
 for(const [slug,path] of PUBLIC_PAGES){
   for(const [mode,width,height] of SIZES){
@@ -57,7 +58,7 @@ for(const [slug,path] of PUBLIC_PAGES){
           h1:document.querySelectorAll('h1').length,
           header:!!document.querySelector('.mog-header-futuristic,.mog-future-nav'),
           footer:!!document.querySelector('.mog-footer-ultra,.mog-footer-ultra-grid'),
-          brokenImages:imgs.filter(x=>x.complete&&!x.naturalWidth).length,
+          brokenImages:imgs.filter(x=>x.complete&&!x.naturalWidth&&!!x.getAttribute('src')&&x.getBoundingClientRect().width>1).length,
           errors:overflowing,location:location.pathname,forms:document.querySelectorAll('form').length,
           financeCss:!!document.getElementById('mog-finance-visual-parity'),
         };
@@ -65,7 +66,7 @@ for(const [slug,path] of PUBLIC_PAGES){
       const result={slug,path,mode,width,http:responseStatus,success:responseStatus===200 || (slug==='wishlist' && metrics.location==='/my-account/'),...metrics,jsErrors:errors};
       results.push(result);
       console.log('__MOGQA__'+JSON.stringify(result));
-      const interesting=(result.overflow>5||result.http!==200||['home','shop','cart','checkout','compilazione-finanziamento'].includes(slug));
+      const interesting=(result.overflow>5||result.http!==200||['home','shop','cart','checkout','compilazione-finanziamento','fydelity-manager','pc-gaming-viewstrike-5060'].includes(slug));
       if(interesting && kept<MAX_IMG && result.http===200){
         try{await page.screenshot({path:'mog-qa-reports/screenshots/'+slug+'-'+mode+'.jpg',type:'jpeg',quality:62});kept++;}catch{}
       }
@@ -83,6 +84,8 @@ const overflows=results.filter(x=>(x.overflow??0)>5);
 const summary={count:results.length,success:results.length-failed.length,failed:failed.length,
   overflow:overflows.length,majorOverflow:results.filter(x=>x.overflow>20).length,
   brokenImages:results.reduce((a,x)=>a+(x.brokenImages||0),0),
+  jsErrors:results.reduce((a,x)=>a+(x.jsErrors?.length||0),0),
+  jsErrorSlugs:results.filter(x=>x.jsErrors?.length).map(x=>x.slug+'-'+x.mode),
   failedSlugs:failed.map(x=>x.slug+'-'+x.mode),
   overflowSlugs:overflows.map(x=>x.slug+'-'+x.mode+':'+x.overflow)};
 await writeFile('mog-qa-reports/summary.json',JSON.stringify(summary,null,2));
