@@ -1,6 +1,7 @@
 import { chromium } from 'playwright';
 import { mkdir, writeFile } from 'node:fs/promises';
 
+// post-fix validation after cache purge: strict zero-cost public-only browser audit
 const BASE = 'https://www.mogcomputer.it';
 const PUBLIC_PAGES = [
   ['home','/'],['shop','/shop/'],['cart','/cart/'],['checkout','/checkout/'],
