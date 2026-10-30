@@ -1,0 +1,21 @@
+name: MOG temporary admin QA OIDC
+on:
+  push:
+    branches: [mog-qa-public-20261029]
+    paths:
+      - .github/workflows/mog-backend-qa.yml
+      - tools/mog-backend-qa.mjs
+permissions:
+  contents: read
+  id-token: write
+jobs:
+  admin-qa:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate OIDC identity without exposing token
+        run: node tools/mog-backend-qa.mjs
