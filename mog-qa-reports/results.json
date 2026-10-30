@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T18:01:04.476Z",
+  "generatedAt": "2026-10-30T02:18:50.720Z",
   "base": "https://www.mogcomputer.it",
   "results": [
     {
@@ -185,9 +185,9 @@
         {
           "tag": "a",
           "cls": "",
-          "left": 801,
-          "right": 1235,
-          "width": 434
+          "left": 809,
+          "right": 1228,
+          "width": 419
         },
         {
           "tag": "div",
@@ -299,9 +299,9 @@
         {
           "tag": "a",
           "cls": "mog-mini-btn mog-mini-btn-red button add_to_cart_button ajax_add_to_cart mog-cart-compact",
-          "left": 1289,
-          "right": 1494,
-          "width": 205
+          "left": 1296,
+          "right": 1486,
+          "width": 190
         },
         {
           "tag": "span",
@@ -391,7 +391,7 @@
         },
         {
           "tag": "h4",
-          "cls": "widget-title mog-metal-heading-global",
+          "cls": "widget-title",
           "left": -357,
           "right": -15,
           "width": 342
@@ -498,7 +498,7 @@
         },
         {
           "tag": "h4",
-          "cls": "widget-title mog-metal-heading-global",
+          "cls": "widget-title",
           "left": -415,
           "right": -18,
           "width": 397
@@ -891,14 +891,14 @@
         },
         {
           "tag": "i",
-          "cls": "mog-metal-heading-global mog-metal-medium-boost",
+          "cls": "",
           "left": 391,
           "right": 441,
           "width": 50
         },
         {
           "tag": "h4",
-          "cls": "mog-metal-heading-global",
+          "cls": "",
           "left": 391,
           "right": 703,
           "width": 312
@@ -919,14 +919,14 @@
         },
         {
           "tag": "i",
-          "cls": "mog-metal-heading-global mog-metal-medium-boost",
+          "cls": "",
           "left": 749,
           "right": 799,
           "width": 50
         },
         {
           "tag": "h4",
-          "cls": "mog-metal-heading-global",
+          "cls": "",
           "left": 749,
           "right": 1061,
           "width": 312
@@ -947,14 +947,14 @@
         },
         {
           "tag": "i",
-          "cls": "mog-metal-heading-global mog-metal-medium-boost",
+          "cls": "",
           "left": 1107,
           "right": 1157,
           "width": 50
         },
         {
           "tag": "h4",
-          "cls": "mog-metal-heading-global",
+          "cls": "",
           "left": 1107,
           "right": 1419,
           "width": 312
@@ -1144,7 +1144,7 @@
         },
         {
           "tag": "h2",
-          "cls": "mog-metal-heading-global mog-metal-medium-boost",
+          "cls": "",
           "left": 20,
           "right": 936,
           "width": 916
@@ -1158,7 +1158,7 @@
         },
         {
           "tag": "h2",
-          "cls": "mog-metal-heading-global mog-metal-medium-boost",
+          "cls": "",
           "left": 51,
           "right": 779,
           "width": 728
@@ -4372,7 +4372,7 @@
       "viewport": 390,
       "scrollWidth": 390,
       "overflow": 0,
-      "height": 6961,
+      "height": 6783,
       "title": "PC Gaming Endorfy Signum 300 – Intel Core Ultra 7 265F, GeForce RTX 5060 8GB, 32GB DDR5 6000MHz, 2TB NVMe, B860M, Noctua",
       "h1": 0,
       "header": true,
@@ -4385,6 +4385,13 @@
           "left": -9999,
           "right": -9763,
           "width": 236
+        },
+        {
+          "tag": "img",
+          "cls": "zoomImg",
+          "left": 58,
+          "right": 958,
+          "width": 900
         }
       ],
       "location": "/prodotto/pc-gaming-viewstrike-5060/",
@@ -4402,7 +4409,7 @@
       "viewport": 768,
       "scrollWidth": 768,
       "overflow": 0,
-      "height": 5000,
+      "height": 4864,
       "title": "PC Gaming Endorfy Signum 300 – Intel Core Ultra 7 265F, GeForce RTX 5060 8GB, 32GB DDR5 6000MHz, 2TB NVMe, B860M, Noctua",
       "h1": 0,
       "header": true,
@@ -4432,7 +4439,7 @@
       "viewport": 1440,
       "scrollWidth": 1440,
       "overflow": 0,
-      "height": 4122,
+      "height": 4028,
       "title": "PC Gaming Endorfy Signum 300 – Intel Core Ultra 7 265F, GeForce RTX 5060 8GB, 32GB DDR5 6000MHz, 2TB NVMe, B860M, Noctua",
       "h1": 0,
       "header": true,
