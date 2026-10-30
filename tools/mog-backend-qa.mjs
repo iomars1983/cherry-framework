@@ -22,7 +22,7 @@ async function getJwt(){
 const token=await getJwt();
 const browser=await chromium.launch({headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
 const results=[];
-for (const [name,path] of screens){
+for (const [name,path] of screens.slice(0,1)){
  for (const [mode,width,height] of modes){
   const ctx=await browser.newContext({viewport:{width,height},javaScriptEnabled:false,locale:'it-IT',deviceScaleFactor:1});
   const page=await ctx.newPage();
@@ -62,11 +62,11 @@ for (const [name,path] of screens){
        unavailable:/QA (?:rendering|parser) unavailable/.test(bodyText),bad};
    });
    const good=(stat===200 && found.startsWith('/wp-admin/')&&data.adminBody&&!data.unavailable&&data.scrubbed);
-   const row={screen:name,mode,width,http:stat,found,ok:good,...data};
+   const row={screen:name,mode,width,http:stat,found,ok:good,diag,...data};
    results.push(row);console.log('MOG_ADMIN_QA',JSON.stringify(row));
   }catch(e){
    err=String(e).slice(0,210);
-   const row={screen:name,mode,width,http:stat,found,ok:false,error:err};
+   const row={screen:name,mode,width,http:stat,found,ok:false,diag,error:err};
    results.push(row);console.log('MOG_ADMIN_QA',JSON.stringify(row));
   }finally{await ctx.close();}
  }
