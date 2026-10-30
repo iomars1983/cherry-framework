@@ -1,9 +1,9 @@
 {
   "summary": {
-    "at": "2026-10-30T11:02:19.030Z",
-    "total": 18,
+    "at": "2026-10-30T11:20:26.527Z",
+    "total": 3,
     "passed": 0,
-    "failed": 18,
+    "failed": 3,
     "overflows": [],
     "redirects": [
       {
@@ -20,81 +20,6 @@
         "screen": "Autotag Global",
         "mode": "desktop",
         "found": "/wp-login.php"
-      },
-      {
-        "screen": "Fidelity Manager",
-        "mode": "mobile",
-        "found": "/wp-login.php"
-      },
-      {
-        "screen": "Fidelity Manager",
-        "mode": "tablet",
-        "found": "/wp-login.php"
-      },
-      {
-        "screen": "Fidelity Manager",
-        "mode": "desktop",
-        "found": "/wp-login.php"
-      },
-      {
-        "screen": "MOG PC Configurator",
-        "mode": "mobile",
-        "found": "/wp-login.php"
-      },
-      {
-        "screen": "MOG PC Configurator",
-        "mode": "tablet",
-        "found": "/wp-login.php"
-      },
-      {
-        "screen": "MOG PC Configurator",
-        "mode": "desktop",
-        "found": "/wp-login.php"
-      },
-      {
-        "screen": "MOG Social",
-        "mode": "mobile",
-        "found": "/wp-login.php"
-      },
-      {
-        "screen": "MOG Social",
-        "mode": "tablet",
-        "found": "/wp-login.php"
-      },
-      {
-        "screen": "MOG Social",
-        "mode": "desktop",
-        "found": "/wp-login.php"
-      },
-      {
-        "screen": "MOG Photo Engine",
-        "mode": "mobile",
-        "found": "/wp-login.php"
-      },
-      {
-        "screen": "MOG Photo Engine",
-        "mode": "tablet",
-        "found": "/wp-login.php"
-      },
-      {
-        "screen": "MOG Photo Engine",
-        "mode": "desktop",
-        "found": "/wp-login.php"
-      },
-      {
-        "screen": "Importatori RED UM",
-        "mode": "mobile",
-        "found": "/wp-login.php"
-      },
-      {
-        "screen": "Importatori RED UM",
-        "mode": "tablet",
-        "found": "/wp-login.php"
-      },
-      {
-        "screen": "Importatori RED UM",
-        "mode": "desktop",
-        "found": "/wp-login.php"
       }
     ]
   },
@@ -106,6 +31,38 @@
       "http": 200,
       "found": "/wp-login.php",
       "ok": false,
+      "diag": [
+        {
+          "code": 302,
+          "marker": "header-seen",
+          "path": "/wp-admin/tools.php"
+        },
+        {
+          "code": 200,
+          "marker": "",
+          "path": "/wp-admin/css/forms.min.css"
+        },
+        {
+          "code": 200,
+          "marker": "",
+          "path": "/wp-admin/css/l10n.min.css"
+        },
+        {
+          "code": 200,
+          "marker": "",
+          "path": "/wp-admin/css/wp-tooltip.min.css"
+        },
+        {
+          "code": 200,
+          "marker": "",
+          "path": "/wp-admin/css/login.min.css"
+        },
+        {
+          "code": 200,
+          "marker": "",
+          "path": "/wp-admin/images/wordpress-logo-gray.svg"
+        }
+      ],
       "viewport": 390,
       "scrollWidth": 390,
       "overflow": 0,
@@ -126,6 +83,38 @@
       "http": 200,
       "found": "/wp-login.php",
       "ok": false,
+      "diag": [
+        {
+          "code": 302,
+          "marker": "header-seen",
+          "path": "/wp-admin/tools.php"
+        },
+        {
+          "code": 200,
+          "marker": "",
+          "path": "/wp-admin/css/forms.min.css"
+        },
+        {
+          "code": 200,
+          "marker": "",
+          "path": "/wp-admin/css/l10n.min.css"
+        },
+        {
+          "code": 200,
+          "marker": "",
+          "path": "/wp-admin/css/wp-tooltip.min.css"
+        },
+        {
+          "code": 200,
+          "marker": "",
+          "path": "/wp-admin/css/login.min.css"
+        },
+        {
+          "code": 200,
+          "marker": "",
+          "path": "/wp-admin/images/wordpress-logo-gray.svg"
+        }
+      ],
       "viewport": 768,
       "scrollWidth": 768,
       "overflow": 0,
@@ -146,306 +135,38 @@
       "http": 200,
       "found": "/wp-login.php",
       "ok": false,
-      "viewport": 1440,
-      "scrollWidth": 1440,
-      "overflow": 0,
-      "height": 1162,
-      "bodyTextLength": 529,
-      "forms": 0,
-      "tables": 0,
-      "stylesheetCount": 10,
-      "adminBody": false,
-      "scrubbed": true,
-      "unavailable": false,
-      "bad": []
-    },
-    {
-      "screen": "Fidelity Manager",
-      "mode": "mobile",
-      "width": 390,
-      "http": 200,
-      "found": "/wp-login.php",
-      "ok": false,
-      "viewport": 390,
-      "scrollWidth": 390,
-      "overflow": 0,
-      "height": 1161,
-      "bodyTextLength": 527,
-      "forms": 0,
-      "tables": 0,
-      "stylesheetCount": 10,
-      "adminBody": false,
-      "scrubbed": true,
-      "unavailable": false,
-      "bad": []
-    },
-    {
-      "screen": "Fidelity Manager",
-      "mode": "tablet",
-      "width": 768,
-      "http": 200,
-      "found": "/wp-login.php",
-      "ok": false,
-      "viewport": 768,
-      "scrollWidth": 768,
-      "overflow": 0,
-      "height": 1134,
-      "bodyTextLength": 529,
-      "forms": 0,
-      "tables": 0,
-      "stylesheetCount": 10,
-      "adminBody": false,
-      "scrubbed": true,
-      "unavailable": false,
-      "bad": []
-    },
-    {
-      "screen": "Fidelity Manager",
-      "mode": "desktop",
-      "width": 1440,
-      "http": 200,
-      "found": "/wp-login.php",
-      "ok": false,
-      "viewport": 1440,
-      "scrollWidth": 1440,
-      "overflow": 0,
-      "height": 1162,
-      "bodyTextLength": 529,
-      "forms": 0,
-      "tables": 0,
-      "stylesheetCount": 10,
-      "adminBody": false,
-      "scrubbed": true,
-      "unavailable": false,
-      "bad": []
-    },
-    {
-      "screen": "MOG PC Configurator",
-      "mode": "mobile",
-      "width": 390,
-      "http": 200,
-      "found": "/wp-login.php",
-      "ok": false,
-      "viewport": 390,
-      "scrollWidth": 390,
-      "overflow": 0,
-      "height": 1161,
-      "bodyTextLength": 527,
-      "forms": 0,
-      "tables": 0,
-      "stylesheetCount": 10,
-      "adminBody": false,
-      "scrubbed": true,
-      "unavailable": false,
-      "bad": []
-    },
-    {
-      "screen": "MOG PC Configurator",
-      "mode": "tablet",
-      "width": 768,
-      "http": 200,
-      "found": "/wp-login.php",
-      "ok": false,
-      "viewport": 768,
-      "scrollWidth": 768,
-      "overflow": 0,
-      "height": 1134,
-      "bodyTextLength": 529,
-      "forms": 0,
-      "tables": 0,
-      "stylesheetCount": 10,
-      "adminBody": false,
-      "scrubbed": true,
-      "unavailable": false,
-      "bad": []
-    },
-    {
-      "screen": "MOG PC Configurator",
-      "mode": "desktop",
-      "width": 1440,
-      "http": 200,
-      "found": "/wp-login.php",
-      "ok": false,
-      "viewport": 1440,
-      "scrollWidth": 1440,
-      "overflow": 0,
-      "height": 1162,
-      "bodyTextLength": 529,
-      "forms": 0,
-      "tables": 0,
-      "stylesheetCount": 10,
-      "adminBody": false,
-      "scrubbed": true,
-      "unavailable": false,
-      "bad": []
-    },
-    {
-      "screen": "MOG Social",
-      "mode": "mobile",
-      "width": 390,
-      "http": 200,
-      "found": "/wp-login.php",
-      "ok": false,
-      "viewport": 390,
-      "scrollWidth": 390,
-      "overflow": 0,
-      "height": 1161,
-      "bodyTextLength": 527,
-      "forms": 0,
-      "tables": 0,
-      "stylesheetCount": 10,
-      "adminBody": false,
-      "scrubbed": true,
-      "unavailable": false,
-      "bad": []
-    },
-    {
-      "screen": "MOG Social",
-      "mode": "tablet",
-      "width": 768,
-      "http": 200,
-      "found": "/wp-login.php",
-      "ok": false,
-      "viewport": 768,
-      "scrollWidth": 768,
-      "overflow": 0,
-      "height": 1134,
-      "bodyTextLength": 529,
-      "forms": 0,
-      "tables": 0,
-      "stylesheetCount": 10,
-      "adminBody": false,
-      "scrubbed": true,
-      "unavailable": false,
-      "bad": []
-    },
-    {
-      "screen": "MOG Social",
-      "mode": "desktop",
-      "width": 1440,
-      "http": 200,
-      "found": "/wp-login.php",
-      "ok": false,
-      "viewport": 1440,
-      "scrollWidth": 1440,
-      "overflow": 0,
-      "height": 1162,
-      "bodyTextLength": 529,
-      "forms": 0,
-      "tables": 0,
-      "stylesheetCount": 10,
-      "adminBody": false,
-      "scrubbed": true,
-      "unavailable": false,
-      "bad": []
-    },
-    {
-      "screen": "MOG Photo Engine",
-      "mode": "mobile",
-      "width": 390,
-      "http": 200,
-      "found": "/wp-login.php",
-      "ok": false,
-      "viewport": 390,
-      "scrollWidth": 390,
-      "overflow": 0,
-      "height": 1161,
-      "bodyTextLength": 527,
-      "forms": 0,
-      "tables": 0,
-      "stylesheetCount": 10,
-      "adminBody": false,
-      "scrubbed": true,
-      "unavailable": false,
-      "bad": []
-    },
-    {
-      "screen": "MOG Photo Engine",
-      "mode": "tablet",
-      "width": 768,
-      "http": 200,
-      "found": "/wp-login.php",
-      "ok": false,
-      "viewport": 768,
-      "scrollWidth": 768,
-      "overflow": 0,
-      "height": 1134,
-      "bodyTextLength": 529,
-      "forms": 0,
-      "tables": 0,
-      "stylesheetCount": 10,
-      "adminBody": false,
-      "scrubbed": true,
-      "unavailable": false,
-      "bad": []
-    },
-    {
-      "screen": "MOG Photo Engine",
-      "mode": "desktop",
-      "width": 1440,
-      "http": 200,
-      "found": "/wp-login.php",
-      "ok": false,
-      "viewport": 1440,
-      "scrollWidth": 1440,
-      "overflow": 0,
-      "height": 1162,
-      "bodyTextLength": 529,
-      "forms": 0,
-      "tables": 0,
-      "stylesheetCount": 10,
-      "adminBody": false,
-      "scrubbed": true,
-      "unavailable": false,
-      "bad": []
-    },
-    {
-      "screen": "Importatori RED UM",
-      "mode": "mobile",
-      "width": 390,
-      "http": 200,
-      "found": "/wp-login.php",
-      "ok": false,
-      "viewport": 390,
-      "scrollWidth": 390,
-      "overflow": 0,
-      "height": 1161,
-      "bodyTextLength": 527,
-      "forms": 0,
-      "tables": 0,
-      "stylesheetCount": 10,
-      "adminBody": false,
-      "scrubbed": true,
-      "unavailable": false,
-      "bad": []
-    },
-    {
-      "screen": "Importatori RED UM",
-      "mode": "tablet",
-      "width": 768,
-      "http": 200,
-      "found": "/wp-login.php",
-      "ok": false,
-      "viewport": 768,
-      "scrollWidth": 768,
-      "overflow": 0,
-      "height": 1134,
-      "bodyTextLength": 529,
-      "forms": 0,
-      "tables": 0,
-      "stylesheetCount": 10,
-      "adminBody": false,
-      "scrubbed": true,
-      "unavailable": false,
-      "bad": []
-    },
-    {
-      "screen": "Importatori RED UM",
-      "mode": "desktop",
-      "width": 1440,
-      "http": 200,
-      "found": "/wp-login.php",
-      "ok": false,
+      "diag": [
+        {
+          "code": 302,
+          "marker": "header-seen",
+          "path": "/wp-admin/tools.php"
+        },
+        {
+          "code": 200,
+          "marker": "",
+          "path": "/wp-admin/css/forms.min.css"
+        },
+        {
+          "code": 200,
+          "marker": "",
+          "path": "/wp-admin/css/login.min.css"
+        },
+        {
+          "code": 200,
+          "marker": "",
+          "path": "/wp-admin/css/l10n.min.css"
+        },
+        {
+          "code": 200,
+          "marker": "",
+          "path": "/wp-admin/css/wp-tooltip.min.css"
+        },
+        {
+          "code": 200,
+          "marker": "",
+          "path": "/wp-admin/images/wordpress-logo-gray.svg"
+        }
+      ],
       "viewport": 1440,
       "scrollWidth": 1440,
       "overflow": 0,
