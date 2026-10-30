@@ -17,7 +17,7 @@ async function inspect(page){
       if(bad.length>=7)break;
       const r=e.getBoundingClientRect(),s=getComputedStyle(e);
       if(r.width<10||r.height<10||s.display==='none'||s.visibility==='hidden')continue;
-      if(r.left< -5||r.right>v+5)bad.push({tag:e.tagName.toLowerCase(),type:e.type||'',x:round(r.x),right:round(r.right)});
+      if(r.left< -5||r.right>v+5)bad.push({tag:e.tagName.toLowerCase(),type:e.type||'',x:Math.round(r.x),right:Math.round(r.right)});
     }
     return {
       width:v,scrollWidth:sw,overflow:Math.max(0,sw-v),
