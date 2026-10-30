@@ -6,16 +6,35 @@ on:
       - .github/workflows/mog-backend-qa.yml
       - tools/mog-backend-qa.mjs
 permissions:
-  contents: read
+  contents: write
   id-token: write
 jobs:
   admin-qa:
     runs-on: ubuntu-24.04
-    timeout-minutes: 15
+    timeout-minutes: 18
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Validate OIDC identity without exposing token
+      - name: Install free browser
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Test only approved backend screens; no sensitive content logged
         run: node tools/mog-backend-qa.mjs
+      - name: Store numeric sanitized results on isolated QA branch
+        if: always()
+        shell: bash
+        run: |
+          if [ -f mog-qa-admin/report.json ]; then
+            git config user.name "MOG QA Bot"
+            git config user.email "mog-qa-bot@users.noreply.github.com"
+            git add -f mog-qa-admin/report.json
+            if ! git diff --cached --quiet; then
+              git commit -m "Store private-free admin QA geometry report"
+              git fetch origin mog-qa-public-20261029
+              git rebase origin/mog-qa-public-20261029
+              git push origin HEAD:mog-qa-public-20261029
+            fi
+          fi
