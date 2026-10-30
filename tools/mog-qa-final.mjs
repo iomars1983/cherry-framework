@@ -28,7 +28,12 @@ async function inspect(page){
       paymentReady:!!document.querySelector('#payment,.wc-block-components-payment-methods,.wc-block-checkout__payment-method'),
       cartItems:document.querySelectorAll('.woocommerce-cart-form__cart-item,.wc-block-cart-items__row').length,
       fields:document.querySelectorAll('input:not([type=hidden]),textarea,select').length,
-      brokenImages:[...document.images].filter(x=>x.complete&&!x.naturalWidth&&x.src).length,
+      brokenImages:[...document.images].filter(x=>x.complete&&!x.naturalWidth&&x.getAttribute('src')?.trim()).length,
+      brokenImageDetails:[...document.images].filter(x=>x.complete&&!x.naturalWidth).slice(0,5).map(x=>({
+        tag:x.tagName.toLowerCase(),rawEmpty:!x.getAttribute('src')?.trim(),
+        className:String(x.className||'').slice(0,80),loading:x.loading,
+        path:(()=>{try{const u=new URL(x.currentSrc||x.src);return u.origin===location.origin?u.pathname.slice(0,110):u.hostname+u.pathname.slice(0,90)}catch{return 'data-or-invalid'}})()
+      })),
       badControls:bad,siteOrigin:location.origin,path:location.pathname,
       wishlistAnchors:document.querySelectorAll('a[href*="wishlist"],a[href*="lista-desideri"]').length,
       privacyLinks:document.querySelectorAll('a[href*="privacy"]').length
