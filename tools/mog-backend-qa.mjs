@@ -33,6 +33,8 @@ for (const [name,path] of screens.slice(0,1)){
    }else route.continue();
   });
   let stat=0,found='',err='';
+  const diag=[];
+  page.on('response',async resp=>{if(resp.url().startsWith(origin+'/wp-admin/')){try{const headers=await resp.allHeaders();diag.push({code:resp.status(),marker:headers['x-mog-qa-diagnostic']||'',path:new URL(resp.url()).pathname});}catch{}}});
   try{
    const res=await page.goto(origin+path,{waitUntil:'domcontentloaded',timeout:40000});
    stat=res?.status()||0;
