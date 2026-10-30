@@ -1,0 +1,10 @@
+const url=process.env.ACTIONS_ID_TOKEN_REQUEST_URL;
+const auth=process.env.ACTIONS_ID_TOKEN_REQUEST_TOKEN;
+if(!url||!auth)throw new Error('OIDC unavailable');
+const u=new URL(url);u.searchParams.set('audience','mog-qa-live-readonly');
+const response=await fetch(u,{headers:{Authorization:'Bearer '+auth}});
+if(!response.ok)throw new Error('OIDC request '+response.status);
+const token=(await response.json()).value;
+const claims=JSON.parse(Buffer.from(token.split('.')[1],'base64url').toString('utf8'));
+console.log('QA identity preflight',JSON.stringify({iss:claims.iss,aud:claims.aud,repository:claims.repository,ref:claims.ref,workflow_ref:claims.workflow_ref,event_name:claims.event_name,sub:claims.sub,iat:claims.iat,exp:claims.exp}));
+console.log('QA preflight complete. No token has been stored or logged.');
