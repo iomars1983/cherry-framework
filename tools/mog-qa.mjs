@@ -91,3 +91,5 @@ const summary={count:results.length,success:results.length-failed.length,failed:
   overflowSlugs:overflows.map(x=>x.slug+'-'+x.mode+':'+x.overflow)};
 await writeFile('mog-qa-reports/summary.json',JSON.stringify(summary,null,2));
 console.log('__MOGQA_SUMMARY__'+JSON.stringify(summary));
+
+// MOG public audit rerun requested 2026-10-30; public pages only; no authentication.
