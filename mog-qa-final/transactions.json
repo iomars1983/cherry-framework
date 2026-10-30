@@ -1,0 +1,1161 @@
+{
+  "createdAt": "2026-10-30T02:38:05.575Z",
+  "base": "https://www.mogcomputer.it",
+  "mode": "guest read-only forms, isolated carts",
+  "tests": [
+    {
+      "group": "cart populated",
+      "path": "/cart/",
+      "mode": "mobile",
+      "http": 200,
+      "errors": 0,
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "title": "Cart – Mogcomputer.it",
+      "h1Count": 1,
+      "formCount": 2,
+      "requiredCount": 0,
+      "formReady": false,
+      "paymentReady": false,
+      "cartItems": 1,
+      "fields": 8,
+      "brokenImages": 1,
+      "badControls": [],
+      "siteOrigin": "https://www.mogcomputer.it",
+      "wishlistAnchors": 0,
+      "privacyLinks": 1
+    },
+    {
+      "group": "cart populated",
+      "path": "/cart/",
+      "mode": "tablet",
+      "http": 200,
+      "errors": 0,
+      "width": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "title": "Cart – Mogcomputer.it",
+      "h1Count": 1,
+      "formCount": 2,
+      "requiredCount": 0,
+      "formReady": false,
+      "paymentReady": false,
+      "cartItems": 1,
+      "fields": 8,
+      "brokenImages": 1,
+      "badControls": [],
+      "siteOrigin": "https://www.mogcomputer.it",
+      "wishlistAnchors": 0,
+      "privacyLinks": 1
+    },
+    {
+      "group": "cart populated",
+      "path": "/cart/",
+      "mode": "desktop",
+      "http": 200,
+      "errors": 0,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "title": "Cart – Mogcomputer.it",
+      "h1Count": 1,
+      "formCount": 2,
+      "requiredCount": 0,
+      "formReady": false,
+      "paymentReady": false,
+      "cartItems": 1,
+      "fields": 8,
+      "brokenImages": 1,
+      "badControls": [],
+      "siteOrigin": "https://www.mogcomputer.it",
+      "wishlistAnchors": 0,
+      "privacyLinks": 1
+    },
+    {
+      "group": "checkout populated",
+      "path": "/checkout/",
+      "mode": "mobile",
+      "http": 200,
+      "errors": 0,
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "title": "Checkout – Mogcomputer.it",
+      "h1Count": 1,
+      "formCount": 5,
+      "requiredCount": 8,
+      "formReady": true,
+      "paymentReady": true,
+      "cartItems": 0,
+      "fields": 58,
+      "brokenImages": 1,
+      "badControls": [],
+      "siteOrigin": "https://www.mogcomputer.it",
+      "wishlistAnchors": 0,
+      "privacyLinks": 5
+    },
+    {
+      "group": "checkout populated",
+      "path": "/checkout/",
+      "mode": "tablet",
+      "http": 200,
+      "errors": 0,
+      "width": 768,
+      "scrollWidth": 768,
+      "overflow": 0,
+      "title": "Checkout – Mogcomputer.it",
+      "h1Count": 1,
+      "formCount": 5,
+      "requiredCount": 8,
+      "formReady": true,
+      "paymentReady": true,
+      "cartItems": 0,
+      "fields": 58,
+      "brokenImages": 1,
+      "badControls": [],
+      "siteOrigin": "https://www.mogcomputer.it",
+      "wishlistAnchors": 0,
+      "privacyLinks": 5
+    },
+    {
+      "group": "checkout populated",
+      "path": "/checkout/",
+      "mode": "desktop",
+      "http": 200,
+      "errors": 0,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "title": "Checkout – Mogcomputer.it",
+      "h1Count": 1,
+      "formCount": 5,
+      "requiredCount": 8,
+      "formReady": true,
+      "paymentReady": true,
+      "cartItems": 0,
+      "fields": 58,
+      "brokenImages": 1,
+      "badControls": [],
+      "siteOrigin": "https://www.mogcomputer.it",
+      "wishlistAnchors": 0,
+      "privacyLinks": 5
+    },
+    {
+      "group": "my account",
+      "path": "/my-account/",
+      "mode": "mobile",
+      "http": 200,
+      "errors": 0,
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "title": "PC Gaming Assemblati e Workstation Professionali | Spedizione in tutta Ital",
+      "h1Count": 1,
+      "formCount": 3,
+      "requiredCount": 8,
+      "formReady": false,
+      "paymentReady": false,
+      "cartItems": 0,
+      "fields": 12,
+      "brokenImages": 1,
+      "badControls": [
+        {
+          "tag": "button",
+          "type": "submit",
+          "x": -9949,
+          "right": -9623
+        }
+      ],
+      "siteOrigin": "https://www.mogcomputer.it",
+      "wishlistAnchors": 0,
+      "privacyLinks": 2
+    },
+    {
+      "group": "my account",
+      "path": "/my-account/",
+      "mode": "desktop",
+      "http": 200,
+      "errors": 0,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "title": "PC Gaming Assemblati e Workstation Professionali | Spedizione in tutta Ital",
+      "h1Count": 1,
+      "formCount": 3,
+      "requiredCount": 8,
+      "formReady": false,
+      "paymentReady": false,
+      "cartItems": 0,
+      "fields": 12,
+      "brokenImages": 1,
+      "badControls": [
+        {
+          "tag": "button",
+          "type": "submit",
+          "x": -9432,
+          "right": -9394
+        }
+      ],
+      "siteOrigin": "https://www.mogcomputer.it",
+      "wishlistAnchors": 0,
+      "privacyLinks": 2
+    },
+    {
+      "group": "finance form",
+      "path": "/compilazione-finanziamento/",
+      "mode": "mobile",
+      "http": 200,
+      "errors": 0,
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "title": "Compilazione finanziamento - Mogcomputer.it",
+      "h1Count": 1,
+      "formCount": 4,
+      "requiredCount": 8,
+      "formReady": false,
+      "paymentReady": false,
+      "cartItems": 0,
+      "fields": 32,
+      "brokenImages": 0,
+      "badControls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "x": -9990,
+          "right": -9964
+        }
+      ],
+      "siteOrigin": "https://www.mogcomputer.it",
+      "wishlistAnchors": 0,
+      "privacyLinks": 4
+    },
+    {
+      "group": "finance form",
+      "path": "/compilazione-finanziamento/",
+      "mode": "desktop",
+      "http": 200,
+      "errors": 0,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "title": "Compilazione finanziamento - Mogcomputer.it",
+      "h1Count": 1,
+      "formCount": 4,
+      "requiredCount": 8,
+      "formReady": false,
+      "paymentReady": false,
+      "cartItems": 0,
+      "fields": 32,
+      "brokenImages": 0,
+      "badControls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "x": -9974,
+          "right": -9948
+        }
+      ],
+      "siteOrigin": "https://www.mogcomputer.it",
+      "wishlistAnchors": 0,
+      "privacyLinks": 4
+    },
+    {
+      "group": "request assistance",
+      "path": "/richiesta-assistenza/",
+      "mode": "mobile",
+      "http": 200,
+      "errors": 0,
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "title": "Richiesta assistenza - Mogcomputer.it",
+      "h1Count": 1,
+      "formCount": 4,
+      "requiredCount": 14,
+      "formReady": false,
+      "paymentReady": false,
+      "cartItems": 0,
+      "fields": 22,
+      "brokenImages": 1,
+      "badControls": [],
+      "siteOrigin": "https://www.mogcomputer.it",
+      "wishlistAnchors": 0,
+      "privacyLinks": 3
+    },
+    {
+      "group": "request assistance",
+      "path": "/richiesta-assistenza/",
+      "mode": "desktop",
+      "http": 200,
+      "errors": 0,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "title": "Richiesta assistenza - Mogcomputer.it",
+      "h1Count": 1,
+      "formCount": 4,
+      "requiredCount": 14,
+      "formReady": false,
+      "paymentReady": false,
+      "cartItems": 0,
+      "fields": 22,
+      "brokenImages": 1,
+      "badControls": [],
+      "siteOrigin": "https://www.mogcomputer.it",
+      "wishlistAnchors": 0,
+      "privacyLinks": 3
+    },
+    {
+      "group": "book collection",
+      "path": "/prenota-ritiro/",
+      "mode": "mobile",
+      "http": 200,
+      "errors": 0,
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "title": "Prenota ritiro - Mogcomputer.it",
+      "h1Count": 1,
+      "formCount": 4,
+      "requiredCount": 14,
+      "formReady": false,
+      "paymentReady": false,
+      "cartItems": 0,
+      "fields": 22,
+      "brokenImages": 1,
+      "badControls": [],
+      "siteOrigin": "https://www.mogcomputer.it",
+      "wishlistAnchors": 0,
+      "privacyLinks": 3
+    },
+    {
+      "group": "book collection",
+      "path": "/prenota-ritiro/",
+      "mode": "desktop",
+      "http": 200,
+      "errors": 0,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "title": "Prenota ritiro - Mogcomputer.it",
+      "h1Count": 1,
+      "formCount": 4,
+      "requiredCount": 14,
+      "formReady": false,
+      "paymentReady": false,
+      "cartItems": 0,
+      "fields": 22,
+      "brokenImages": 1,
+      "badControls": [],
+      "siteOrigin": "https://www.mogcomputer.it",
+      "wishlistAnchors": 0,
+      "privacyLinks": 3
+    },
+    {
+      "group": "online withdrawal",
+      "path": "/recesso-online/",
+      "mode": "mobile",
+      "http": 200,
+      "errors": 0,
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "title": "Recedere dal contratto qui - Mogcomputer.it",
+      "h1Count": 1,
+      "formCount": 4,
+      "requiredCount": 12,
+      "formReady": false,
+      "paymentReady": false,
+      "cartItems": 0,
+      "fields": 17,
+      "brokenImages": 1,
+      "badControls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "x": -10000,
+          "right": -9956
+        }
+      ],
+      "siteOrigin": "https://www.mogcomputer.it",
+      "wishlistAnchors": 0,
+      "privacyLinks": 3
+    },
+    {
+      "group": "online withdrawal",
+      "path": "/recesso-online/",
+      "mode": "desktop",
+      "http": 200,
+      "errors": 0,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "title": "Recedere dal contratto qui - Mogcomputer.it",
+      "h1Count": 1,
+      "formCount": 4,
+      "requiredCount": 12,
+      "formReady": false,
+      "paymentReady": false,
+      "cartItems": 0,
+      "fields": 17,
+      "brokenImages": 1,
+      "badControls": [
+        {
+          "tag": "input",
+          "type": "text",
+          "x": -10000,
+          "right": -9956
+        }
+      ],
+      "siteOrigin": "https://www.mogcomputer.it",
+      "wishlistAnchors": 0,
+      "privacyLinks": 3
+    },
+    {
+      "group": "rma",
+      "path": "/rma/",
+      "mode": "mobile",
+      "http": 200,
+      "errors": 0,
+      "width": 390,
+      "scrollWidth": 390,
+      "overflow": 0,
+      "title": "Rma - Mogcomputer.it",
+      "h1Count": 1,
+      "formCount": 3,
+      "requiredCount": 8,
+      "formReady": false,
+      "paymentReady": false,
+      "cartItems": 0,
+      "fields": 12,
+      "brokenImages": 1,
+      "badControls": [],
+      "siteOrigin": "https://www.mogcomputer.it",
+      "wishlistAnchors": 0,
+      "privacyLinks": 3
+    },
+    {
+      "group": "rma",
+      "path": "/rma/",
+      "mode": "desktop",
+      "http": 200,
+      "errors": 0,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflow": 0,
+      "title": "Rma - Mogcomputer.it",
+      "h1Count": 1,
+      "formCount": 3,
+      "requiredCount": 8,
+      "formReady": false,
+      "paymentReady": false,
+      "cartItems": 0,
+      "fields": 12,
+      "brokenImages": 1,
+      "badControls": [],
+      "siteOrigin": "https://www.mogcomputer.it",
+      "wishlistAnchors": 0,
+      "privacyLinks": 3
+    }
+  ],
+  "checks": [
+    {
+      "group": "store api",
+      "name": "products HTTP 200",
+      "pass": true,
+      "http": 200
+    },
+    {
+      "group": "cart",
+      "name": "available purchasable simple product",
+      "pass": true
+    },
+    {
+      "group": "cart",
+      "name": "add to isolated guest cart",
+      "pass": true,
+      "http": 200
+    },
+    {
+      "group": "cart populated",
+      "name": "mobile HTTP 200",
+      "pass": true,
+      "http": 200
+    },
+    {
+      "group": "cart populated",
+      "name": "mobile no horizontal overflow",
+      "pass": true,
+      "overflow": 0,
+      "width": 390
+    },
+    {
+      "group": "cart populated",
+      "name": "mobile no JS exceptions",
+      "pass": true,
+      "count": 0
+    },
+    {
+      "group": "cart populated",
+      "name": "mobile no broken images",
+      "pass": false,
+      "count": 1
+    },
+    {
+      "group": "cart populated",
+      "name": "mobile contains product",
+      "pass": true
+    },
+    {
+      "group": "cart",
+      "name": "cart content accessible",
+      "pass": true,
+      "items": 1
+    },
+    {
+      "group": "cart populated",
+      "name": "tablet HTTP 200",
+      "pass": true,
+      "http": 200
+    },
+    {
+      "group": "cart populated",
+      "name": "tablet no horizontal overflow",
+      "pass": true,
+      "overflow": 0,
+      "width": 768
+    },
+    {
+      "group": "cart populated",
+      "name": "tablet no JS exceptions",
+      "pass": true,
+      "count": 0
+    },
+    {
+      "group": "cart populated",
+      "name": "tablet no broken images",
+      "pass": false,
+      "count": 1
+    },
+    {
+      "group": "cart populated",
+      "name": "tablet contains product",
+      "pass": true
+    },
+    {
+      "group": "cart populated",
+      "name": "desktop HTTP 200",
+      "pass": true,
+      "http": 200
+    },
+    {
+      "group": "cart populated",
+      "name": "desktop no horizontal overflow",
+      "pass": true,
+      "overflow": 0,
+      "width": 1440
+    },
+    {
+      "group": "cart populated",
+      "name": "desktop no JS exceptions",
+      "pass": true,
+      "count": 0
+    },
+    {
+      "group": "cart populated",
+      "name": "desktop no broken images",
+      "pass": false,
+      "count": 1
+    },
+    {
+      "group": "cart populated",
+      "name": "desktop contains product",
+      "pass": true
+    },
+    {
+      "group": "checkout populated",
+      "name": "mobile HTTP 200",
+      "pass": true,
+      "http": 200
+    },
+    {
+      "group": "checkout populated",
+      "name": "mobile no horizontal overflow",
+      "pass": true,
+      "overflow": 0,
+      "width": 390
+    },
+    {
+      "group": "checkout populated",
+      "name": "mobile no JS exceptions",
+      "pass": true,
+      "count": 0
+    },
+    {
+      "group": "checkout populated",
+      "name": "mobile no broken images",
+      "pass": false,
+      "count": 1
+    },
+    {
+      "group": "checkout populated",
+      "name": "mobile form present",
+      "pass": true
+    },
+    {
+      "group": "checkout populated",
+      "name": "mobile payment section present",
+      "pass": true
+    },
+    {
+      "group": "checkout populated",
+      "name": "mobile data-entry fields present",
+      "pass": true
+    },
+    {
+      "group": "checkout populated",
+      "name": "tablet HTTP 200",
+      "pass": true,
+      "http": 200
+    },
+    {
+      "group": "checkout populated",
+      "name": "tablet no horizontal overflow",
+      "pass": true,
+      "overflow": 0,
+      "width": 768
+    },
+    {
+      "group": "checkout populated",
+      "name": "tablet no JS exceptions",
+      "pass": true,
+      "count": 0
+    },
+    {
+      "group": "checkout populated",
+      "name": "tablet no broken images",
+      "pass": false,
+      "count": 1
+    },
+    {
+      "group": "checkout populated",
+      "name": "tablet form present",
+      "pass": true
+    },
+    {
+      "group": "checkout populated",
+      "name": "tablet payment section present",
+      "pass": true
+    },
+    {
+      "group": "checkout populated",
+      "name": "tablet data-entry fields present",
+      "pass": true
+    },
+    {
+      "group": "checkout populated",
+      "name": "desktop HTTP 200",
+      "pass": true,
+      "http": 200
+    },
+    {
+      "group": "checkout populated",
+      "name": "desktop no horizontal overflow",
+      "pass": true,
+      "overflow": 0,
+      "width": 1440
+    },
+    {
+      "group": "checkout populated",
+      "name": "desktop no JS exceptions",
+      "pass": true,
+      "count": 0
+    },
+    {
+      "group": "checkout populated",
+      "name": "desktop no broken images",
+      "pass": false,
+      "count": 1
+    },
+    {
+      "group": "checkout populated",
+      "name": "desktop form present",
+      "pass": true
+    },
+    {
+      "group": "checkout populated",
+      "name": "desktop payment section present",
+      "pass": true
+    },
+    {
+      "group": "checkout populated",
+      "name": "desktop data-entry fields present",
+      "pass": true
+    },
+    {
+      "group": "my account",
+      "name": "mobile HTTP 200",
+      "pass": true,
+      "http": 200
+    },
+    {
+      "group": "my account",
+      "name": "mobile no horizontal overflow",
+      "pass": true,
+      "overflow": 0,
+      "width": 390
+    },
+    {
+      "group": "my account",
+      "name": "mobile no JS exceptions",
+      "pass": true,
+      "count": 0
+    },
+    {
+      "group": "my account",
+      "name": "mobile no broken images",
+      "pass": false,
+      "count": 1
+    },
+    {
+      "group": "my account",
+      "name": "mobile login/registration form present",
+      "pass": true
+    },
+    {
+      "group": "my account",
+      "name": "desktop HTTP 200",
+      "pass": true,
+      "http": 200
+    },
+    {
+      "group": "my account",
+      "name": "desktop no horizontal overflow",
+      "pass": true,
+      "overflow": 0,
+      "width": 1440
+    },
+    {
+      "group": "my account",
+      "name": "desktop no JS exceptions",
+      "pass": true,
+      "count": 0
+    },
+    {
+      "group": "my account",
+      "name": "desktop no broken images",
+      "pass": false,
+      "count": 1
+    },
+    {
+      "group": "my account",
+      "name": "desktop login/registration form present",
+      "pass": true
+    },
+    {
+      "group": "finance form",
+      "name": "mobile HTTP 200",
+      "pass": true,
+      "http": 200
+    },
+    {
+      "group": "finance form",
+      "name": "mobile no horizontal overflow",
+      "pass": true,
+      "overflow": 0,
+      "width": 390
+    },
+    {
+      "group": "finance form",
+      "name": "mobile no JS exceptions",
+      "pass": true,
+      "count": 0
+    },
+    {
+      "group": "finance form",
+      "name": "mobile no broken images",
+      "pass": true,
+      "count": 0
+    },
+    {
+      "group": "finance form",
+      "name": "mobile finance form present",
+      "pass": true
+    },
+    {
+      "group": "finance form",
+      "name": "mobile fields available",
+      "pass": true
+    },
+    {
+      "group": "finance form",
+      "name": "mobile privacy link",
+      "pass": true
+    },
+    {
+      "group": "finance form",
+      "name": "desktop HTTP 200",
+      "pass": true,
+      "http": 200
+    },
+    {
+      "group": "finance form",
+      "name": "desktop no horizontal overflow",
+      "pass": true,
+      "overflow": 0,
+      "width": 1440
+    },
+    {
+      "group": "finance form",
+      "name": "desktop no JS exceptions",
+      "pass": true,
+      "count": 0
+    },
+    {
+      "group": "finance form",
+      "name": "desktop no broken images",
+      "pass": true,
+      "count": 0
+    },
+    {
+      "group": "finance form",
+      "name": "desktop finance form present",
+      "pass": true
+    },
+    {
+      "group": "finance form",
+      "name": "desktop fields available",
+      "pass": true
+    },
+    {
+      "group": "finance form",
+      "name": "desktop privacy link",
+      "pass": true
+    },
+    {
+      "group": "request assistance",
+      "name": "mobile HTTP 200",
+      "pass": true,
+      "http": 200
+    },
+    {
+      "group": "request assistance",
+      "name": "mobile no horizontal overflow",
+      "pass": true,
+      "overflow": 0,
+      "width": 390
+    },
+    {
+      "group": "request assistance",
+      "name": "mobile no JS exceptions",
+      "pass": true,
+      "count": 0
+    },
+    {
+      "group": "request assistance",
+      "name": "mobile no broken images",
+      "pass": false,
+      "count": 1
+    },
+    {
+      "group": "request assistance",
+      "name": "mobile request form",
+      "pass": true
+    },
+    {
+      "group": "request assistance",
+      "name": "desktop HTTP 200",
+      "pass": true,
+      "http": 200
+    },
+    {
+      "group": "request assistance",
+      "name": "desktop no horizontal overflow",
+      "pass": true,
+      "overflow": 0,
+      "width": 1440
+    },
+    {
+      "group": "request assistance",
+      "name": "desktop no JS exceptions",
+      "pass": true,
+      "count": 0
+    },
+    {
+      "group": "request assistance",
+      "name": "desktop no broken images",
+      "pass": false,
+      "count": 1
+    },
+    {
+      "group": "request assistance",
+      "name": "desktop request form",
+      "pass": true
+    },
+    {
+      "group": "book collection",
+      "name": "mobile HTTP 200",
+      "pass": true,
+      "http": 200
+    },
+    {
+      "group": "book collection",
+      "name": "mobile no horizontal overflow",
+      "pass": true,
+      "overflow": 0,
+      "width": 390
+    },
+    {
+      "group": "book collection",
+      "name": "mobile no JS exceptions",
+      "pass": true,
+      "count": 0
+    },
+    {
+      "group": "book collection",
+      "name": "mobile no broken images",
+      "pass": false,
+      "count": 1
+    },
+    {
+      "group": "book collection",
+      "name": "mobile booking form",
+      "pass": true
+    },
+    {
+      "group": "book collection",
+      "name": "desktop HTTP 200",
+      "pass": true,
+      "http": 200
+    },
+    {
+      "group": "book collection",
+      "name": "desktop no horizontal overflow",
+      "pass": true,
+      "overflow": 0,
+      "width": 1440
+    },
+    {
+      "group": "book collection",
+      "name": "desktop no JS exceptions",
+      "pass": true,
+      "count": 0
+    },
+    {
+      "group": "book collection",
+      "name": "desktop no broken images",
+      "pass": false,
+      "count": 1
+    },
+    {
+      "group": "book collection",
+      "name": "desktop booking form",
+      "pass": true
+    },
+    {
+      "group": "online withdrawal",
+      "name": "mobile HTTP 200",
+      "pass": true,
+      "http": 200
+    },
+    {
+      "group": "online withdrawal",
+      "name": "mobile no horizontal overflow",
+      "pass": true,
+      "overflow": 0,
+      "width": 390
+    },
+    {
+      "group": "online withdrawal",
+      "name": "mobile no JS exceptions",
+      "pass": true,
+      "count": 0
+    },
+    {
+      "group": "online withdrawal",
+      "name": "mobile no broken images",
+      "pass": false,
+      "count": 1
+    },
+    {
+      "group": "online withdrawal",
+      "name": "mobile withdrawal form",
+      "pass": true
+    },
+    {
+      "group": "online withdrawal",
+      "name": "desktop HTTP 200",
+      "pass": true,
+      "http": 200
+    },
+    {
+      "group": "online withdrawal",
+      "name": "desktop no horizontal overflow",
+      "pass": true,
+      "overflow": 0,
+      "width": 1440
+    },
+    {
+      "group": "online withdrawal",
+      "name": "desktop no JS exceptions",
+      "pass": true,
+      "count": 0
+    },
+    {
+      "group": "online withdrawal",
+      "name": "desktop no broken images",
+      "pass": false,
+      "count": 1
+    },
+    {
+      "group": "online withdrawal",
+      "name": "desktop withdrawal form",
+      "pass": true
+    },
+    {
+      "group": "rma",
+      "name": "mobile HTTP 200",
+      "pass": true,
+      "http": 200
+    },
+    {
+      "group": "rma",
+      "name": "mobile no horizontal overflow",
+      "pass": true,
+      "overflow": 0,
+      "width": 390
+    },
+    {
+      "group": "rma",
+      "name": "mobile no JS exceptions",
+      "pass": true,
+      "count": 0
+    },
+    {
+      "group": "rma",
+      "name": "mobile no broken images",
+      "pass": false,
+      "count": 1
+    },
+    {
+      "group": "rma",
+      "name": "desktop HTTP 200",
+      "pass": true,
+      "http": 200
+    },
+    {
+      "group": "rma",
+      "name": "desktop no horizontal overflow",
+      "pass": true,
+      "overflow": 0,
+      "width": 1440
+    },
+    {
+      "group": "rma",
+      "name": "desktop no JS exceptions",
+      "pass": true,
+      "count": 0
+    },
+    {
+      "group": "rma",
+      "name": "desktop no broken images",
+      "pass": false,
+      "count": 1
+    },
+    {
+      "group": "admin access protection",
+      "name": "fidelity-manager",
+      "pass": true,
+      "http": 200,
+      "loginDisplayed": true,
+      "redirected": true
+    },
+    {
+      "group": "admin access protection",
+      "name": "mog-pc-configurator",
+      "pass": true,
+      "http": 200,
+      "loginDisplayed": true,
+      "redirected": true
+    },
+    {
+      "group": "admin access protection",
+      "name": "mogstyle-pages",
+      "pass": true,
+      "http": 200,
+      "loginDisplayed": true,
+      "redirected": true
+    },
+    {
+      "group": "admin access protection",
+      "name": "mogstyle-assistenza-page",
+      "pass": true,
+      "http": 200,
+      "loginDisplayed": true,
+      "redirected": true
+    },
+    {
+      "group": "admin access protection",
+      "name": "mog-social",
+      "pass": true,
+      "http": 200,
+      "loginDisplayed": true,
+      "redirected": true
+    },
+    {
+      "group": "admin access protection",
+      "name": "wpmntz-import-listino-RED",
+      "pass": true,
+      "http": 200,
+      "loginDisplayed": true,
+      "redirected": true
+    },
+    {
+      "group": "admin access protection",
+      "name": "wpmntz-import-listino-UM",
+      "pass": true,
+      "http": 200,
+      "loginDisplayed": true,
+      "redirected": true
+    },
+    {
+      "group": "admin access protection",
+      "name": "mog-checkout-diagnostics",
+      "pass": true,
+      "http": 200,
+      "loginDisplayed": true,
+      "redirected": true
+    }
+  ],
+  "summary": {
+    "checks": 110,
+    "passed": 94,
+    "failed": 16,
+    "pages": 18,
+    "maxOverflow": 0,
+    "failedTests": [
+      "cart populated: mobile no broken images",
+      "cart populated: tablet no broken images",
+      "cart populated: desktop no broken images",
+      "checkout populated: mobile no broken images",
+      "checkout populated: tablet no broken images",
+      "checkout populated: desktop no broken images",
+      "my account: mobile no broken images",
+      "my account: desktop no broken images",
+      "request assistance: mobile no broken images",
+      "request assistance: desktop no broken images",
+      "book collection: mobile no broken images",
+      "book collection: desktop no broken images",
+      "online withdrawal: mobile no broken images",
+      "online withdrawal: desktop no broken images",
+      "rma: mobile no broken images",
+      "rma: desktop no broken images"
+    ],
+    "noOrdersSubmitted": true,
+    "noPaymentSubmitted": true,
+    "noLoginAttempted": true,
+    "guestOnly": true
+  }
+}
