@@ -1,184 +1,391 @@
 {
   "summary": {
-    "at": "2026-10-30T11:20:26.527Z",
-    "total": 3,
-    "passed": 0,
-    "failed": 3,
-    "overflows": [],
-    "redirects": [
+    "date": "2026-10-31T11:01:42.000Z",
+    "tested": 9,
+    "pass": 9,
+    "fail": 0,
+    "method": "MOG QA restricted-view browser; screenshot content anonymized before export",
+    "results": [
       {
-        "screen": "Autotag Global",
-        "mode": "mobile",
-        "found": "/wp-login.php"
+        "panel": "fidelity",
+        "label": "Fidelity Manager",
+        "width": 390,
+        "http": 200,
+        "ok": true,
+        "geometry": {
+          "viewport": 390,
+          "scroll_width": 390,
+          "overflow": 0,
+          "content": true,
+          "forms": 0,
+          "fields": 4,
+          "tables": 0,
+          "buttons": 9,
+          "short_buttons": 0,
+          "offscreen": [],
+          "document_height": 950
+        },
+        "image": "mog-qa-admin/visual/fidelity-390.jpg"
       },
       {
-        "screen": "Autotag Global",
-        "mode": "tablet",
-        "found": "/wp-login.php"
+        "panel": "fidelity",
+        "label": "Fidelity Manager",
+        "width": 768,
+        "http": 200,
+        "ok": true,
+        "geometry": {
+          "viewport": 768,
+          "scroll_width": 768,
+          "overflow": 0,
+          "content": true,
+          "forms": 0,
+          "fields": 4,
+          "tables": 0,
+          "buttons": 9,
+          "short_buttons": 0,
+          "offscreen": [],
+          "document_height": 950
+        },
+        "image": "mog-qa-admin/visual/fidelity-768.jpg"
       },
       {
-        "screen": "Autotag Global",
-        "mode": "desktop",
-        "found": "/wp-login.php"
+        "panel": "fidelity",
+        "label": "Fidelity Manager",
+        "width": 1440,
+        "http": 200,
+        "ok": true,
+        "geometry": {
+          "viewport": 1440,
+          "scroll_width": 1440,
+          "overflow": 0,
+          "content": true,
+          "forms": 0,
+          "fields": 4,
+          "tables": 0,
+          "buttons": 9,
+          "short_buttons": 1,
+          "offscreen": [],
+          "document_height": 1025
+        },
+        "image": "mog-qa-admin/visual/fidelity-1440.jpg"
+      },
+      {
+        "panel": "red",
+        "label": "Importatore RED",
+        "width": 390,
+        "http": 200,
+        "ok": true,
+        "geometry": {
+          "viewport": 390,
+          "scroll_width": 390,
+          "overflow": 0,
+          "content": true,
+          "forms": 1,
+          "fields": 60,
+          "tables": 1,
+          "buttons": 51,
+          "short_buttons": 0,
+          "offscreen": [],
+          "document_height": 1065
+        },
+        "image": "mog-qa-admin/visual/red-390.jpg"
+      },
+      {
+        "panel": "red",
+        "label": "Importatore RED",
+        "width": 768,
+        "http": 200,
+        "ok": true,
+        "geometry": {
+          "viewport": 768,
+          "scroll_width": 768,
+          "overflow": 0,
+          "content": true,
+          "forms": 1,
+          "fields": 60,
+          "tables": 1,
+          "buttons": 51,
+          "short_buttons": 0,
+          "offscreen": [],
+          "document_height": 950
+        },
+        "image": "mog-qa-admin/visual/red-768.jpg"
+      },
+      {
+        "panel": "red",
+        "label": "Importatore RED",
+        "width": 1440,
+        "http": 200,
+        "ok": true,
+        "geometry": {
+          "viewport": 1440,
+          "scroll_width": 1440,
+          "overflow": 0,
+          "content": true,
+          "forms": 1,
+          "fields": 60,
+          "tables": 1,
+          "buttons": 51,
+          "short_buttons": 0,
+          "offscreen": [],
+          "document_height": 1843
+        },
+        "image": "mog-qa-admin/visual/red-1440.jpg"
+      },
+      {
+        "panel": "um",
+        "label": "Importatore UM",
+        "width": 390,
+        "http": 200,
+        "ok": true,
+        "geometry": {
+          "viewport": 390,
+          "scroll_width": 390,
+          "overflow": 0,
+          "content": true,
+          "forms": 1,
+          "fields": 71,
+          "tables": 1,
+          "buttons": 53,
+          "short_buttons": 0,
+          "offscreen": [],
+          "document_height": 1065
+        },
+        "image": "mog-qa-admin/visual/um-390.jpg"
+      },
+      {
+        "panel": "um",
+        "label": "Importatore UM",
+        "width": 768,
+        "http": 200,
+        "ok": true,
+        "geometry": {
+          "viewport": 768,
+          "scroll_width": 768,
+          "overflow": 0,
+          "content": true,
+          "forms": 1,
+          "fields": 71,
+          "tables": 1,
+          "buttons": 53,
+          "short_buttons": 0,
+          "offscreen": [],
+          "document_height": 950
+        },
+        "image": "mog-qa-admin/visual/um-768.jpg"
+      },
+      {
+        "panel": "um",
+        "label": "Importatore UM",
+        "width": 1440,
+        "http": 200,
+        "ok": true,
+        "geometry": {
+          "viewport": 1440,
+          "scroll_width": 1440,
+          "overflow": 0,
+          "content": true,
+          "forms": 1,
+          "fields": 71,
+          "tables": 1,
+          "buttons": 53,
+          "short_buttons": 0,
+          "offscreen": [],
+          "document_height": 1815
+        },
+        "image": "mog-qa-admin/visual/um-1440.jpg"
       }
     ]
   },
   "results": [
     {
-      "screen": "Autotag Global",
-      "mode": "mobile",
+      "panel": "fidelity",
+      "label": "Fidelity Manager",
       "width": 390,
       "http": 200,
-      "found": "/wp-login.php",
-      "ok": false,
-      "diag": [
-        {
-          "code": 302,
-          "marker": "header-seen",
-          "path": "/wp-admin/tools.php"
-        },
-        {
-          "code": 200,
-          "marker": "",
-          "path": "/wp-admin/css/forms.min.css"
-        },
-        {
-          "code": 200,
-          "marker": "",
-          "path": "/wp-admin/css/l10n.min.css"
-        },
-        {
-          "code": 200,
-          "marker": "",
-          "path": "/wp-admin/css/wp-tooltip.min.css"
-        },
-        {
-          "code": 200,
-          "marker": "",
-          "path": "/wp-admin/css/login.min.css"
-        },
-        {
-          "code": 200,
-          "marker": "",
-          "path": "/wp-admin/images/wordpress-logo-gray.svg"
-        }
-      ],
-      "viewport": 390,
-      "scrollWidth": 390,
-      "overflow": 0,
-      "height": 1161,
-      "bodyTextLength": 527,
-      "forms": 0,
-      "tables": 0,
-      "stylesheetCount": 10,
-      "adminBody": false,
-      "scrubbed": true,
-      "unavailable": false,
-      "bad": []
+      "ok": true,
+      "geometry": {
+        "viewport": 390,
+        "scroll_width": 390,
+        "overflow": 0,
+        "content": true,
+        "forms": 0,
+        "fields": 4,
+        "tables": 0,
+        "buttons": 9,
+        "short_buttons": 0,
+        "offscreen": [],
+        "document_height": 950
+      },
+      "image": "mog-qa-admin/visual/fidelity-390.jpg"
     },
     {
-      "screen": "Autotag Global",
-      "mode": "tablet",
+      "panel": "fidelity",
+      "label": "Fidelity Manager",
       "width": 768,
       "http": 200,
-      "found": "/wp-login.php",
-      "ok": false,
-      "diag": [
-        {
-          "code": 302,
-          "marker": "header-seen",
-          "path": "/wp-admin/tools.php"
-        },
-        {
-          "code": 200,
-          "marker": "",
-          "path": "/wp-admin/css/forms.min.css"
-        },
-        {
-          "code": 200,
-          "marker": "",
-          "path": "/wp-admin/css/l10n.min.css"
-        },
-        {
-          "code": 200,
-          "marker": "",
-          "path": "/wp-admin/css/wp-tooltip.min.css"
-        },
-        {
-          "code": 200,
-          "marker": "",
-          "path": "/wp-admin/css/login.min.css"
-        },
-        {
-          "code": 200,
-          "marker": "",
-          "path": "/wp-admin/images/wordpress-logo-gray.svg"
-        }
-      ],
-      "viewport": 768,
-      "scrollWidth": 768,
-      "overflow": 0,
-      "height": 1134,
-      "bodyTextLength": 529,
-      "forms": 0,
-      "tables": 0,
-      "stylesheetCount": 10,
-      "adminBody": false,
-      "scrubbed": true,
-      "unavailable": false,
-      "bad": []
+      "ok": true,
+      "geometry": {
+        "viewport": 768,
+        "scroll_width": 768,
+        "overflow": 0,
+        "content": true,
+        "forms": 0,
+        "fields": 4,
+        "tables": 0,
+        "buttons": 9,
+        "short_buttons": 0,
+        "offscreen": [],
+        "document_height": 950
+      },
+      "image": "mog-qa-admin/visual/fidelity-768.jpg"
     },
     {
-      "screen": "Autotag Global",
-      "mode": "desktop",
+      "panel": "fidelity",
+      "label": "Fidelity Manager",
       "width": 1440,
       "http": 200,
-      "found": "/wp-login.php",
-      "ok": false,
-      "diag": [
-        {
-          "code": 302,
-          "marker": "header-seen",
-          "path": "/wp-admin/tools.php"
-        },
-        {
-          "code": 200,
-          "marker": "",
-          "path": "/wp-admin/css/forms.min.css"
-        },
-        {
-          "code": 200,
-          "marker": "",
-          "path": "/wp-admin/css/login.min.css"
-        },
-        {
-          "code": 200,
-          "marker": "",
-          "path": "/wp-admin/css/l10n.min.css"
-        },
-        {
-          "code": 200,
-          "marker": "",
-          "path": "/wp-admin/css/wp-tooltip.min.css"
-        },
-        {
-          "code": 200,
-          "marker": "",
-          "path": "/wp-admin/images/wordpress-logo-gray.svg"
-        }
-      ],
-      "viewport": 1440,
-      "scrollWidth": 1440,
-      "overflow": 0,
-      "height": 1162,
-      "bodyTextLength": 529,
-      "forms": 0,
-      "tables": 0,
-      "stylesheetCount": 10,
-      "adminBody": false,
-      "scrubbed": true,
-      "unavailable": false,
-      "bad": []
+      "ok": true,
+      "geometry": {
+        "viewport": 1440,
+        "scroll_width": 1440,
+        "overflow": 0,
+        "content": true,
+        "forms": 0,
+        "fields": 4,
+        "tables": 0,
+        "buttons": 9,
+        "short_buttons": 1,
+        "offscreen": [],
+        "document_height": 1025
+      },
+      "image": "mog-qa-admin/visual/fidelity-1440.jpg"
+    },
+    {
+      "panel": "red",
+      "label": "Importatore RED",
+      "width": 390,
+      "http": 200,
+      "ok": true,
+      "geometry": {
+        "viewport": 390,
+        "scroll_width": 390,
+        "overflow": 0,
+        "content": true,
+        "forms": 1,
+        "fields": 60,
+        "tables": 1,
+        "buttons": 51,
+        "short_buttons": 0,
+        "offscreen": [],
+        "document_height": 1065
+      },
+      "image": "mog-qa-admin/visual/red-390.jpg"
+    },
+    {
+      "panel": "red",
+      "label": "Importatore RED",
+      "width": 768,
+      "http": 200,
+      "ok": true,
+      "geometry": {
+        "viewport": 768,
+        "scroll_width": 768,
+        "overflow": 0,
+        "content": true,
+        "forms": 1,
+        "fields": 60,
+        "tables": 1,
+        "buttons": 51,
+        "short_buttons": 0,
+        "offscreen": [],
+        "document_height": 950
+      },
+      "image": "mog-qa-admin/visual/red-768.jpg"
+    },
+    {
+      "panel": "red",
+      "label": "Importatore RED",
+      "width": 1440,
+      "http": 200,
+      "ok": true,
+      "geometry": {
+        "viewport": 1440,
+        "scroll_width": 1440,
+        "overflow": 0,
+        "content": true,
+        "forms": 1,
+        "fields": 60,
+        "tables": 1,
+        "buttons": 51,
+        "short_buttons": 0,
+        "offscreen": [],
+        "document_height": 1843
+      },
+      "image": "mog-qa-admin/visual/red-1440.jpg"
+    },
+    {
+      "panel": "um",
+      "label": "Importatore UM",
+      "width": 390,
+      "http": 200,
+      "ok": true,
+      "geometry": {
+        "viewport": 390,
+        "scroll_width": 390,
+        "overflow": 0,
+        "content": true,
+        "forms": 1,
+        "fields": 71,
+        "tables": 1,
+        "buttons": 53,
+        "short_buttons": 0,
+        "offscreen": [],
+        "document_height": 1065
+      },
+      "image": "mog-qa-admin/visual/um-390.jpg"
+    },
+    {
+      "panel": "um",
+      "label": "Importatore UM",
+      "width": 768,
+      "http": 200,
+      "ok": true,
+      "geometry": {
+        "viewport": 768,
+        "scroll_width": 768,
+        "overflow": 0,
+        "content": true,
+        "forms": 1,
+        "fields": 71,
+        "tables": 1,
+        "buttons": 53,
+        "short_buttons": 0,
+        "offscreen": [],
+        "document_height": 950
+      },
+      "image": "mog-qa-admin/visual/um-768.jpg"
+    },
+    {
+      "panel": "um",
+      "label": "Importatore UM",
+      "width": 1440,
+      "http": 200,
+      "ok": true,
+      "geometry": {
+        "viewport": 1440,
+        "scroll_width": 1440,
+        "overflow": 0,
+        "content": true,
+        "forms": 1,
+        "fields": 71,
+        "tables": 1,
+        "buttons": 53,
+        "short_buttons": 0,
+        "offscreen": [],
+        "document_height": 1815
+      },
+      "image": "mog-qa-admin/visual/um-1440.jpg"
     }
   ]
 }
