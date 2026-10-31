@@ -12,11 +12,11 @@ const sizes=[390,768,1440],results=[];
 await mkdir('mog-header-footer-audit/shots',{recursive:true});
 const browser=await chromium.launch({headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
 try{
- for(const [name,path] of pages.filter(([name])=>['home','shop','product','categories','about'].includes(name))) for(const width of ((name==='categories'||name==='about')?sizes:[1440])){
+ for(const [name,path] of pages.filter(([name])=>['categories','about'].includes(name))) for(const width of [1440]){
   const page=await browser.newPage({viewport:{width,height:900},deviceScaleFactor:1,locale:'it-IT'});
   const item={name,path,width,url:'',status:0};
   try {
-   let resp=await page.goto(origin+path+(path.includes('?')?'&':'?')+'mog_header_footer_audit=final-v1-0-3-20261031',{waitUntil:'domcontentloaded',timeout:55000});
+   let resp=await page.goto(origin+path+(path.includes('?')?'&':'?')+'mog_header_footer_audit=diagnostic-native-footer-20261031',{waitUntil:'domcontentloaded',timeout:55000});
    item.status=resp?.status()||0;item.url=page.url();
    await page.waitForTimeout(700);await page.evaluate(async()=>{try{await document.fonts.ready;}catch(e){}});
    item.m=await page.evaluate(()=>{
@@ -36,6 +36,24 @@ try{
       logo:img&&ir?{x:Math.round(ir.x),y:Math.round(ir.y+scrollY),w:Math.round(ir.width),h:Math.round(ir.height),srcPath:new URL(img.src).pathname}:null,
       links,bodyClasses:document.body.className.slice(0,180)};
    });
+   if(['categories','about'].includes(name)&&width===1440){
+     item.debug=await page.evaluate(()=>{
+       const e=document.querySelector('.mog-footer-ultra-grid');if(!e)return null;
+       const hits=[];
+       const walk=(rules,href)=>{for(const rule of rules||[]){
+         if(rule.cssRules){walk(rule.cssRules,href);continue;}
+         try {
+           if(rule.selectorText && /mog-footer-ultra-grid/.test(rule.selectorText) && e.matches(rule.selectorText)){
+             const p=rule.style.getPropertyValue('grid-template-columns');
+             if(p)hits.push({selector:rule.selectorText.slice(0,220),value:p,priority:rule.style.getPropertyPriority('grid-template-columns'),href:href?.slice(-160)});
+           }
+         }catch{}
+       }};
+       for(const sheet of document.styleSheets){try{walk(sheet.cssRules,sheet.href||'inline');}catch{}}
+       return {className:document.body.className.slice(0,170),inline:e.getAttribute('style'),cssPresent:!!document.querySelector('#mog-header-footer-alignment'),children:e.children.length,grid:getComputedStyle(e).gridTemplateColumns,hits:hits.slice(-30)};
+     });
+     console.log('MOG_NATIVE_FOOTER_DEBUG '+JSON.stringify({name,width,debug:item.debug}));
+   }
    if(['home','shop','product','categories','about','contact','cart','account'].includes(name)){
      await page.screenshot({path:'mog-header-footer-audit/shots/'+name+'-'+width+'-top.jpg',type:'jpeg',quality:70,animations:'disabled'});
      for(let i=0;i<3;i++){ await page.evaluate(()=>scrollTo(0,document.documentElement.scrollHeight)); await page.waitForTimeout(350); }
