@@ -12,11 +12,11 @@ const sizes=[390,768,1440],results=[];
 await mkdir('mog-header-footer-audit/shots',{recursive:true});
 const browser=await chromium.launch({headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
 try{
- for(const [name,path] of pages.filter(([name])=>['home','shop','product','categories','about','contact','cart','account'].includes(name))) for(const width of sizes){
+ for(const [name,path] of pages.filter(([name])=>['home','shop','product','categories','about'].includes(name))) for(const width of ((name==='categories'||name==='about')?sizes:[1440])){
   const page=await browser.newPage({viewport:{width,height:900},deviceScaleFactor:1,locale:'it-IT'});
   const item={name,path,width,url:'',status:0};
   try {
-   let resp=await page.goto(origin+path+(path.includes('?')?'&':'?')+'mog_header_footer_audit=final-v1-0-2-20261031',{waitUntil:'domcontentloaded',timeout:55000});
+   let resp=await page.goto(origin+path+(path.includes('?')?'&':'?')+'mog_header_footer_audit=final-v1-0-3-20261031',{waitUntil:'domcontentloaded',timeout:55000});
    item.status=resp?.status()||0;item.url=page.url();
    await page.waitForTimeout(700);await page.evaluate(async()=>{try{await document.fonts.ready;}catch(e){}});
    item.m=await page.evaluate(()=>{
@@ -30,7 +30,7 @@ try{
      let img=h?.querySelector('img');let ir=img?.getBoundingClientRect();
      let links=Array.from((h??document).querySelectorAll('a')).slice(0,7).map(x=>({txt:(x.textContent||'').trim().slice(0,30),x:Math.round(x.getBoundingClientRect().left)}));
      return {viewport:innerWidth,scrollWidth:document.documentElement.scrollWidth,height:document.documentElement.scrollHeight,overflow:Math.max(0,document.documentElement.scrollWidth-innerWidth),
-      hemHeaders:document.querySelectorAll('#hem-header-anchor').length,hemFooters:document.querySelectorAll('#hem-footer-anchor').length,
+      hemHeaders:document.querySelectorAll('#hem-header-anchor').length,hemFooters:document.querySelectorAll('#hem-footer-anchor').length,headRoots:document.querySelectorAll('.mog-header-futuristic').length,footerRoots:document.querySelectorAll('.mog-footer-ultra').length,
       header:metric('#hem-header-anchor'),head:metric('.mog-header-futuristic'),headerContainer:metric('.mog-header-futuristic .mog-container'),nav:metric('.mog-future-nav>.mog-container'),
       footer:metric('#hem-footer-anchor'),footerRoot:metric('.mog-footer-ultra'),footerGrid:metric('.mog-footer-ultra-grid'),footerBottom:metric('.mog-footer-ultra-bottom'),footerSections:metric('.mog-footer-ultra .mog-container'),
       logo:img&&ir?{x:Math.round(ir.x),y:Math.round(ir.y+scrollY),w:Math.round(ir.width),h:Math.round(ir.height),srcPath:new URL(img.src).pathname}:null,
