@@ -19,6 +19,8 @@ function saveToBranch(files,message) {
   const status = git(['status','--porcelain']);
   if (!status) return;
   git(['commit','-m',message]);
+  git(['fetch','origin',branch]);
+  git(['rebase','origin/'+branch]);
   git(['push','origin','HEAD:'+branch]);
 }
 function sleep(ms) { return new Promise(resolve => setTimeout(resolve,ms)); }
