@@ -1,10 +1,10 @@
 {
   "summary": {
-    "date": "2026-10-31T11:01:42.000Z",
+    "date": "2026-10-31T11:06:10.350Z",
     "tested": 9,
     "pass": 9,
     "fail": 0,
-    "method": "MOG QA restricted-view browser; screenshot content anonymized before export",
+    "method": "MOG QA expanded accordions and delayed Fidelity load; screenshots anonymized before export",
     "results": [
       {
         "panel": "fidelity",
@@ -12,20 +12,24 @@
         "width": 390,
         "http": 200,
         "ok": true,
+        "ajax_statuses": [
+          200
+        ],
+        "tableLoaded": true,
         "geometry": {
           "viewport": 390,
           "scroll_width": 390,
           "overflow": 0,
           "content": true,
           "forms": 0,
-          "fields": 4,
-          "tables": 0,
-          "buttons": 9,
+          "fields": 509,
+          "tables": 1,
+          "buttons": 516,
           "short_buttons": 0,
           "offscreen": [],
           "document_height": 950
         },
-        "image": "mog-qa-admin/visual/fidelity-390.jpg"
+        "image": "mog-qa-admin/visual-expanded/fidelity-390.jpg"
       },
       {
         "panel": "fidelity",
@@ -33,20 +37,24 @@
         "width": 768,
         "http": 200,
         "ok": true,
+        "ajax_statuses": [
+          200
+        ],
+        "tableLoaded": true,
         "geometry": {
           "viewport": 768,
           "scroll_width": 768,
           "overflow": 0,
           "content": true,
           "forms": 0,
-          "fields": 4,
-          "tables": 0,
-          "buttons": 9,
+          "fields": 509,
+          "tables": 1,
+          "buttons": 516,
           "short_buttons": 0,
           "offscreen": [],
           "document_height": 950
         },
-        "image": "mog-qa-admin/visual/fidelity-768.jpg"
+        "image": "mog-qa-admin/visual-expanded/fidelity-768.jpg"
       },
       {
         "panel": "fidelity",
@@ -54,20 +62,24 @@
         "width": 1440,
         "http": 200,
         "ok": true,
+        "ajax_statuses": [
+          200
+        ],
+        "tableLoaded": true,
         "geometry": {
           "viewport": 1440,
           "scroll_width": 1440,
           "overflow": 0,
           "content": true,
           "forms": 0,
-          "fields": 4,
-          "tables": 0,
-          "buttons": 9,
+          "fields": 509,
+          "tables": 1,
+          "buttons": 516,
           "short_buttons": 1,
           "offscreen": [],
-          "document_height": 1025
+          "document_height": 7788
         },
-        "image": "mog-qa-admin/visual/fidelity-1440.jpg"
+        "image": "mog-qa-admin/visual-expanded/fidelity-1440.jpg"
       },
       {
         "panel": "red",
@@ -75,6 +87,13 @@
         "width": 390,
         "http": 200,
         "ok": true,
+        "toggles": 7,
+        "opened": 7,
+        "ajax_statuses": [
+          200,
+          200,
+          403
+        ],
         "geometry": {
           "viewport": 390,
           "scroll_width": 390,
@@ -82,13 +101,13 @@
           "content": true,
           "forms": 1,
           "fields": 60,
-          "tables": 1,
-          "buttons": 51,
-          "short_buttons": 0,
+          "tables": 2,
+          "buttons": 771,
+          "short_buttons": 60,
           "offscreen": [],
-          "document_height": 1065
+          "document_height": 18064
         },
-        "image": "mog-qa-admin/visual/red-390.jpg"
+        "image": "mog-qa-admin/visual-expanded/red-390.jpg"
       },
       {
         "panel": "red",
@@ -96,6 +115,13 @@
         "width": 768,
         "http": 200,
         "ok": true,
+        "toggles": 7,
+        "opened": 7,
+        "ajax_statuses": [
+          200,
+          200,
+          403
+        ],
         "geometry": {
           "viewport": 768,
           "scroll_width": 768,
@@ -103,13 +129,13 @@
           "content": true,
           "forms": 1,
           "fields": 60,
-          "tables": 1,
-          "buttons": 51,
-          "short_buttons": 0,
+          "tables": 2,
+          "buttons": 771,
+          "short_buttons": 60,
           "offscreen": [],
-          "document_height": 950
+          "document_height": 14979
         },
-        "image": "mog-qa-admin/visual/red-768.jpg"
+        "image": "mog-qa-admin/visual-expanded/red-768.jpg"
       },
       {
         "panel": "red",
@@ -117,6 +143,13 @@
         "width": 1440,
         "http": 200,
         "ok": true,
+        "toggles": 7,
+        "opened": 7,
+        "ajax_statuses": [
+          200,
+          200,
+          403
+        ],
         "geometry": {
           "viewport": 1440,
           "scroll_width": 1440,
@@ -124,13 +157,13 @@
           "content": true,
           "forms": 1,
           "fields": 60,
-          "tables": 1,
-          "buttons": 51,
+          "tables": 2,
+          "buttons": 771,
           "short_buttons": 0,
           "offscreen": [],
-          "document_height": 1843
+          "document_height": 13779
         },
-        "image": "mog-qa-admin/visual/red-1440.jpg"
+        "image": "mog-qa-admin/visual-expanded/red-1440.jpg"
       },
       {
         "panel": "um",
@@ -138,6 +171,13 @@
         "width": 390,
         "http": 200,
         "ok": true,
+        "toggles": 7,
+        "opened": 7,
+        "ajax_statuses": [
+          200,
+          200,
+          403
+        ],
         "geometry": {
           "viewport": 390,
           "scroll_width": 390,
@@ -145,13 +185,13 @@
           "content": true,
           "forms": 1,
           "fields": 71,
-          "tables": 1,
-          "buttons": 53,
-          "short_buttons": 0,
+          "tables": 2,
+          "buttons": 773,
+          "short_buttons": 60,
           "offscreen": [],
-          "document_height": 1065
+          "document_height": 22690
         },
-        "image": "mog-qa-admin/visual/um-390.jpg"
+        "image": "mog-qa-admin/visual-expanded/um-390.jpg"
       },
       {
         "panel": "um",
@@ -159,6 +199,13 @@
         "width": 768,
         "http": 200,
         "ok": true,
+        "toggles": 7,
+        "opened": 7,
+        "ajax_statuses": [
+          200,
+          200,
+          403
+        ],
         "geometry": {
           "viewport": 768,
           "scroll_width": 768,
@@ -166,13 +213,13 @@
           "content": true,
           "forms": 1,
           "fields": 71,
-          "tables": 1,
-          "buttons": 53,
-          "short_buttons": 0,
+          "tables": 2,
+          "buttons": 773,
+          "short_buttons": 60,
           "offscreen": [],
-          "document_height": 950
+          "document_height": 18824
         },
-        "image": "mog-qa-admin/visual/um-768.jpg"
+        "image": "mog-qa-admin/visual-expanded/um-768.jpg"
       },
       {
         "panel": "um",
@@ -180,6 +227,14 @@
         "width": 1440,
         "http": 200,
         "ok": true,
+        "toggles": 7,
+        "opened": 7,
+        "ajax_statuses": [
+          403,
+          200,
+          200,
+          403
+        ],
         "geometry": {
           "viewport": 1440,
           "scroll_width": 1440,
@@ -187,13 +242,13 @@
           "content": true,
           "forms": 1,
           "fields": 71,
-          "tables": 1,
-          "buttons": 53,
+          "tables": 2,
+          "buttons": 773,
           "short_buttons": 0,
           "offscreen": [],
-          "document_height": 1815
+          "document_height": 16582
         },
-        "image": "mog-qa-admin/visual/um-1440.jpg"
+        "image": "mog-qa-admin/visual-expanded/um-1440.jpg"
       }
     ]
   },
@@ -204,20 +259,24 @@
       "width": 390,
       "http": 200,
       "ok": true,
+      "ajax_statuses": [
+        200
+      ],
+      "tableLoaded": true,
       "geometry": {
         "viewport": 390,
         "scroll_width": 390,
         "overflow": 0,
         "content": true,
         "forms": 0,
-        "fields": 4,
-        "tables": 0,
-        "buttons": 9,
+        "fields": 509,
+        "tables": 1,
+        "buttons": 516,
         "short_buttons": 0,
         "offscreen": [],
         "document_height": 950
       },
-      "image": "mog-qa-admin/visual/fidelity-390.jpg"
+      "image": "mog-qa-admin/visual-expanded/fidelity-390.jpg"
     },
     {
       "panel": "fidelity",
@@ -225,20 +284,24 @@
       "width": 768,
       "http": 200,
       "ok": true,
+      "ajax_statuses": [
+        200
+      ],
+      "tableLoaded": true,
       "geometry": {
         "viewport": 768,
         "scroll_width": 768,
         "overflow": 0,
         "content": true,
         "forms": 0,
-        "fields": 4,
-        "tables": 0,
-        "buttons": 9,
+        "fields": 509,
+        "tables": 1,
+        "buttons": 516,
         "short_buttons": 0,
         "offscreen": [],
         "document_height": 950
       },
-      "image": "mog-qa-admin/visual/fidelity-768.jpg"
+      "image": "mog-qa-admin/visual-expanded/fidelity-768.jpg"
     },
     {
       "panel": "fidelity",
@@ -246,20 +309,24 @@
       "width": 1440,
       "http": 200,
       "ok": true,
+      "ajax_statuses": [
+        200
+      ],
+      "tableLoaded": true,
       "geometry": {
         "viewport": 1440,
         "scroll_width": 1440,
         "overflow": 0,
         "content": true,
         "forms": 0,
-        "fields": 4,
-        "tables": 0,
-        "buttons": 9,
+        "fields": 509,
+        "tables": 1,
+        "buttons": 516,
         "short_buttons": 1,
         "offscreen": [],
-        "document_height": 1025
+        "document_height": 7788
       },
-      "image": "mog-qa-admin/visual/fidelity-1440.jpg"
+      "image": "mog-qa-admin/visual-expanded/fidelity-1440.jpg"
     },
     {
       "panel": "red",
@@ -267,6 +334,13 @@
       "width": 390,
       "http": 200,
       "ok": true,
+      "toggles": 7,
+      "opened": 7,
+      "ajax_statuses": [
+        200,
+        200,
+        403
+      ],
       "geometry": {
         "viewport": 390,
         "scroll_width": 390,
@@ -274,13 +348,13 @@
         "content": true,
         "forms": 1,
         "fields": 60,
-        "tables": 1,
-        "buttons": 51,
-        "short_buttons": 0,
+        "tables": 2,
+        "buttons": 771,
+        "short_buttons": 60,
         "offscreen": [],
-        "document_height": 1065
+        "document_height": 18064
       },
-      "image": "mog-qa-admin/visual/red-390.jpg"
+      "image": "mog-qa-admin/visual-expanded/red-390.jpg"
     },
     {
       "panel": "red",
@@ -288,6 +362,13 @@
       "width": 768,
       "http": 200,
       "ok": true,
+      "toggles": 7,
+      "opened": 7,
+      "ajax_statuses": [
+        200,
+        200,
+        403
+      ],
       "geometry": {
         "viewport": 768,
         "scroll_width": 768,
@@ -295,13 +376,13 @@
         "content": true,
         "forms": 1,
         "fields": 60,
-        "tables": 1,
-        "buttons": 51,
-        "short_buttons": 0,
+        "tables": 2,
+        "buttons": 771,
+        "short_buttons": 60,
         "offscreen": [],
-        "document_height": 950
+        "document_height": 14979
       },
-      "image": "mog-qa-admin/visual/red-768.jpg"
+      "image": "mog-qa-admin/visual-expanded/red-768.jpg"
     },
     {
       "panel": "red",
@@ -309,6 +390,13 @@
       "width": 1440,
       "http": 200,
       "ok": true,
+      "toggles": 7,
+      "opened": 7,
+      "ajax_statuses": [
+        200,
+        200,
+        403
+      ],
       "geometry": {
         "viewport": 1440,
         "scroll_width": 1440,
@@ -316,13 +404,13 @@
         "content": true,
         "forms": 1,
         "fields": 60,
-        "tables": 1,
-        "buttons": 51,
+        "tables": 2,
+        "buttons": 771,
         "short_buttons": 0,
         "offscreen": [],
-        "document_height": 1843
+        "document_height": 13779
       },
-      "image": "mog-qa-admin/visual/red-1440.jpg"
+      "image": "mog-qa-admin/visual-expanded/red-1440.jpg"
     },
     {
       "panel": "um",
@@ -330,6 +418,13 @@
       "width": 390,
       "http": 200,
       "ok": true,
+      "toggles": 7,
+      "opened": 7,
+      "ajax_statuses": [
+        200,
+        200,
+        403
+      ],
       "geometry": {
         "viewport": 390,
         "scroll_width": 390,
@@ -337,13 +432,13 @@
         "content": true,
         "forms": 1,
         "fields": 71,
-        "tables": 1,
-        "buttons": 53,
-        "short_buttons": 0,
+        "tables": 2,
+        "buttons": 773,
+        "short_buttons": 60,
         "offscreen": [],
-        "document_height": 1065
+        "document_height": 22690
       },
-      "image": "mog-qa-admin/visual/um-390.jpg"
+      "image": "mog-qa-admin/visual-expanded/um-390.jpg"
     },
     {
       "panel": "um",
@@ -351,6 +446,13 @@
       "width": 768,
       "http": 200,
       "ok": true,
+      "toggles": 7,
+      "opened": 7,
+      "ajax_statuses": [
+        200,
+        200,
+        403
+      ],
       "geometry": {
         "viewport": 768,
         "scroll_width": 768,
@@ -358,13 +460,13 @@
         "content": true,
         "forms": 1,
         "fields": 71,
-        "tables": 1,
-        "buttons": 53,
-        "short_buttons": 0,
+        "tables": 2,
+        "buttons": 773,
+        "short_buttons": 60,
         "offscreen": [],
-        "document_height": 950
+        "document_height": 18824
       },
-      "image": "mog-qa-admin/visual/um-768.jpg"
+      "image": "mog-qa-admin/visual-expanded/um-768.jpg"
     },
     {
       "panel": "um",
@@ -372,6 +474,14 @@
       "width": 1440,
       "http": 200,
       "ok": true,
+      "toggles": 7,
+      "opened": 7,
+      "ajax_statuses": [
+        403,
+        200,
+        200,
+        403
+      ],
       "geometry": {
         "viewport": 1440,
         "scroll_width": 1440,
@@ -379,13 +489,13 @@
         "content": true,
         "forms": 1,
         "fields": 71,
-        "tables": 1,
-        "buttons": 53,
+        "tables": 2,
+        "buttons": 773,
         "short_buttons": 0,
         "offscreen": [],
-        "document_height": 1815
+        "document_height": 16582
       },
-      "image": "mog-qa-admin/visual/um-1440.jpg"
+      "image": "mog-qa-admin/visual-expanded/um-1440.jpg"
     }
   ]
 }
