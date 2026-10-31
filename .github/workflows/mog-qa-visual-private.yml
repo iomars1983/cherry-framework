@@ -1,0 +1,31 @@
+name: MOG QA private visual inspection
+on:
+  push:
+    branches: [mog-qa-public-20261029]
+    paths:
+      - .github/workflows/mog-qa-visual-private.yml
+      - tools/mog-qa-visual-private.mjs
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Capture approved read-only views and encrypt evidence
+        run: node tools/mog-qa-visual-private.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: mog-qa-encrypted-visual
+          path: mog-qa-encrypted/
+          retention-days: 1
+          if-no-files-found: warn
