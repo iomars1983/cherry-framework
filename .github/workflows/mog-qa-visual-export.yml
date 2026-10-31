@@ -1,0 +1,27 @@
+name: MOG QA visual evidence export
+on:
+  push:
+    branches: [mog-qa-public-20261029]
+    paths: [.github/workflows/mog-qa-visual-export.yml]
+permissions:
+  contents: read
+jobs:
+  export:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Check existing anonymized evidence
+        run: |
+          test -s mog-qa-admin/report.json
+          test "$(find mog-qa-admin/visual -maxdepth 1 -name '*.jpg' | wc -l)" -eq 9
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mog-qa-visual-evidence
+          path: |
+            mog-qa-admin/report.json
+            mog-qa-admin/visual/*.jpg
+          retention-days: 1
+          if-no-files-found: error
