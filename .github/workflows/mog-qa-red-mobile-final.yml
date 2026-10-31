@@ -1,0 +1,59 @@
+name: MOG QA RED mobile final confirmation
+on:
+  push:
+    branches: [mog-qa-public-20261029]
+    paths: [.github/workflows/mog-qa-red-mobile-final.yml]
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Reuse final inspection and limit to RED at 390 pixels
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import textwrap,subprocess
+          workflow=Path('.github/workflows/mog-qa-importers-final.yml').read_text()
+          block=workflow.split('      - name: Configure final read-only visual checks\n        run: |\n',1)[1].split('      - name: Capture approved views and encrypt evidence',1)[0]
+          subprocess.run(['bash','-e','-c',textwrap.dedent(block)],check=True)
+          p=Path('tools/mog-qa-visual-private.mjs');s=p.read_text()
+          s=s.replace("const panels=[['red','wpmntz-import-listino-RED'],['um','wpmntz-import-listino-UM']];","const panels=[['red','wpmntz-import-listino-RED']];")
+          s=s.replace('const widths=[390,768,1440];','const widths=[390];')
+          s=s.replace('mog-qa-admin/final-importers-request.json','mog-qa-admin/red-mobile-request.json')
+          old="const r=await page.goto(origin+'/wp-admin/admin.php?page='+encodeURIComponent(slug),{waitUntil:'domcontentloaded',timeout:45000});"
+          assert old in s
+          new="""let r;
+              for(let navigation=0;navigation<3;navigation++){
+                row.stage='navigation';
+                try{r=await page.goto(origin+'/wp-admin/admin.php?page='+encodeURIComponent(slug),{waitUntil:'domcontentloaded',timeout:45000});}catch{}
+                if(r?.status()===200&&page.url().includes('/wp-admin/admin.php?')&&await page.locator('#wpbody-content').count())break;
+                await page.waitForTimeout(1500);
+              }
+              row.stage='document-loaded';"""
+          s=s.replace(old,new)
+          s=s.replace("await page.evaluate(async()=>{if(document.fonts?.ready)await document.fonts.ready;});","await page.evaluate(async()=>{if(document.fonts?.ready)await Promise.race([document.fonts.ready,new Promise(r=>setTimeout(r,5000))]);});row.stage='fonts-ready';")
+          s=s.replace("}catch{row.status='error';}","}catch(e){row.status='error';row.error=String(e?.message||e).slice(0,300);}")
+          p.write_text(s)
+          PY
+          node --check tools/mog-qa-visual-private.mjs
+      - name: Capture approved RED mobile view
+        env:
+          QA_GITHUB_TOKEN: ${{ github.token }}
+        run: node tools/mog-qa-visual-private.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: mog-qa-red-mobile-final
+          path: mog-qa-encrypted/
+          retention-days: 1
+          if-no-files-found: warn
