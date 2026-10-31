@@ -4,12 +4,8 @@ import { execFileSync } from 'node:child_process';
 
 const origin = 'https://www.mogcomputer.it';
 const branch = 'mog-qa-public-20261029';
-const destination = 'mog-qa-admin/visual-expanded';
-const panels = [
-  ['fidelity','Fidelity Manager','fidelity-manager'],
-  ['red','Importatore RED','wpmntz-import-listino-RED'],
-  ['um','Importatore UM','wpmntz-import-listino-UM']
-];
+const destination = 'mog-qa-admin/visual-fidelity-inspection';
+const panels = [['fidelity','Fidelity Manager','fidelity-manager']];
 const widths = [390,768,1440];
 function git(args) { return execFileSync('git',args,{encoding:'utf8',stdio:['ignore','pipe','pipe']}).trim(); }
 function saveToBranch(files,message) {
@@ -101,6 +97,17 @@ async function run() {
             }).length;
             return {viewport:w,scroll_width:sw,overflow:Math.max(0,sw-w),content:!!content,forms:content?.querySelectorAll('form').length||0,fields:content?.querySelectorAll('input,select,textarea').length||0,tables:content?.querySelectorAll('table').length||0,buttons:buttons.length,short_buttons:tooSmall,offscreen:bad,document_height:doc.scrollHeight};
           });
+          
+          row.visibility=await page.evaluate(()=>{
+            const selectors=['#fm-table-container','#fm-table-container table','#fm-main-content','.fm-main-content','.fm-admin-wrap','.fm-app-shell','#wpbody-content','#wpwrap','html','body'];
+            return selectors.map(selector=>{
+              const el=document.querySelector(selector);
+              if(!el)return {selector,exists:false};
+              const r=el.getBoundingClientRect(),c=getComputedStyle(el);
+              return {selector,exists:true,top:Math.round(r.top),bottom:Math.round(r.bottom),height:Math.round(r.height),width:Math.round(r.width),scrollHeight:el.scrollHeight,clientHeight:el.clientHeight,scrollTop:el.scrollTop,display:c.display,visibility:c.visibility,overflowX:c.overflowX,overflowY:c.overflowY,position:c.position};
+            });
+          });
+          
           row.ok=row.http===200&&page.url().includes('/wp-admin/admin.php?')&&row.geometry.content&&row.geometry.overflow<=5&&row.geometry.offscreen.length===0;
           await page.evaluate(()=>{
             // No actual customer or operational content is written to the public QA branch.
@@ -127,7 +134,7 @@ async function run() {
       }
     }
     const summary={date:new Date().toISOString(),tested:results.length,pass:results.filter(r=>r.ok).length,fail:results.filter(r=>!r.ok).length,method:'MOG QA expanded accordions and delayed Fidelity load; screenshots anonymized before export',results};
-    const reportPath='mog-qa-admin/report.json';
+    const reportPath='mog-qa-admin/report-fidelity-inspection.json';
     await writeFile(reportPath,JSON.stringify({summary,results},null,2));
     saveToBranch([reportPath,...results.map(r=>r.image).filter(Boolean)],'Store sanitized MOG expanded-layout visual QA checks');
     console.log('MOG_QA_VISUAL_SUMMARY '+JSON.stringify({tested:summary.tested,pass:summary.pass,fail:summary.fail}));
