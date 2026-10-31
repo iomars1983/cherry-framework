@@ -1,84 +1,122 @@
 import { chromium } from 'playwright';
 import { mkdir, writeFile } from 'node:fs/promises';
-const origin='https://www.mogcomputer.it';
-const screens=[
- ['Autotag Global','/wp-admin/tools.php?page=wpmntz-autotag-global'],
- ['Fidelity Manager','/wp-admin/admin.php?page=fidelity-manager'],
- ['MOG PC Configurator','/wp-admin/admin.php?page=mog-pcc-admin'],
- ['MOG Social','/wp-admin/admin.php?page=mog-social'],
- ['MOG Photo Engine','/wp-admin/admin.php?page=mog-photo-engine'],
- ['Importatori RED UM','/wp-admin/admin.php?page=mntz-red-um-importer'],
+import { execFileSync } from 'node:child_process';
+
+const origin = 'https://www.mogcomputer.it';
+const branch = 'mog-qa-public-20261029';
+const destination = 'mog-qa-admin/visual';
+const panels = [
+  ['fidelity','Fidelity Manager','fidelity-manager'],
+  ['red','Importatore RED','wpmntz-import-listino-RED'],
+  ['um','Importatore UM','wpmntz-import-listino-UM']
 ];
-const modes=[['mobile',390,900],['tablet',768,980],['desktop',1440,950]];
-async function getJwt(){
- const base=process.env.ACTIONS_ID_TOKEN_REQUEST_URL;
- const auth=process.env.ACTIONS_ID_TOKEN_REQUEST_TOKEN;
- if(!base||!auth)throw Error('GitHub OIDC not available');
- const url=new URL(base);url.searchParams.set('audience','mog-qa-live-readonly');
- const r=await fetch(url,{headers:{Authorization:'Bearer '+auth}});
- if(!r.ok)throw Error('OIDC HTTP '+r.status);
- return (await r.json()).value;
+const widths = [390,768,1440];
+function git(args) { return execFileSync('git',args,{encoding:'utf8',stdio:['ignore','pipe','pipe']}).trim(); }
+function saveToBranch(files,message) {
+  git(['config','user.name','MOG QA Bot']);
+  git(['config','user.email','mog-qa-bot@users.noreply.github.com']);
+  for (const file of files) git(['add','-f',file]);
+  const status = git(['status','--porcelain']);
+  if (!status) return;
+  git(['commit','-m',message]);
+  git(['push','origin','HEAD:'+branch]);
 }
-const token=await getJwt();
-const browser=await chromium.launch({headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
-const results=[];
-for (const [name,path] of screens.slice(0,1)){
- for (const [mode,width,height] of modes){
-  const ctx=await browser.newContext({viewport:{width,height},javaScriptEnabled:false,locale:'it-IT',deviceScaleFactor:1});
-  const page=await ctx.newPage();
-  await page.route('**/wp-admin/**',route=>{
-   const req=route.request();
-   if(req.isNavigationRequest() && req.url().startsWith(origin+path)){
-     route.continue({headers:{...req.headers(),'X-MOG-QA-JWT':token}});
-   }else route.continue();
-  });
-  let stat=0,found='',err='';
-  const diag=[];
-  page.on('response',async resp=>{if(resp.url().startsWith(origin+'/wp-admin/')){try{const headers=await resp.allHeaders();diag.push({code:resp.status(),marker:headers['x-mog-qa-diagnostic']||'',path:new URL(resp.url()).pathname});}catch{}}});
-  try{
-   const res=await page.goto(origin+path,{waitUntil:'domcontentloaded',timeout:40000});
-   stat=res?.status()||0;
-   await page.waitForTimeout(650);
-   found=new URL(page.url()).pathname;
-   const data=await page.evaluate(()=>{
-     const w=window.innerWidth;
-     const root=document.documentElement;
-     const body=document.body;
-     const sw=Math.max(root.scrollWidth,body?.scrollWidth||0);
-     const bad=[];
-     for(const el of document.querySelectorAll('#wpbody-content *')){
-       if(bad.length>=12)break;
-       const r=el.getBoundingClientRect();
-       if(r.width<20||r.height<4)continue;
-       const c=getComputedStyle(el);
-       if(c.display==='none'||c.visibility==='hidden'||c.position==='fixed')continue;
-       if(r.right>w+6||r.left< -6)bad.push({tag:el.tagName.toLowerCase(),cls:String(el.className||'').slice(0,70),right:Math.round(r.right)});
-     }
-     const bodyText=body?.innerText||'';
-     return {viewport:w,scrollWidth:sw,overflow:Math.max(0,sw-w),
-       height:root.scrollHeight,bodyTextLength:bodyText.length,forms:document.querySelectorAll('#wpbody-content form').length,
-       tables:document.querySelectorAll('#wpbody-content table').length,
-       stylesheetCount:[...document.styleSheets].length,
-       adminBody:!!document.querySelector('#wpbody-content'),
-       scrubbed:!/@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/.test(bodyText)&&!/\+39\s*\d{8,}/.test(bodyText),
-       unavailable:/QA (?:rendering|parser) unavailable/.test(bodyText),bad};
-   });
-   const good=(stat===200 && found.startsWith('/wp-admin/')&&data.adminBody&&!data.unavailable&&data.scrubbed);
-   const row={screen:name,mode,width,http:stat,found,ok:good,diag,...data};
-   results.push(row);console.log('MOG_ADMIN_QA',JSON.stringify(row));
-  }catch(e){
-   err=String(e).slice(0,210);
-   const row={screen:name,mode,width,http:stat,found,ok:false,diag,error:err};
-   results.push(row);console.log('MOG_ADMIN_QA',JSON.stringify(row));
-  }finally{await ctx.close();}
- }
+function sleep(ms) { return new Promise(resolve => setTimeout(resolve,ms)); }
+async function run() {
+  await mkdir(destination,{recursive:true});
+  const browser = await chromium.launch({headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
+  try {
+    const context = await browser.newContext({locale:'it-IT',viewport:{width:1440,height:950},deviceScaleFactor:1});
+    const pair = await context.newPage();
+    const pairResponse = await pair.goto(origin+'/wp-login.php?action=mog_qa_pair',{waitUntil:'domcontentloaded',timeout:45000});
+    const id = (await pair.locator('#qa-request').textContent({timeout:15000})).trim();
+    if (pairResponse.status()!==200 || !/^[a-f0-9]{32}$/.test(id)) throw Error('QA pairing page unavailable');
+    const requestPath = 'mog-qa-admin/qa-request.json';
+    await writeFile(requestPath,JSON.stringify({request_id:id,at:new Date().toISOString(),scope:'qa-view-only'},null,2));
+    saveToBranch([requestPath],'Record temporary MOG visual QA pairing request');
+    console.log('MOG_QA_PAIRING_READY '+id);
+    let authorized = false;
+    const enter = origin+'/wp-login.php?action=mog_qa_enter&request='+id;
+    for (let attempt=0;attempt<125;attempt++) {
+      await sleep(3000);
+      try {
+        const response = await pair.goto(enter,{waitUntil:'domcontentloaded',timeout:12000});
+        if (response && response.status()===200 && pair.url().includes('action=mog_qa_view')) {authorized=true;break;}
+      } catch (e) {
+        if (attempt%10===0) console.log('MOG_QA_WAITING '+attempt);
+      }
+    }
+    if (!authorized) throw Error('MOG QA pairing authorization not completed');
+    console.log('MOG_QA_SESSION_READY');
+    const results = [];
+    for (const [short,label,slug] of panels) {
+      for (const width of widths) {
+        const page = await context.newPage({viewport:{width,height:950}});
+        await page.setViewportSize({width,height:950});
+        const row={panel:short,label,width,http:0,ok:false};
+        try {
+          const response=await page.goto(origin+'/wp-admin/admin.php?page='+encodeURIComponent(slug),{waitUntil:'domcontentloaded',timeout:45000});
+          row.http=response?.status()||0;
+          await page.waitForTimeout(950);
+          await page.evaluate(async()=>{if(document.fonts && document.fonts.ready)await document.fonts.ready;});
+          row.geometry=await page.evaluate(()=>{
+            const doc=document.documentElement;
+            const content=document.querySelector('#wpbody-content');
+            const w=window.innerWidth;
+            const sw=Math.max(doc.scrollWidth,document.body?.scrollWidth||0);
+            const bad=[];
+            if(content) for(const el of content.querySelectorAll('*')){
+              if(bad.length>=20)break;
+              const rect=el.getBoundingClientRect();
+              if(rect.width<20||rect.height<5)continue;
+              const st=getComputedStyle(el);
+              if(st.display==='none'||st.visibility==='hidden'||st.position==='fixed')continue;
+              if(rect.right<=w+6&&rect.left>=-6)continue;
+              let insideScroll=false;
+              for(let p=el.parentElement;p&&p!==content;p=p.parentElement){
+                const s=getComputedStyle(p);
+                if(['auto','scroll'].includes(s.overflowX)){insideScroll=true;break;}
+              }
+              if(!insideScroll)bad.push({tag:el.tagName.toLowerCase(),right:Math.round(rect.right),left:Math.round(rect.left),class:String(el.className||'').slice(0,60)});
+            }
+            const buttons=[...document.querySelectorAll('#wpbody-content button,#wpbody-content .button')];
+            const tooSmall=buttons.filter(e=>{
+              const r=e.getBoundingClientRect(),s=getComputedStyle(e);
+              return s.display!=='none'&&s.visibility!=='hidden'&&r.width>8&&r.height>0&&r.height<24;
+            }).length;
+            return {viewport:w,scroll_width:sw,overflow:Math.max(0,sw-w),content:!!content,forms:content?.querySelectorAll('form').length||0,fields:content?.querySelectorAll('input,select,textarea').length||0,tables:content?.querySelectorAll('table').length||0,buttons:buttons.length,short_buttons:tooSmall,offscreen:bad,document_height:doc.scrollHeight};
+          });
+          row.ok=row.http===200&&page.url().includes('/wp-admin/admin.php?')&&row.geometry.content&&row.geometry.overflow<=5&&row.geometry.offscreen.length===0;
+          await page.evaluate(()=>{
+            // No actual customer or operational content is written to the public QA branch.
+            const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
+            const items=[];
+            while(walker.nextNode()) items.push(walker.currentNode);
+            for(const n of items) {
+              const p=n.parentElement;
+              if(!p || ['SCRIPT','STYLE','NOSCRIPT','TEMPLATE'].includes(p.tagName))continue;
+              n.nodeValue=n.nodeValue.replace(/[^\s]/gu,(c)=>/[0-9]/.test(c)?'8':/[A-Z]/.test(c)?'M':'e');
+            }
+            document.querySelectorAll('input,textarea').forEach(el=>{
+              el.value='';el.setAttribute('value','');el.setAttribute('placeholder','');
+            });
+            document.querySelectorAll('img,video,canvas').forEach(el=>{el.style.visibility='hidden';});
+            document.querySelectorAll('[contenteditable]').forEach(el=>{el.textContent='';});
+          });
+          row.image=destination+'/'+short+'-'+width+'.jpg';
+          await page.screenshot({path:row.image,fullPage:true,type:'jpeg',quality:62,animations:'disabled'});
+        } catch(e){row.error=String(e?.message||e).slice(0,180);}
+        finally {await page.close();}
+        console.log('MOG_QA_GEOMETRY '+JSON.stringify({panel:row.panel,width:row.width,http:row.http,ok:row.ok,geometry:row.geometry,error:row.error}));
+        results.push(row);
+      }
+    }
+    const summary={date:new Date().toISOString(),tested:results.length,pass:results.filter(r=>r.ok).length,fail:results.filter(r=>!r.ok).length,method:'MOG QA restricted-view browser; screenshot content anonymized before export',results};
+    const reportPath='mog-qa-admin/report.json';
+    await writeFile(reportPath,JSON.stringify({summary,results},null,2));
+    saveToBranch([reportPath,...results.map(r=>r.image).filter(Boolean)],'Store anonymized MOG visual QA screenshots and geometry checks');
+    console.log('MOG_QA_VISUAL_SUMMARY '+JSON.stringify({tested:summary.tested,pass:summary.pass,fail:summary.fail}));
+    if(summary.fail>0)process.exitCode=1;
+  } finally {await browser.close();}
 }
-await browser.close();
-await mkdir('mog-qa-admin',{recursive:true});
-const summary={at:new Date().toISOString(),total:results.length,
- passed:results.filter(x=>x.ok&&x.overflow<=5).length,
- failed:results.filter(x=>!x.ok).length,
- overflows:results.filter(x=>(x.overflow||0)>5).map(x=>({screen:x.screen,mode:x.mode,overflow:x.overflow,bad:x.bad})),
- redirects:results.filter(x=>x.found&&!x.found.startsWith('/wp-admin/')).map(x=>({screen:x.screen,mode:x.mode,found:x.found}))};
-await writeFile('mog-qa-admin/report.json',JSON.stringify({summary,results},null,2));
-console.log('MOG_ADMIN_QA_SUMMARY',JSON.stringify(summary));
+run().catch(e=>{console.log('MOG_QA_ERROR '+String(e?.message||e).slice(0,180));process.exitCode=1;});
