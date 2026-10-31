@@ -4,9 +4,9 @@ import { execFileSync } from 'node:child_process';
 
 const origin = 'https://www.mogcomputer.it';
 const branch = 'mog-qa-public-20261029';
-const destination = 'mog-qa-admin/visual-fidelity-inspection';
+const destination = 'mog-qa-admin/visual-fidelity-scroll';
 const panels = [['fidelity','Fidelity Manager','fidelity-manager']];
-const widths = [390,768,1440];
+const widths = [390,768];
 function git(args) { return execFileSync('git',args,{encoding:'utf8',stdio:['ignore','pipe','pipe']}).trim(); }
 function saveToBranch(files,message) {
   git(['config','user.name','MOG QA Bot']);
@@ -125,8 +125,20 @@ async function run() {
             document.querySelectorAll('img,video,canvas').forEach(el=>{el.style.visibility='hidden';});
             document.querySelectorAll('[contenteditable]').forEach(el=>{el.textContent='';});
           });
-          row.image=destination+'/'+short+'-'+width+'.jpg';
-          await page.screenshot({path:row.image,fullPage:true,type:'jpeg',quality:62,animations:'disabled'});
+          row.images=[];
+          row.scroll_samples=[];
+          for(const ypos of [0,1100,2600,5000,8500]){
+            const achieved=await page.evaluate((p)=>{
+              document.body.scrollTop=p;
+              document.documentElement.scrollTop=p;
+              return {body:Math.round(document.body.scrollTop),html:Math.round(document.documentElement.scrollTop),window:Math.round(window.scrollY)};
+            },ypos);
+            await page.waitForTimeout(300);
+            const img=destination+'/'+short+'-'+width+'-scroll-'+String(ypos).padStart(5,'0')+'.jpg';
+            await page.screenshot({path:img,fullPage:false,type:'jpeg',quality:75,animations:'disabled'});
+            row.images.push(img);
+            row.scroll_samples.push({requested:ypos,achieved});
+          }
         } catch(e){row.error=String(e?.message||e).slice(0,180);}
         finally {await page.close();}
         console.log('MOG_QA_GEOMETRY '+JSON.stringify({panel:row.panel,width:row.width,http:row.http,ok:row.ok,geometry:row.geometry,error:row.error}));
@@ -134,9 +146,9 @@ async function run() {
       }
     }
     const summary={date:new Date().toISOString(),tested:results.length,pass:results.filter(r=>r.ok).length,fail:results.filter(r=>!r.ok).length,method:'MOG QA expanded accordions and delayed Fidelity load; screenshots anonymized before export',results};
-    const reportPath='mog-qa-admin/report-fidelity-inspection.json';
+    const reportPath='mog-qa-admin/report-fidelity-scroll.json';
     await writeFile(reportPath,JSON.stringify({summary,results},null,2));
-    saveToBranch([reportPath,...results.map(r=>r.image).filter(Boolean)],'Store sanitized MOG expanded-layout visual QA checks');
+    saveToBranch([reportPath,...results.flatMap(r=>r.images||[])],'Store anonymized Fidelity scroll-view screenshots');
     console.log('MOG_QA_VISUAL_SUMMARY '+JSON.stringify({tested:summary.tested,pass:summary.pass,fail:summary.fail}));
     if(summary.fail>0)process.exitCode=1;
   } finally {await browser.close();}
