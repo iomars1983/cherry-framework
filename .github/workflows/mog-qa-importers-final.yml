@@ -1,0 +1,92 @@
+name: MOG QA final importer visual check
+on:
+  push:
+    branches: [mog-qa-public-20261029]
+    paths: [.github/workflows/mog-qa-importers-final.yml]
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Configure final read-only visual checks
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          p=Path('tools/mog-qa-visual-private.mjs');s=p.read_text()
+          s=s.replace("const panels=[['fidelity','fidelity-manager'],['red','wpmntz-import-listino-RED'],['um','wpmntz-import-listino-UM']];","const panels=[['red','wpmntz-import-listino-RED'],['um','wpmntz-import-listino-UM']];")
+          publisher=r'''async function publishRequest(file){
+            const api='https://api.github.com/repos/'+process.env.GITHUB_REPOSITORY+'/contents/'+file;
+            const headers={Authorization:'Bearer '+process.env.QA_GITHUB_TOKEN,Accept:'application/vnd.github+json','Content-Type':'application/json'};
+            const r=await fetch(api+'?ref='+encodeURIComponent(branch),{headers});
+            if(r.status!==200&&r.status!==404)throw Error('REQUEST_LOOKUP_'+r.status);
+            const old=r.status===200?await r.json():{};
+            const data={message:'Publish final importer QA request identifier',content:(await readFile(file)).toString('base64'),branch};
+            if(old.sha)data.sha=old.sha;
+            const put=await fetch(api,{method:'PUT',headers,body:JSON.stringify(data)});
+            if(!put.ok)throw Error('REQUEST_PUBLICATION_'+put.status);
+          }'''
+          s,n=re.subn(r'function publishRequest\(file\)\{.*?\n\}',lambda m:publisher,s,count=1,flags=re.S);assert n==1
+          s=s.replace('publishRequest(requestFile);','await publishRequest(requestFile);')
+          s=s.replace('mog-qa-admin/private-visual-request.json','mog-qa-admin/final-importers-request.json')
+          needle="if(opened){await capture(page,name+'-'+width+'-section-'+(i+1),panel);}"
+          assert needle in s
+          extra=r'''
+              let closedTest=false;
+              if(opened){
+                await toggle.click();await page.waitForTimeout(300);
+                closedTest=!(await body.isVisible());
+                await toggle.click();await page.waitForTimeout(300);
+                if(i===0){
+                  row.nested=[];
+                  const inner=panel.locator('.mntz-accordion-toggle');
+                  for(let j=0;j<await inner.count();j++){
+                    const t=inner.nth(j),a=t.locator('xpath=ancestor::*[contains(concat(" ",normalize-space(@class)," ")," mntz-accordion ")][1]');
+                    const b=a.locator('.mntz-accordion-body').first();
+                    if(!(await b.isVisible()))await t.click();
+                    await page.waitForTimeout(200);
+                    row.nested.push({index:j+1,opened:await b.isVisible()});
+                    await capture(page,name+'-'+width+'-nested-'+(j+1),a);
+                  }
+                  row.categories=await page.locator('.mntz-cat-list').evaluate(e=>({width:e.clientWidth,scrollWidth:e.scrollWidth,items:[...e.querySelectorAll('.mntz-cat-item')].map(x=>{const b=x.getBoundingClientRect(),s=x.querySelector('strong').getBoundingClientRect();return {labelContained:s.right<=b.right+1,cardWidth:b.width};})}));
+                }
+                await capture(page,name+'-'+width+'-section-'+(i+1),panel);
+                if(i===4){
+                  const history=page.locator(name==='red'?'#red-history-box':'#um-history-box');
+                  if(await history.count()){
+                    await history.evaluate(e=>{e.scrollIntoView({block:'start'});e.scrollLeft=e.scrollWidth;});
+                    await page.waitForTimeout(200);
+                    const b=await page.screenshot({type:'jpeg',quality:88,fullPage:false,animations:'disabled'});
+                    files.push({name:name+'-'+width+'-history-right.jpg',data:b.toString('base64')});
+                    await history.evaluate(e=>e.scrollLeft=0);
+                  }
+                }
+              }
+          '''
+          s=s.replace(needle,extra)
+          s=s.replace('title:(await toggle.innerText()).slice(0,180),opened','title:(await toggle.innerText()).slice(0,180),opened,closedTest')
+          s=s.replace("run().catch(()=>{console.log('MOG_VISUAL_CAPTURE_FAILED');process.exitCode=1;});","run().catch(e=>{const m=String(e?.message||'');console.log('MOG_VISUAL_FAILURE '+(/^[A-Z0-9_]+$/.test(m)?m:'OPERATION_FAILED'));process.exitCode=1;});")
+          p.write_text(s)
+          PY
+          node --check tools/mog-qa-visual-private.mjs
+      - name: Capture approved views and encrypt evidence
+        env:
+          QA_GITHUB_TOKEN: ${{ github.token }}
+        run: node tools/mog-qa-visual-private.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: mog-qa-importers-final
+          path: mog-qa-encrypted/
+          retention-days: 1
+          if-no-files-found: warn
