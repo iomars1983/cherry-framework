@@ -12,11 +12,11 @@ const sizes=[390,768,1440],results=[];
 await mkdir('mog-header-footer-audit/shots',{recursive:true});
 const browser=await chromium.launch({headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
 try{
- for(const [name,path] of pages.filter(([name])=>['categories','about'].includes(name))) for(const width of [1440]){
+ for(const [name,path] of pages.filter(([name])=>['categories','about'].includes(name))) for(const width of sizes){
   const page=await browser.newPage({viewport:{width,height:900},deviceScaleFactor:1,locale:'it-IT'});
   const item={name,path,width,url:'',status:0};
   try {
-   let resp=await page.goto(origin+path+(path.includes('?')?'&':'?')+'mog_header_footer_audit=diagnostic-native-footer-20261031',{waitUntil:'domcontentloaded',timeout:55000});
+   let resp=await page.goto(origin+path+(path.includes('?')?'&':'?')+'mog_header_footer_audit=final-native-v1-0-4-20261031',{waitUntil:'domcontentloaded',timeout:55000});
    item.status=resp?.status()||0;item.url=page.url();
    await page.waitForTimeout(700);await page.evaluate(async()=>{try{await document.fonts.ready;}catch(e){}});
    item.m=await page.evaluate(()=>{
