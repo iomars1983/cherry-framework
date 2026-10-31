@@ -4,7 +4,7 @@ import { execFileSync } from 'node:child_process';
 
 const origin = 'https://www.mogcomputer.it';
 const branch = 'mog-qa-public-20261029';
-const destination = 'mog-qa-admin/visual';
+const destination = 'mog-qa-admin/visual-expanded';
 const panels = [
   ['fidelity','Fidelity Manager','fidelity-manager'],
   ['red','Importatore RED','wpmntz-import-listino-RED'],
@@ -54,10 +54,23 @@ async function run() {
         const page = await context.newPage({viewport:{width,height:950}});
         await page.setViewportSize({width,height:950});
         const row={panel:short,label,width,http:0,ok:false};
+        const ajaxCodes=[];
+        page.on('response',res=>{if(res.url().includes('/wp-admin/admin-ajax.php'))ajaxCodes.push(res.status());});
         try {
           const response=await page.goto(origin+'/wp-admin/admin.php?page='+encodeURIComponent(slug),{waitUntil:'domcontentloaded',timeout:45000});
           row.http=response?.status()||0;
-          await page.waitForTimeout(950);
+          await page.waitForTimeout(short==='fidelity'?7000:1300);
+          if(short!=='fidelity') {
+            const toggles=page.locator('.mntz-page-panel-toggle');
+            row.toggles=await toggles.count();
+            row.opened=0;
+            for(let i=0;i<row.toggles;i++) {
+              try {if(await toggles.nth(i).isVisible()){await toggles.nth(i).click({timeout:3500});row.opened++;}}catch(e){}
+            }
+            await page.waitForTimeout(650);
+          }
+          row.ajax_statuses=ajaxCodes;
+          if(short==='fidelity')row.tableLoaded=(await page.locator('#fm-table-container table').count())>0;
           await page.evaluate(async()=>{if(document.fonts && document.fonts.ready)await document.fonts.ready;});
           row.geometry=await page.evaluate(()=>{
             const doc=document.documentElement;
@@ -111,10 +124,10 @@ async function run() {
         results.push(row);
       }
     }
-    const summary={date:new Date().toISOString(),tested:results.length,pass:results.filter(r=>r.ok).length,fail:results.filter(r=>!r.ok).length,method:'MOG QA restricted-view browser; screenshot content anonymized before export',results};
+    const summary={date:new Date().toISOString(),tested:results.length,pass:results.filter(r=>r.ok).length,fail:results.filter(r=>!r.ok).length,method:'MOG QA expanded accordions and delayed Fidelity load; screenshots anonymized before export',results};
     const reportPath='mog-qa-admin/report.json';
     await writeFile(reportPath,JSON.stringify({summary,results},null,2));
-    saveToBranch([reportPath,...results.map(r=>r.image).filter(Boolean)],'Store anonymized MOG visual QA screenshots and geometry checks');
+    saveToBranch([reportPath,...results.map(r=>r.image).filter(Boolean)],'Store sanitized MOG expanded-layout visual QA checks');
     console.log('MOG_QA_VISUAL_SUMMARY '+JSON.stringify({tested:summary.tested,pass:summary.pass,fail:summary.fail}));
     if(summary.fail>0)process.exitCode=1;
   } finally {await browser.close();}
