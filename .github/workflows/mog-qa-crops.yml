@@ -1,0 +1,33 @@
+name: MOG QA screenshot crops (sanitized)
+on:
+  push:
+    branches: [mog-qa-public-20261029]
+    paths:
+      - .github/workflows/mog-qa-crops.yml
+permissions:
+  contents: write
+jobs:
+  crop-sanitized:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install image crop library
+        run: npm install --no-save sharp
+      - name: Crop previously anonymized QA screenshots
+        run: node tools/mog-qa-crops.mjs
+      - name: Store only anonymized image crops
+        shell: bash
+        run: |
+          git config user.name "MOG QA Bot"
+          git config user.email "mog-qa-bot@users.noreply.github.com"
+          git add -f mog-qa-admin/crops/
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish sanitized MOG QA visual inspection crops"
+            git fetch origin mog-qa-public-20261029
+            git rebase origin/mog-qa-public-20261029
+            git push origin HEAD:mog-qa-public-20261029
+          fi
