@@ -12,11 +12,11 @@ const sizes=[390,768,1440],results=[];
 await mkdir('mog-header-footer-audit/shots',{recursive:true});
 const browser=await chromium.launch({headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
 try{
- for(const [name,path] of pages.filter(([name])=>['home','shop','product','categories','about','contact'].includes(name))) for(const width of sizes){
+ for(const [name,path] of pages.filter(([name])=>['home','shop','product','categories','about','contact','cart','account'].includes(name))) for(const width of sizes){
   const page=await browser.newPage({viewport:{width,height:900},deviceScaleFactor:1,locale:'it-IT'});
   const item={name,path,width,url:'',status:0};
   try {
-   let resp=await page.goto(origin+path+(path.includes('?')?'&':'?')+'mog_header_footer_audit=postcss-20261031',{waitUntil:'domcontentloaded',timeout:55000});
+   let resp=await page.goto(origin+path+(path.includes('?')?'&':'?')+'mog_header_footer_audit=final-v1-0-1-20261031',{waitUntil:'domcontentloaded',timeout:55000});
    item.status=resp?.status()||0;item.url=page.url();
    await page.waitForTimeout(700);await page.evaluate(async()=>{try{await document.fonts.ready;}catch(e){}});
    item.m=await page.evaluate(()=>{
@@ -36,7 +36,7 @@ try{
       logo:img&&ir?{x:Math.round(ir.x),y:Math.round(ir.y+scrollY),w:Math.round(ir.width),h:Math.round(ir.height),srcPath:new URL(img.src).pathname}:null,
       links,bodyClasses:document.body.className.slice(0,180)};
    });
-   if(['home','shop','product','categories','about','contact','shipping'].includes(name)){
+   if(['home','shop','product','categories','about','contact','cart','account'].includes(name)){
      await page.screenshot({path:'mog-header-footer-audit/shots/'+name+'-'+width+'-top.jpg',type:'jpeg',quality:70,animations:'disabled'});
      for(let i=0;i<3;i++){ await page.evaluate(()=>scrollTo(0,document.documentElement.scrollHeight)); await page.waitForTimeout(350); }
      await page.screenshot({path:'mog-header-footer-audit/shots/'+name+'-'+width+'-footer.jpg',type:'jpeg',quality:76,animations:'disabled'});
