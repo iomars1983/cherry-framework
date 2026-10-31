@@ -20,6 +20,46 @@ jobs:
         run: |
           npm install --no-save playwright
           npx playwright install --with-deps chromium
+      - name: Add viewport captures for the existing nested scroller
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('tools/mog-qa-visual-private.mjs')
+          s=p.read_text()
+          old="const panels=[['fidelity','fidelity-manager'],['red','wpmntz-import-listino-RED'],['um','wpmntz-import-listino-UM']];"
+          assert old in s
+          s=s.replace(old,"const panels=[['fidelity','fidelity-manager']];")
+          needle="await capture(page,name+'-'+width+'-initial');"
+          assert needle in s
+          addon=r'''
+              if(name==='fidelity'){
+                row.scrollAncestors=await page.evaluate(()=>{
+                  const a=[];let e=document.querySelector('#fm-table-container');
+                  while(e){const r=e.getBoundingClientRect(),s=getComputedStyle(e);a.push({id:e.id,cls:e.className,client:e.clientHeight,scroll:e.scrollHeight,overflow:s.overflowY,top:r.top,height:r.height});e=e.parentElement;}return a;
+                });
+                await page.evaluate(()=>{const t=document.querySelector('#fm-table-container');t.scrollLeft=0;t.scrollIntoView({block:'start',inline:'nearest'});});
+                await page.waitForTimeout(450);
+                for(const position of ['left','right']){
+                  await page.evaluate(pos=>{const t=document.querySelector('#fm-table-container');t.scrollLeft=pos==='left'?0:t.scrollWidth;},position);
+                  await page.waitForTimeout(250);
+                  const b=await page.screenshot({type:'jpeg',quality:90,fullPage:false,animations:'disabled'});
+                  files.push({name:name+'-'+width+'-viewport-head-'+position+'.jpg',data:b.toString('base64')});
+                }
+                for(const fraction of [0.35,0.7,1]){
+                  await page.evaluate(f=>{
+                    const t=document.querySelector('#fm-table-container');t.scrollLeft=0;
+                    for(let e=t.parentElement;e;e=e.parentElement){const s=getComputedStyle(e);if(e.scrollHeight>e.clientHeight+10&&['auto','scroll'].includes(s.overflowY)){e.scrollTop=(e.scrollHeight-e.clientHeight)*f;return;}}
+                    window.scrollTo(0,(document.documentElement.scrollHeight-innerHeight)*f);
+                  },fraction);
+                  await page.waitForTimeout(300);
+                  const b=await page.screenshot({type:'jpeg',quality:90,fullPage:false,animations:'disabled'});
+                  files.push({name:name+'-'+width+'-viewport-scroll-'+String(fraction).replace('.','-')+'.jpg',data:b.toString('base64')});
+                }
+              }
+          '''
+          s=s.replace(needle,needle+addon)
+          p.write_text(s)
+          PY
       - name: Capture approved read-only views and encrypt evidence
         run: node tools/mog-qa-visual-private.mjs
       - uses: actions/upload-artifact@v4
