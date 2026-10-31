@@ -1,0 +1,29 @@
+name: MOG header footer visual audit
+on:
+  push:
+    branches: [mog-qa-public-20261029]
+    paths:
+      - tools/mog-header-footer-audit.mjs
+      - .github/workflows/mog-header-footer-audit.yml
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Inspect MOG public headers and footers
+        run: node tools/mog-header-footer-audit.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: mog-header-footer-visual
+          path: mog-header-footer-audit/
+          retention-days: 2
