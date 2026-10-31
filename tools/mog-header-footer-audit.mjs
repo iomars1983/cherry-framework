@@ -16,7 +16,7 @@ try{
   const page=await browser.newPage({viewport:{width,height:900},deviceScaleFactor:1,locale:'it-IT'});
   const item={name,path,width,url:'',status:0};
   try {
-   let resp=await page.goto(origin+path,{waitUntil:'domcontentloaded',timeout:55000});
+   let resp=await page.goto(origin+path+(path.includes('?')?'&':'?')+'mog_header_footer_audit=postcss-20261031',{waitUntil:'domcontentloaded',timeout:55000});
    item.status=resp?.status()||0;item.url=page.url();
    await page.waitForTimeout(700);await page.evaluate(async()=>{try{await document.fonts.ready;}catch(e){}});
    item.m=await page.evaluate(()=>{
@@ -38,8 +38,7 @@ try{
    });
    if(['home','shop','product','categories','about','contact','shipping'].includes(name)){
      await page.screenshot({path:'mog-header-footer-audit/shots/'+name+'-'+width+'-top.jpg',type:'jpeg',quality:70,animations:'disabled'});
-     await page.evaluate(()=>scrollTo(0,document.documentElement.scrollHeight));
-     await page.waitForTimeout(450);
+     for(let i=0;i<3;i++){ await page.evaluate(()=>scrollTo(0,document.documentElement.scrollHeight)); await page.waitForTimeout(350); }
      await page.screenshot({path:'mog-header-footer-audit/shots/'+name+'-'+width+'-footer.jpg',type:'jpeg',quality:76,animations:'disabled'});
    }
   } catch(e){item.error=String(e?.message||e).slice(0,150);}
