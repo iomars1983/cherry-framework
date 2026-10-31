@@ -20,15 +20,31 @@ jobs:
         run: |
           npm install --no-save playwright
           npx playwright install --with-deps chromium
-      - name: Add viewport captures for the existing nested scroller
+      - name: Configure scoped viewport evidence
         run: |
           python - <<'PY'
           from pathlib import Path
+          import re
           p=Path('tools/mog-qa-visual-private.mjs')
           s=p.read_text()
           old="const panels=[['fidelity','fidelity-manager'],['red','wpmntz-import-listino-RED'],['um','wpmntz-import-listino-UM']];"
           assert old in s
           s=s.replace(old,"const panels=[['fidelity','fidelity-manager']];")
+          publisher=r'''async function publishRequest(file){
+            const api='https://api.github.com/repos/'+process.env.GITHUB_REPOSITORY+'/contents/'+file;
+            const headers={Authorization:'Bearer '+process.env.QA_GITHUB_TOKEN,Accept:'application/vnd.github+json','Content-Type':'application/json'};
+            const r=await fetch(api+'?ref='+encodeURIComponent(branch),{headers});
+            if(r.status!==200&&r.status!==404)throw Error('REQUEST_LOOKUP_'+r.status);
+            const old=r.status===200?await r.json():{};
+            const data={message:'Publish MOG QA read-only request identifier',content:(await readFile(file)).toString('base64'),branch};
+            if(old.sha)data.sha=old.sha;
+            const put=await fetch(api,{method:'PUT',headers,body:JSON.stringify(data)});
+            if(!put.ok)throw Error('REQUEST_PUBLICATION_'+put.status);
+          }'''
+          s,n=re.subn(r'function publishRequest\(file\)\{.*?\n\}',lambda m:publisher,s,count=1,flags=re.S)
+          assert n==1
+          s=s.replace('publishRequest(requestFile);','await publishRequest(requestFile);')
+          s=s.replace("if(res.status()!==200||!/^[a-f0-9]{32}$/.test(id))", "console.log('MOG_VISUAL_PAIR_HTTP '+res.status());if(res.status()!==200||!/^[a-f0-9]{32}$/.test(id))")
           needle="await capture(page,name+'-'+width+'-initial');"
           assert needle in s
           addon=r'''
@@ -58,9 +74,13 @@ jobs:
               }
           '''
           s=s.replace(needle,needle+addon)
+          s=s.replace("run().catch(()=>{console.log('MOG_VISUAL_CAPTURE_FAILED');process.exitCode=1;});", "run().catch(e=>{const m=String(e?.message||'');console.log('MOG_VISUAL_FAILURE '+(/^[A-Z0-9_]+$/.test(m)?m:'OPERATION_FAILED'));process.exitCode=1;});")
           p.write_text(s)
           PY
+          node --check tools/mog-qa-visual-private.mjs
       - name: Capture approved read-only views and encrypt evidence
+        env:
+          QA_GITHUB_TOKEN: ${{ github.token }}
         run: node tools/mog-qa-visual-private.mjs
       - uses: actions/upload-artifact@v4
         if: always()
