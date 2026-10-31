@@ -16,7 +16,7 @@ try{
   const page=await browser.newPage({viewport:{width,height:900},deviceScaleFactor:1,locale:'it-IT'});
   const item={name,path,width,url:'',status:0};
   try {
-   let resp=await page.goto(origin+path+(path.includes('?')?'&':'?')+'mog_header_footer_audit=final-v1-0-1-20261031',{waitUntil:'domcontentloaded',timeout:55000});
+   let resp=await page.goto(origin+path+(path.includes('?')?'&':'?')+'mog_header_footer_audit=final-v1-0-2-20261031',{waitUntil:'domcontentloaded',timeout:55000});
    item.status=resp?.status()||0;item.url=page.url();
    await page.waitForTimeout(700);await page.evaluate(async()=>{try{await document.fonts.ready;}catch(e){}});
    item.m=await page.evaluate(()=>{
