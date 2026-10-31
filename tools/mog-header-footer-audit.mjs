@@ -12,7 +12,7 @@ const sizes=[390,768,1440],results=[];
 await mkdir('mog-header-footer-audit/shots',{recursive:true});
 const browser=await chromium.launch({headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
 try{
- for(const [name,path] of pages) for(const width of sizes){
+ for(const [name,path] of pages.filter(([name])=>['home','shop','product','categories','about','contact'].includes(name))) for(const width of sizes){
   const page=await browser.newPage({viewport:{width,height:900},deviceScaleFactor:1,locale:'it-IT'});
   const item={name,path,width,url:'',status:0};
   try {
